@@ -1,0 +1,15 @@
+services:
+  postgres:
+    ports: ["127.0.0.1:5433:5432"]
+  api:
+    ports: ["127.0.0.1:8000:8000"]
+    environment:
+      APP_ENV: development
+      PYTHONPATH: /app/src
+    volumes: ["./src:/app/src:ro"]
+    command: [python, -m, uvicorn, comtech.api.app:app, --host, 0.0.0.0, --port, "8000", --reload]
+  ui:
+    ports: ["127.0.0.1:8501:8501"]
+    volumes: ["./ui:/app/ui:ro"]
+  pinecone-local:
+    ports: ["127.0.0.1:5081:5081"]

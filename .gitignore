@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+!.env.remote.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+dist/
+.tools/
+*.log

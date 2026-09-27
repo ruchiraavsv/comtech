@@ -1,0 +1,26 @@
+services:
+  postgres:
+    restart: unless-stopped
+  api:
+    restart: unless-stopped
+    environment:
+      APP_ENV: production
+      PINECONE_MODE: hosted
+  ui:
+    restart: unless-stopped
+  proxy:
+    image: docker.io/library/caddy:2.10.2-alpine
+    restart: unless-stopped
+    environment:
+      PUBLIC_DOMAIN: ${PUBLIC_DOMAIN:?Set the public DNS domain}
+    ports: ["80:80", "443:443"]
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      ui:
+        condition: service_healthy
+volumes:
+  caddy-data:
+  caddy-config:

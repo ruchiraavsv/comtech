@@ -1,0 +1,5 @@
+{$PUBLIC_DOMAIN} {
+    reverse_proxy ui:8501 {
+        flush_interval -1
+    }
+}
