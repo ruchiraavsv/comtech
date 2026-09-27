@@ -1,3 +1,4 @@
+ARG APP_TARGET=api
 FROM ghcr.io/astral-sh/uv:0.12.19 AS uv
 FROM python:3.12.14-slim-bookworm AS base
 COPY --from=uv /uv /usr/local/bin/uv
@@ -25,3 +26,6 @@ FROM base AS test
 RUN uv sync --frozen --no-editable
 COPY tests ./tests
 CMD ["uv", "run", "--frozen", "pytest", "-q"]
+
+# Railway passes APP_TARGET as a build argument; default is the API.
+FROM ${APP_TARGET} AS runtime

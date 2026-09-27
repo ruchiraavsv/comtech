@@ -55,7 +55,7 @@ services:
       timeout: 5s
       retries: 6
   pinecone-local:
-    image: ghcr.io/pinecone-io/pinecone-index:latest
+    image: ghcr.io/pinecone-io/pinecone-index@sha256:d60708292452e1e1d0740da86f653706a73b3682f302e1f0c18908f59e7ec7e0
     platform: linux/amd64
     profiles: [vector-test]
     environment:
