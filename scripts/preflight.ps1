@@ -3,7 +3,7 @@ $projectRoot = Split-Path -Parent $PSScriptRoot
 $engine = if ($env:CONTAINER_ENGINE) { $env:CONTAINER_ENGINE } else { 'podman' }
 if ($engine -notin @('podman', 'docker')) { throw 'CONTAINER_ENGINE must be podman or docker.' }
 if (-not (Get-Command $engine -ErrorAction SilentlyContinue)) { throw "$engine is unavailable." }
-& $engine info --format '{{.Host.Arch}}'
+& $engine info *> $null
 if ($LASTEXITCODE) { throw 'Container engine is unreachable. Inspect/start your existing Podman machine.' }
 & $engine compose version
 if ($LASTEXITCODE) { throw 'Compose provider unavailable. Configure PODMAN_COMPOSE_PROVIDER.' }

@@ -14,9 +14,9 @@ not required. Use the existing running Podman machine; if it is stopped, run
 
 ```powershell
 Copy-Item .env.example .env  # First setup only; do not overwrite existing keys.
-./scripts/preflight.ps1
-./scripts/compose.ps1 up --build -d
-./scripts/compose.ps1 logs -f api
+./scripts/preflight.cmd
+./scripts/compose.cmd up --build -d
+./scripts/compose.cmd logs -f api
 ```
 
 - UI: http://localhost:8501
@@ -33,11 +33,16 @@ arguments and chooses base + development configuration explicitly. On Docker
 machines set `$env:CONTAINER_ENGINE='docker'`, or run
 `docker compose -f compose.yaml -f compose.dev.yaml up --build -d` directly.
 
+The `.cmd` launchers invoke the checked-in PowerShell scripts with a process-only
+execution-policy setting because this PC disables direct `.ps1` execution. They
+do not change the user's or machine's policy. Where `.ps1` execution is already
+enabled, those scripts can be invoked directly.
+
 ```powershell
-./scripts/compose.ps1 down      # Keeps Postgres data
-./scripts/compose.ps1 up -d     # Reuses checkpoints and events
+./scripts/compose.cmd down      # Keeps Postgres data
+./scripts/compose.cmd up -d     # Reuses checkpoints and events
 # Explicit destructive reset of THIS project's stored history:
-# ./scripts/compose.ps1 down --volumes
+# ./scripts/compose.cmd down --volumes
 ```
 
 Migrations run as a one-shot service before API startup. Source changes reload the
@@ -101,7 +106,7 @@ Install [uv](https://docs.astral.sh/uv/getting-started/installation/) or use
 
 ```powershell
 py -m uv sync --group ui
-./scripts/test.ps1 -q
+./scripts/test.cmd -q
 ```
 
 Database tests skip without `TEST_DATABASE_URL`. To run all tests in isolated
@@ -113,7 +118,7 @@ podman compose -p comtech-tests -f compose.test.yaml down
 ```
 
 Alternatively set `TEST_DATABASE_URL` to a dedicated local test database and use
-`scripts/test.ps1`. Never point it at the demo database: tests create schema and
+`scripts/test.cmd`. Never point it at the demo database: tests create schema and
 reconcile run records. Tests verify actual incremental HTTP delivery, history
 across application lifetimes, cursor replay, failure, disconnect, and resume.
 
@@ -131,8 +136,8 @@ metadata filtering and namespace isolation, then removes its fixtures. No OpenAI
 embeddings or API keys are used. The emulator loses data when stopped.
 
 ```powershell
-./scripts/compose.ps1 --profile vector-test up -d pinecone-local
-./scripts/compose.ps1 --profile vector-test run --rm vector-test
+./scripts/compose.cmd --profile vector-test up -d pinecone-local
+./scripts/compose.cmd --profile vector-test run --rm vector-test
 ```
 
 For hosted Starter, set `PINECONE_API_KEY` in `.env`. Index creation is deferred
@@ -141,7 +146,7 @@ until embedding dimensions and hybrid strategy are selected. Later set
 authentication and list-index access:
 
 ```powershell
-./scripts/compose.ps1 run --rm --no-deps api python -m comtech.integrations.smoke pinecone-hosted
+./scripts/compose.cmd run --rm --no-deps api python -m comtech.integrations.smoke pinecone-hosted
 ```
 
 Local tests explicitly choose `PINECONE_MODE=local` and only accept allowlisted
@@ -157,8 +162,8 @@ defaults to 1.0. The graph/node trace uses a unique trace ID for each execution 
 thread metadata to group conversations. JSON operational logs carry the same IDs.
 
 ```powershell
-./scripts/compose.ps1 up -d --force-recreate api
-./scripts/compose.ps1 run --rm --no-deps api python -m comtech.integrations.smoke langsmith
+./scripts/compose.cmd up -d --force-recreate api
+./scripts/compose.cmd run --rm --no-deps api python -m comtech.integrations.smoke langsmith
 ```
 
 The opt-in LangSmith smoke check submits two successes and one deliberate failure
@@ -168,11 +173,21 @@ chat; uploads flush on graceful shutdown. Abrupt process termination can lose
 pending telemetry. Only synthetic inputs are appropriate until masking and access
 controls are implemented.
 
+For an explicit local recovery drill (interrupts this project's active API runs):
+
+```powershell
+py -m uv run python scripts/verify_restart.py
+```
+
+This kills the Compose API mid-run, restarts Postgres and the API without deleting
+data, then checks saved-event replay and explicit checkpoint resume. Run it only
+when no other local demo work is in progress.
+
 Set `OPENAI_API_KEY` for later model work. This opt-in check lists available models
 without a generation/embedding request:
 
 ```powershell
-./scripts/compose.ps1 run --rm --no-deps api python -m comtech.integrations.smoke openai
+./scripts/compose.cmd run --rm --no-deps api python -m comtech.integrations.smoke openai
 ```
 
 Keep `.env` out of Git. The UI receives only `API_BASE_URL`, not provider keys.

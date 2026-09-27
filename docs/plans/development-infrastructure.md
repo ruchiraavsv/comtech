@@ -1,6 +1,6 @@
 # Development infrastructure plan
 
-Status: proposed implementation plan, revised 2026-09-27 after deployment discussion. Infrastructure implementation and public deployment have not started.
+Status: implemented locally on 2026-09-27. See `docs/validation.md` for verified behavior and remaining credential-dependent checks. Public deployment has not started.
 
 ## Scope and first milestone
 
@@ -48,6 +48,7 @@ Observed on this PC: Podman 5.8.2 and Git are available; Docker and standalone `
 - Inspect the existing Podman machine, connection, and Compose provider under appropriate permissions. Reuse the existing machine; do not reset it or delete unrelated containers/volumes.
 - `podman compose` delegates to an external provider. Verify the provider; if missing, install/configure a compatible provider and document its version. Docker Desktop is not required.
 - Add `scripts/compose.ps1`, a thin argument-forwarding wrapper defaulting to Podman, with explicit Docker selection for other machines. It should report missing providers or stopped machines clearly, preserve exit codes, and avoid modifying global configuration implicitly.
+- Implementation adds `.cmd` launchers for this PC's restricted PowerShell execution policy; they apply a process-only setting and do not alter global policy. The existing Podman VM and Compose v5.1.4 provider were verified and reused.
 - Add a preflight command for engine connectivity, provider availability, required configuration, and port conflicts. Print no secret values.
 - Define `api`, `ui`, and `postgres` as normal services, and `pinecone-local` behind a `vector-test` profile. Pin appropriate image versions/digests during implementation.
 - Keep `compose.yaml` as the portable base, `compose.dev.yaml` for development mounts/commands/localhost ports, and `compose.remote.yaml` for a Linux-host deployment with restart policies and HTTPS reverse proxy configuration. The local wrapper explicitly selects base + development files; document base + remote commands separately so development settings cannot leak into deployment.

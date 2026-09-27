@@ -25,7 +25,7 @@ CMD ["python", "ui/start.py"]
 FROM base AS test
 RUN uv sync --frozen --no-editable
 COPY tests ./tests
-CMD ["uv", "run", "--frozen", "pytest", "-q"]
+CMD ["uv", "run", "--frozen", "--no-sync", "pytest", "-q"]
 
 # Railway passes APP_TARGET as a build argument; default is the API.
 FROM ${APP_TARGET} AS runtime

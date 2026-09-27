@@ -153,3 +153,28 @@ async def test_failure_timeout_and_disconnect_resume(settings):
     async with server(settings) as client:
         _, events = await collect(client, "POST", "/api/runs", json={"message": "timeout"})
         assert events[-1][1]["code"] == "TIMEOUT"
+
+
+async def test_independent_conversations_run_concurrently(settings):
+    async with server(settings) as client:
+        async with aconnect_sse(client, "POST", "/api/runs", json={"message": "first"}) as first:
+            first_events = first.aiter_sse()
+            async for event in first_events:
+                if event.data and event.json()["type"] == "CUSTOM":
+                    break
+            # A second conversation starts while the first remains active.
+            async with aconnect_sse(
+                client, "POST", "/api/runs", json={"message": "second"}
+            ) as second:
+                second.response.raise_for_status()
+                assert (
+                    first.response.headers["x-thread-id"] != second.response.headers["x-thread-id"]
+                )
+                assert (await client.get(f"/api/runs/{first.response.headers['x-run-id']}")).json()[
+                    "status"
+                ] == "running"
+                async for event in second.aiter_sse():
+                    if event.data and event.json()["type"] == "RUN_FINISHED":
+                        break
+            remaining = [event.json() async for event in first_events if event.data]
+            assert remaining[-1]["type"] == "RUN_FINISHED"

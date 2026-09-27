@@ -64,6 +64,9 @@ services:
       VECTOR_TYPE: dense
       DIMENSION: "3"
       METRIC: cosine
+    networks:
+      default:
+        aliases: [pinecone-local.test]
   vector-test:
     build:
       context: .
@@ -71,7 +74,7 @@ services:
     profiles: [vector-test]
     environment:
       PINECONE_MODE: local
-      PINECONE_LOCAL_HOST: http://pinecone-local:5081
+      PINECONE_LOCAL_HOST: http://pinecone-local.test:5081
     command: [python, -m, comtech.integrations.smoke, pinecone-local]
     depends_on:
       - pinecone-local

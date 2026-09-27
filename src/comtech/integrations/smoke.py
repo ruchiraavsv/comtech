@@ -13,7 +13,7 @@ def require_local_target(settings):
     if (
         settings.pinecone_mode != "local"
         or host.scheme != "http"
-        or host.hostname not in {"localhost", "127.0.0.1", "pinecone-local"}
+        or host.hostname not in {"localhost", "127.0.0.1", "pinecone-local.test"}
     ):
         raise ValueError("Local tests require an explicit local emulator target")
 
@@ -36,20 +36,30 @@ async def local(settings):
                 await index.upsert(
                     namespace=namespace,
                     vectors=[
-                        {"id": "public", "values": [1, 0, 0], "metadata": {"access": "public"}},
-                        {"id": "internal", "values": [0, 1, 0], "metadata": {"access": "internal"}},
+                        {
+                            "id": "public",
+                            "values": [1.0, 0.0, 0.0],
+                            "metadata": {"access": "public"},
+                        },
+                        {
+                            "id": "internal",
+                            "values": [0.0, 1.0, 0.0],
+                            "metadata": {"access": "internal"},
+                        },
                     ],
                 )
-                await index.upsert(namespace=other, vectors=[{"id": "other", "values": [1, 0, 0]}])
+                await index.upsert(
+                    namespace=other, vectors=[{"id": "other", "values": [1.0, 0.0, 0.0]}]
+                )
                 result = await index.query(
                     namespace=namespace,
-                    vector=[1, 0, 0],
+                    vector=[1.0, 0.0, 0.0],
                     top_k=3,
                     filter={"access": {"$eq": "public"}},
                     include_metadata=True,
                 )
                 assert [m.id for m in result.matches] == ["public"]
-                result = await index.query(namespace=other, vector=[1, 0, 0], top_k=3)
+                result = await index.query(namespace=other, vector=[1.0, 0.0, 0.0], top_k=3)
                 assert [m.id for m in result.matches] == ["other"]
             finally:
                 await index.delete(namespace=namespace, delete_all=True)
@@ -115,7 +125,7 @@ async def main(provider):
                         if message != "/fail":
                             raise
             await asyncio.to_thread(client.flush)
-            for run_id in traces:
+            for position, run_id in enumerate(traces):
                 # Ingestion is asynchronous; tolerate bounded propagation delay.
                 for attempt in range(15):
                     try:
@@ -127,6 +137,8 @@ async def main(provider):
                         if attempt == 14:
                             raise
                         await asyncio.sleep(1)
+                assert bool(trace.error) == (position == 2)
+                assert trace.extra.get("metadata", {}).get("thread_id") == thread
                 print(f"Verified LangSmith trace {run_id}; error={bool(trace.error)}")
         finally:
             await asyncio.to_thread(client.close)
