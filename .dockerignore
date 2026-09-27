@@ -8,3 +8,6 @@ __pycache__
 pytest-cache-files-*
 .ruff_cache
 *.pdf
+*.docx
+var
+.cache

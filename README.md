@@ -51,12 +51,19 @@ non-root user without reload; dependencies are pinned in `uv.lock` (Python 3.12)
 
 ## Service responsibilities
 
+Optional local observability: run `./scripts/observability.cmd up --build -d` for
+Phoenix at http://localhost:6006 and rotating JSON logs in `var/logs`.
+No LangSmith key is needed. See [local observability](docs/local-observability.md)
+for trace search, log correlation, retention, backups and smoke checks.
+
 ```mermaid
 flowchart LR
     browser[Browser] <--> ui[Streamlit]
     ui -->|HTTP / SSE| api[FastAPI + LangGraph]
     api --> db[(Postgres checkpoints and events)]
     api -. tracing .-> ls[Hosted LangSmith]
+    api -. local tracing .-> phoenix[Phoenix + persistent SQLite]
+    api -. operational logs .-> files[Rotating JSONL files]
     api -. later retrieval .-> pc[Hosted Pinecone]
     api -. later generation .-> llm[OpenAI]
     tests[Vector smoke test] --> local[Pinecone Local container]

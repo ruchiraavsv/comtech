@@ -29,8 +29,8 @@ class TestServer(uvicorn.Server):
         yield
 
 
-@pytest.fixture
-async def settings():
+@pytest.fixture(params=["off", "phoenix"])
+async def settings(request):
     url = os.getenv("TEST_DATABASE_URL")
     if not url:
         pytest.skip("Set TEST_DATABASE_URL to an isolated test database")
@@ -39,6 +39,8 @@ async def settings():
         database_url=url,
         app_env="test",
         langsmith_tracing=False,
+        observability_mode=request.param,
+        phoenix_trace_endpoint="http://127.0.0.1:1/v1/traces",
         mock_delay_seconds=0.15,
     )
     async with database(url) as pool:
@@ -101,6 +103,11 @@ async def test_live_stream_concurrency_persistence_and_cursor_replay(settings):
                     )
                     assert conflict.status_code == 409
         assert original[-1][1]["type"] == "RUN_FINISHED"
+        stored = (await client.get(f"/api/runs/{run_id}")).json()
+        if settings.tracing_mode == "phoenix":
+            assert len(stored["otel_trace_id"]) == 32
+        else:
+            assert stored["otel_trace_id"] is None
         _, second = await collect(
             client, "POST", "/api/runs", json={"thread_id": thread, "message": "again"}
         )

@@ -94,7 +94,7 @@ async def main(provider):
 
         from comtech.graph import build_graph
 
-        if not settings.langsmith_tracing:
+        if settings.tracing_mode != "langsmith":
             raise ValueError("Enable LANGSMITH_TRACING and set its API key")
         client = Client(
             api_key=settings.langsmith_api_key.get_secret_value(),

@@ -1,0 +1,31 @@
+# Local-only overlay; invoke through scripts/observability.cmd or .ps1.
+services:
+  api:
+    environment:
+      OBSERVABILITY_MODE: phoenix
+      LANGSMITH_TRACING: "false"
+      PHOENIX_TRACE_ENDPOINT: http://phoenix:6006/v1/traces
+      PHOENIX_PROJECT_NAME: comtech-local
+      LOG_FILE_ENABLED: "true"
+      LOG_DIRECTORY: /app/logs
+    volumes:
+      - ./var/logs:/app/logs
+  phoenix:
+    image: docker.io/arizephoenix/phoenix@sha256:319d0f507183501cd42042c2490513d7f26ce03af00bfba2966e6a75229dc521
+    environment:
+      PHOENIX_WORKING_DIR: /data
+      PHOENIX_DEFAULT_RETENTION_POLICY_DAYS: "7"
+      PHOENIX_ENABLE_AUTH: "false"
+    volumes:
+      - phoenix-data:/data
+    ports:
+      - "127.0.0.1:6006:6006"
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:6006/healthz', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+    stop_grace_period: 20s
+volumes:
+  phoenix-data:

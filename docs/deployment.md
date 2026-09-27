@@ -4,6 +4,12 @@ The images are deployable, but the mock scaffold has no authentication, per-user
 authorization, or rate limiting. Complete those assessment features before public
 exposure. No hosting resources are provisioned by these files.
 
+The optional [Phoenix and file logging stack](local-observability.md) is local
+only. Do not include `compose.observability.yaml` in public deployment: its UI has
+no authentication and its host log mount is a development convenience. Remote
+deployments retain console logging and opt-in hosted LangSmith. Enable a file
+sink remotely only after provisioning a writable persistent destination.
+
 ## Preferred: GitHub to Railway
 
 Railway builds and stores container images from our Dockerfile. No Docker Hub,

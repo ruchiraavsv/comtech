@@ -47,3 +47,41 @@ process, request-bound execution, and explicit checkpoint resume. It does not
 provide background run recovery, atomic checkpoint/event writes, or exactly-once
 tool side effects. The remote deployment files are preparation, not a claim that
 the entire assignment is production-ready.
+# Local observability extension — 2026-09-27
+
+- Phoenix 20.16.0 started under Podman using pinned image digest
+  `sha256:319d0f507183501cd42042c2490513d7f26ce03af00bfba2966e6a75229dc521`.
+  Health endpoint and browser UI at localhost:6006 responded successfully.
+- Backend runs as UID 10001 and writes valid JSONL to the host `var/logs` mount.
+  Console output remains available. Unit checks cover rotation, append across
+  logger restarts, queue overflow and runtime file-write failure.
+- OpenInference 0.1.76 LangChain instrumentation and OTel 1.45.0 exported actual
+  streamed mock runs to project `comtech-local`. Verified nested application,
+  graph and node spans, input/output values, success/error status and conversation
+  session grouping. Headless Edge rendered project rows and the trace detail tree.
+- A live disconnected SSE run exported an interrupted root span. Explicit
+  checkpoint resume exported a new completed trace with the prior run in metadata.
+- Run records persist a distinct OTel trace ID; matching run/trace IDs appear in
+  JSONL logs. Application UUID trace IDs retain their previous meaning.
+- `scripts/verify_observability.py` passed: three synthetic success/failure runs,
+  session grouping, replay equality, nested spans and persistent log correlation.
+  `--verify-saved` passed after forced recreation of API and Phoenix containers.
+- Stopped the actual Phoenix service: the API completed a mock run in about
+  1.3 seconds and remained ready. `trace_export_failed` was persisted in JSONL.
+  New traces arrived after Phoenix restarted. No guarantee is made about spans
+  dropped during outages.
+- SQLite online backup passed `PRAGMA integrity_check`. Restored its copy into
+  a separate temporary Phoenix container and read 12 historical project spans
+  through its REST API. Removed only that temporary container after verification.
+- Inspected the active default retention policy: seven-day threshold, weekly
+  cleanup cron. Did not wait seven days to validate scheduled deletion.
+- Windows focused tests: **10 passed**. Linux container suite against isolated
+  Postgres: **16 passed**, covering off/local modes, streaming, concurrency,
+  failure, timeout, disconnection/resume, replay, masking and bounded shutdown.
+- Ruff lint/format and Git whitespace checks passed. Final API/migration runtime
+  images built from the lockfile; normal development, local observability and
+  remote Compose configurations validated.
+- No OpenAI/Pinecone calls or hosted LangSmith verification were performed for
+  this extension. Standalone metrics storage, raw OTLP file archives and general
+  browser log search remain outside scope. Local traces/logs use bounded queues
+  and can lose buffered data on crashes or prolonged outages.

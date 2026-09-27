@@ -2,6 +2,8 @@
 
 Status: implemented locally on 2026-09-27. See `docs/validation.md` for verified behavior and remaining credential-dependent checks. Public deployment has not started.
 
+Implemented extension: [local file logging and Phoenix integration](local-observability.md). This adds persistent operational logs and local trace visualization; hosted LangSmith remains available for the demo. See [local observability usage](../local-observability.md).
+
 ## Scope and first milestone
 
 Build the development foundation for the AI Lead Technical Assessment. Start with `START -> mock_node -> END`; the async mock node emits progress and returns a deterministic message. No real retrieval or model invocation is required for this milestone.

@@ -32,7 +32,8 @@ CREATE TABLE IF NOT EXISTS app_run_events (
     PRIMARY KEY (run_id, sequence)
 );
 """,
-    )
+    ),
+    (2, "ALTER TABLE app_runs ADD COLUMN IF NOT EXISTS otel_trace_id text;"),
 ]
 
 
@@ -79,6 +80,12 @@ class Store:
                 (id,thread_id,request_id,trace_id,parent_run_id,checkpoint_id,status)
                 VALUES (%s,%s,%s,%s,%s,%s,'running')""",
                 (run_id, thread_id, request_id, trace_id, parent, checkpoint),
+            )
+
+    async def set_otel_trace(self, run_id, trace_id):
+        async with self.pool.connection() as conn:
+            await conn.execute(
+                "UPDATE app_runs SET otel_trace_id=%s WHERE id=%s", (trace_id, run_id)
             )
 
     async def append(self, run_id, sequence, event, terminal_status=None):

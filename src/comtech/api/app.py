@@ -1,10 +1,10 @@
 import asyncio
 import logging
-from contextlib import asynccontextmanager
+from contextlib import AsyncExitStack, asynccontextmanager
 from uuid import UUID, uuid4
 
 import anyio
-from ag_ui.core import RunErrorEvent, RunFinishedEvent
+from ag_ui.core import RunErrorEvent, RunFinishedEvent, TextMessageContentEvent
 from fastapi import FastAPI, Header, HTTPException, Query
 from langchain_core.messages import HumanMessage
 from langgraph.checkpoint.postgres.aio import AsyncPostgresSaver
@@ -18,6 +18,7 @@ from comtech.db import Store, database
 from comtech.events import graph_events, sse_record
 from comtech.graph import build_graph
 from comtech.logging import configure_logging
+from comtech.observability import Observability
 from comtech.settings import Settings
 
 log = logging.getLogger("comtech")
@@ -35,10 +36,15 @@ class ResumeInput(BaseModel):
 def create_app(settings: Settings | None = None):
     @asynccontextmanager
     async def lifespan(app):
-        configure_logging()
         cfg = settings or Settings()
         url = cfg.require_database()
-        async with database(url) as pool:
+        async with AsyncExitStack() as stack:
+            logging_runtime = configure_logging(cfg)
+            stack.push_async_callback(asyncio.to_thread, logging_runtime.close)
+            observation = Observability(cfg)
+            stack.push_async_callback(asyncio.to_thread, observation.close)
+            app.state.observation = observation
+            pool = await stack.enter_async_context(database(url))
             # Enforce the single-runner assumption even across overlapping deployments.
             async with await AsyncConnection.connect(url, autocommit=True) as lease:
                 acquired = await (
@@ -54,13 +60,15 @@ def create_app(settings: Settings | None = None):
                 app.state.graph = build_graph(AsyncPostgresSaver(pool), cfg.mock_delay_seconds)
                 app.state.active = {}
                 app.state.tracer = None
-                if cfg.langsmith_tracing:
+                if cfg.tracing_mode == "langsmith":
                     app.state.tracer = Client(
                         api_key=cfg.langsmith_api_key.get_secret_value(),
                         api_url=cfg.langsmith_endpoint,
                         workspace_id=cfg.langsmith_workspace_id or None,
                         tracing_sampling_rate=cfg.langsmith_tracing_sampling_rate,
                         timeout_ms=3000,
+                        hide_inputs=cfg.trace_hide_inputs,
+                        hide_outputs=cfg.trace_hide_outputs,
                         tracing_error_callback=lambda error: log.warning(
                             "trace_upload_failed", extra={"error_type": type(error).__name__}
                         ),
@@ -88,7 +96,12 @@ def create_app(settings: Settings | None = None):
         except Exception as error:
             log.warning("readiness_failed", extra={"error_type": type(error).__name__})
             raise HTTPException(503, "Database is unavailable") from None
-        return {"status": "ready", "mode": "mock", "tracing": app.state.settings.langsmith_tracing}
+        return {
+            "status": "ready",
+            "mode": "mock",
+            "tracing": app.state.settings.tracing_mode != "off",
+            "observability_mode": app.state.settings.tracing_mode,
+        }
 
     async def start(thread_id, inputs, checkpoint=None, parent=None):
         if thread_id in app.state.active:
@@ -136,12 +149,13 @@ def create_app(settings: Settings | None = None):
                     if app.state.active.get(thread_id) == run_id:
                         app.state.active.pop(thread_id, None)
 
-        async def stream():
+        async def execution_events():
             sequence = 0
+            output = ""
             log.info("run_started", extra=context)
             try:
                 with tracing_context(
-                    enabled=cfg.langsmith_tracing,
+                    enabled=cfg.tracing_mode == "langsmith",
                     client=app.state.tracer,
                     project_name=cfg.langsmith_project,
                 ):
@@ -149,17 +163,23 @@ def create_app(settings: Settings | None = None):
                         async for event in graph_events(
                             app.state.graph, inputs, config, run_id, thread_id
                         ):
+                            if isinstance(event, TextMessageContentEvent):
+                                output = (output + event.delta)[:16000]
                             sequence += 1
                             terminal = "completed" if isinstance(event, RunFinishedEvent) else None
                             payload = await app.state.store.append(
                                 run_id, sequence, event, terminal
                             )
                             yield sse_record(run_id, sequence, payload)
+                app.state.observation.output(output)
+                app.state.observation.outcome("completed")
                 log.info("run_completed", extra=context)
             except asyncio.CancelledError:
+                app.state.observation.outcome("interrupted")
                 log.info("run_interrupted", extra=context)
                 raise
             except Exception as error:
+                app.state.observation.outcome("failed")
                 log.error("run_failed", extra={**context, "error_type": type(error).__name__})
                 event = RunErrorEvent(
                     message="Run timed out"
@@ -177,6 +197,19 @@ def create_app(settings: Settings | None = None):
                         "terminal_event_unavailable",
                         extra={**context, "error_type": type(persistence_error).__name__},
                     )
+            finally:
+                await cleanup()
+
+        async def stream():
+            try:
+                with app.state.observation.execution(context, parent, inputs) as span:
+                    if span:
+                        span_context = span.get_span_context()
+                        await app.state.store.set_otel_trace(
+                            run_id, format(span_context.trace_id, "032x")
+                        )
+                    async for record in execution_events():
+                        yield record
             finally:
                 await cleanup()
 

@@ -11,3 +11,5 @@ pytest-cache-files-*/
 dist/
 .tools/
 *.log
+var/
+.cache/

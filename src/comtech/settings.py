@@ -1,3 +1,4 @@
+from pathlib import Path
 from typing import Literal
 
 from pydantic import Field, SecretStr, model_validator
@@ -12,6 +13,15 @@ class Settings(BaseSettings):
     request_timeout_seconds: float = Field(default=60, gt=0, le=300)
     mock_delay_seconds: float = Field(default=0.4, ge=0, le=10)
     git_revision: str = "local"
+    observability_mode: Literal["off", "phoenix", "langsmith"] | None = None
+    phoenix_project_name: str = "comtech-local"
+    phoenix_trace_endpoint: str = "http://localhost:6006/v1/traces"
+    trace_hide_inputs: bool = False
+    trace_hide_outputs: bool = False
+    log_file_enabled: bool = False
+    log_directory: Path = Path("var/logs")
+    log_max_bytes: int = Field(default=10 * 1024 * 1024, ge=256)
+    log_backup_count: int = Field(default=5, ge=1, le=100)
     langsmith_tracing: bool = False
     langsmith_api_key: SecretStr = SecretStr("")
     langsmith_project: str = "comtech-dev"
@@ -30,9 +40,15 @@ class Settings(BaseSettings):
     def validate_targets(self):
         if self.app_env == "production" and self.pinecone_mode != "hosted":
             raise ValueError("Production requires hosted Pinecone")
-        if self.langsmith_tracing and not self.langsmith_api_key.get_secret_value():
+        if self.observability_mode in ("off", "phoenix") and self.langsmith_tracing:
+            raise ValueError("LANGSMITH_TRACING conflicts with OBSERVABILITY_MODE")
+        if self.tracing_mode == "langsmith" and not self.langsmith_api_key.get_secret_value():
             raise ValueError("LANGSMITH_API_KEY is required when tracing is enabled")
         return self
+
+    @property
+    def tracing_mode(self) -> str:
+        return self.observability_mode or ("langsmith" if self.langsmith_tracing else "off")
 
     def require_database(self) -> str:
         value = self.database_url.get_secret_value()
