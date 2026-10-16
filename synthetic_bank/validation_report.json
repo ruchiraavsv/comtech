@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "check_count": 50612,
+  "errors": [],
+  "document_count": 132,
+  "chunk_count": 1054,
+  "body_word_count": 54688,
+  "by_corpus": {
+    "architecture": 18,
+    "changes": 12,
+    "incidents": 36,
+    "manuals": 4,
+    "meetings": 8,
+    "policies": 16,
+    "products": 14,
+    "runbooks": 14,
+    "risk_audit": 10
+  },
+  "by_classification": {
+    "operations": 80,
+    "general": 27,
+    "confidential_risk": 21,
+    "restricted": 4
+  },
+  "payment_totals_from_markdown": {
+    "count": 30,
+    "failed_transactions": 370400,
+    "downtime_minutes": 1018
+  },
+  "payment_families": {
+    "capacity": {
+      "count": 8,
+      "failed_transactions": 72400,
+      "downtime_minutes": 249
+    },
+    "retry_idempotency": {
+      "count": 6,
+      "failed_transactions": 143700,
+      "downtime_minutes": 111
+    },
+    "external_psp": {
+      "count": 5,
+      "failed_transactions": 61300,
+      "downtime_minutes": 318
+    },
+    "event_backlog": {
+      "count": 4,
+      "failed_transactions": 42100,
+      "downtime_minutes": 137
+    },
+    "database": {
+      "count": 3,
+      "failed_transactions": 28900,
+      "downtime_minutes": 95
+    },
+    "dns_network": {
+      "count": 2,
+      "failed_transactions": 12400,
+      "downtime_minutes": 62
+    },
+    "certificate_config": {
+      "count": 2,
+      "failed_transactions": 9600,
+      "downtime_minutes": 46
+    }
+  },
+  "merchantconnect_capacity": {
+    "before": 6,
+    "after": 1
+  },
+  "change_related": 11,
+  "retry_change_related": 5,
+  "access_metadata_scenarios": 6336,
+  "limitations": [
+    "Static document and metadata validation; not live application RBAC or retrieval testing.",
+    "Golden evaluation execution is deferred; MCP has separate validation and tests.",
+    "Semantic assertions cover fixed anchors; prose also requires editorial review."
+  ]
+}

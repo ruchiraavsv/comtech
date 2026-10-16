@@ -1,0 +1,115 @@
+{
+  "private_do_not_index": true,
+  "cohort_incident_ids": [
+    "INC-2025-006",
+    "INC-2025-014",
+    "INC-2026-011",
+    "INC-2026-017",
+    "INC-2026-024",
+    "INC-2026-038",
+    "INC-2026-046",
+    "INC-2026-049",
+    "INC-2025-009",
+    "INC-2025-021",
+    "INC-2026-013",
+    "INC-2026-043",
+    "INC-2026-051",
+    "INC-2026-054",
+    "INC-2025-008",
+    "INC-2025-026",
+    "INC-2026-016",
+    "INC-2026-032",
+    "INC-2026-052",
+    "INC-2025-012",
+    "INC-2026-019",
+    "INC-2026-029",
+    "INC-2026-047",
+    "INC-2025-011",
+    "INC-2026-022",
+    "INC-2026-041",
+    "INC-2025-018",
+    "INC-2026-033",
+    "INC-2025-031",
+    "INC-2026-035"
+  ],
+  "inclusion_criteria": "Exactly the 30 payment incident IDs in Appendix D; deduplicate by incident_id",
+  "observation_window": [
+    "2025-01-01T00:00:00Z",
+    "2026-09-01T00:00:00Z"
+  ],
+  "window_end_exclusive": true,
+  "denominator": 30,
+  "formulas": {
+    "count": "count(unique incident_id)",
+    "failed_transactions": "sum(failed_transactions)",
+    "downtime_minutes": "sum((ended_at-started_at).total_seconds()/60)"
+  },
+  "by_root_cause_family": {
+    "capacity": {
+      "count": 8,
+      "failed_transactions": 72400,
+      "downtime_minutes": 249
+    },
+    "retry_idempotency": {
+      "count": 6,
+      "failed_transactions": 143700,
+      "downtime_minutes": 111
+    },
+    "external_psp": {
+      "count": 5,
+      "failed_transactions": 61300,
+      "downtime_minutes": 318
+    },
+    "event_backlog": {
+      "count": 4,
+      "failed_transactions": 42100,
+      "downtime_minutes": 137
+    },
+    "database": {
+      "count": 3,
+      "failed_transactions": 28900,
+      "downtime_minutes": 95
+    },
+    "dns_network": {
+      "count": 2,
+      "failed_transactions": 12400,
+      "downtime_minutes": 62
+    },
+    "certificate_config": {
+      "count": 2,
+      "failed_transactions": 9600,
+      "downtime_minutes": 46
+    }
+  },
+  "totals": {
+    "count": 30,
+    "failed_transactions": 370400,
+    "downtime_minutes": 1018
+  },
+  "change_related": 11,
+  "retry_change_related": 5,
+  "retry_denominator": 6,
+  "merchantconnect_capacity": {
+    "inclusion_criteria": "fixed_30_payments AND service_id=merchantconnect AND root_cause_family=capacity",
+    "formula": "count(unique incident_id) within each half-open interval",
+    "before_window": [
+      "2025-01-01T00:00:00Z",
+      "2026-07-15T00:00:00Z"
+    ],
+    "after_window": [
+      "2026-07-15T00:00:00Z",
+      "2026-09-01T00:00:00Z"
+    ],
+    "before": 6,
+    "after": 1,
+    "traffic_exposure_denominator": null,
+    "interpretation": "Observed recurrence over unequal windows; no controlled causal estimate."
+  },
+  "unsupported_comparisons": [
+    "exact financial loss",
+    "unique customer totals",
+    "duplicate debit totals",
+    "normalized causal improvement",
+    "model review volume"
+  ]
+}

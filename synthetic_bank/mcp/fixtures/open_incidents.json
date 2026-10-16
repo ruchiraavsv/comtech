@@ -1,0 +1,49 @@
+[
+  {
+    "record_id": "INC-LIVE-1042",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T09:55:00Z",
+    "incident_id": "INC-LIVE-1042",
+    "service_id": "merchantconnect",
+    "severity": "SEV-1",
+    "status": "investigating",
+    "symptoms": [
+      "payment timeouts",
+      "outbound connection utilization 96%"
+    ],
+    "commander_employee_id": "E1043",
+    "started_at": "2026-09-15T09:30:00Z",
+    "confirmed_root_cause": null
+  },
+  {
+    "record_id": "INC-LIVE-1051",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T09:50:00Z",
+    "incident_id": "INC-LIVE-1051",
+    "service_id": "payflow",
+    "severity": "SEV-2",
+    "status": "mitigating",
+    "symptoms": [
+      "checkout latency",
+      "retry queue growing"
+    ],
+    "commander_employee_id": "E2050",
+    "started_at": "2026-09-15T09:20:00Z",
+    "confirmed_root_cause": null
+  },
+  {
+    "record_id": "INC-LIVE-1054",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T09:45:00Z",
+    "incident_id": "INC-LIVE-1054",
+    "service_id": "settlementhub",
+    "severity": "SEV-2",
+    "status": "monitoring",
+    "symptoms": [
+      "corporate report delivery delay"
+    ],
+    "commander_employee_id": "E2031",
+    "started_at": "2026-09-15T08:45:00Z",
+    "confirmed_root_cause": null
+  }
+]

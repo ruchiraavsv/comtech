@@ -51,12 +51,16 @@ async def settings(request):
 
 @asynccontextmanager
 async def server(settings):
+    async with http_server(create_app(settings)) as client:
+        yield client
+
+
+@asynccontextmanager
+async def http_server(app):
     sock = socket.socket()
     sock.bind(("127.0.0.1", 0))
     port = sock.getsockname()[1]
-    instance = TestServer(
-        uvicorn.Config(create_app(settings), log_config=None, access_log=False, lifespan="on")
-    )
+    instance = TestServer(uvicorn.Config(app, log_config=None, access_log=False, lifespan="on"))
     task = asyncio.create_task(instance.serve(sockets=[sock]))
     try:
         async with asyncio.timeout(15):
@@ -79,6 +83,45 @@ async def collect(client, method, path, **kwargs):
         headers = source.response.headers
         events = [(item.id, item.json()) async for item in source.aiter_sse() if item.data]
     return headers, events
+
+
+async def test_enterprise_api_stream_followup_and_replay(settings, monkeypatch):
+    from comtech.agents.budget import TokenCounter
+    from comtech.agents.contracts import Limits
+    from comtech.agents.graph import build_enterprise_graph
+    from tests.agents.helpers import FakeModel, FakeTools
+
+    @asynccontextmanager
+    async def fake_runtime(cfg, checkpointer):
+        yield build_enterprise_graph(
+            FakeModel(), FakeTools(), TokenCounter(), Limits(), checkpointer
+        )
+
+    monkeypatch.setattr("comtech.agents.runtime.enterprise_runtime", fake_runtime)
+    settings.agent_mode = "enterprise"
+    thread = str(uuid4())
+    async with server(settings) as client:
+        health = (await client.get("/health/ready")).json()
+        assert health["mode"] == "enterprise"
+        headers, events = await collect(
+            client,
+            "POST",
+            "/api/runs",
+            json={"thread_id": thread, "message": "Who owns the service?"},
+        )
+        assert events[-1][1]["type"] == "RUN_FINISHED"
+        text = [e for _, e in events if e["type"] == "TEXT_MESSAGE_CONTENT"]
+        assert len(text) == 1 and "[1]" in text[0]["delta"]
+        stored = (await client.get(f"/api/runs/{headers['x-run-id']}")).json()
+        assert stored["graph_run_id"] == headers["x-run-id"]
+        assert stored["graph_version"] == 2
+        assert any(e.get("name") == "agent.activity" for _, e in events)
+        _, replay = await collect(client, "GET", f"/api/runs/{headers['x-run-id']}/events")
+        assert replay == events
+        _, followup = await collect(
+            client, "POST", "/api/runs", json={"thread_id": thread, "message": "And now?"}
+        )
+        assert followup[-1][1]["type"] == "RUN_FINISHED"
 
 
 async def test_live_stream_concurrency_persistence_and_cursor_replay(settings):
@@ -185,3 +228,42 @@ async def test_independent_conversations_run_concurrently(settings):
                         break
             remaining = [event.json() async for event in first_events if event.data]
             assert remaining[-1]["type"] == "RUN_FINISHED"
+
+
+async def test_database_background_admission_blocks_stream_and_legacy_resume(settings):
+    from comtech.research.contracts import SourceScope
+    from comtech.research.registry import JobRegistry
+
+    thread = uuid4()
+    async with database(settings.require_database()) as pool:
+        run, _ = await JobRegistry(pool).submit(
+            thread_id=thread,
+            idempotency_key="private-test",
+            message="Synthetic question",
+            scope=SourceScope(
+                scope_ref="test",
+                sources=[],
+                datasets={},
+                fields={},
+                capabilities=[],
+                pinned_versions={},
+            ),
+            budget_profile={},
+        )
+    try:
+        async with server(settings) as client:
+            response = await client.post(
+                "/api/runs",
+                json={"thread_id": str(thread), "message": "Competing stream"},
+            )
+            assert response.status_code == 409
+            response = await client.post(
+                f"/api/runs/{run['id']}/resume",
+                json={"checkpoint_id": "cannot-fork"},
+            )
+            assert response.status_code == 409
+            runs = (await client.get(f"/api/threads/{thread}/runs")).json()
+            assert len(runs) == 1 and runs[0]["status"] == "queued"
+    finally:
+        async with database(settings.require_database()) as pool, pool.connection() as conn:
+            await conn.execute("UPDATE app_runs SET status='cancelled' WHERE id=%s", (run["id"],))

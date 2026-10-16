@@ -1,0 +1,40 @@
+{
+  "snapshot_id": "DEMO-2026-09-15-A",
+  "as_of": "2026-09-15T10:00:00Z",
+  "schema_version": 1,
+  "horizon_start": "2026-09-15T08:00:00Z",
+  "horizon_end": "2026-09-16T08:00:00Z",
+  "files": {
+    "employees": {
+      "filename": "employees.json",
+      "count": 21,
+      "sha256": "ecda60052530b0bd0ac10f4864b5c765e6afb6026f18187fbdcd48efacc11d9e"
+    },
+    "teams": {
+      "filename": "teams.json",
+      "count": 8,
+      "sha256": "8e3468444aace637d23cb95a4ee00ae137c843ff3c716fc2e24b615a371b4dcb"
+    },
+    "services": {
+      "filename": "services.json",
+      "count": 10,
+      "sha256": "12e375bb0d084c53546110167f1f9be2ddd50b5c31e098eab163a1181810aeda"
+    },
+    "oncall_shifts": {
+      "filename": "oncall_shifts.json",
+      "count": 20,
+      "sha256": "d856b7c7740039aa879e377d690e9ba968bf7d604917f74f87317344c7663ea7"
+    },
+    "open_incidents": {
+      "filename": "open_incidents.json",
+      "count": 3,
+      "sha256": "a179e7d26b30adf4fa040ecc702449eaf5782608dcc7ba971ce0752f39034f91"
+    },
+    "deployments": {
+      "filename": "deployments.json",
+      "count": 10,
+      "sha256": "8ee772f8646126d499c022e2d48b4a8f9040ba735c9a2bb8feaa67dc6585ab23"
+    }
+  },
+  "source_sha256": "8667de25d68de48b3dff42b3b11d4269b05986ae59e0e4479e85cfd1896b8bb7"
+}

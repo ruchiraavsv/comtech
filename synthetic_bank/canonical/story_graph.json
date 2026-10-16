@@ -1,0 +1,213 @@
+[
+  {
+    "story_id": "S1",
+    "title": "MerchantConnect capacity",
+    "document_ids": [
+      "DOC-ADR-021",
+      "DOC-ARCHREV-004",
+      "DOC-ARCHREV-013",
+      "DOC-CHG-139",
+      "DOC-CHG-144",
+      "DOC-INC-2025-006",
+      "DOC-INC-2025-014",
+      "DOC-INC-2025-026",
+      "DOC-INC-2026-011",
+      "DOC-INC-2026-017",
+      "DOC-INC-2026-024",
+      "DOC-INC-2026-038",
+      "DOC-INC-2026-046",
+      "DOC-LONG-001",
+      "DOC-LONG-003",
+      "DOC-MTG-017",
+      "DOC-POL-007-v1",
+      "DOC-POL-007-v2",
+      "DOC-PROD-002",
+      "DOC-RB-003-v1",
+      "DOC-RB-003-v2"
+    ],
+    "current_state_dependency": "separate frozen MCP snapshot"
+  },
+  {
+    "story_id": "S2",
+    "title": "Duplicate payments",
+    "document_ids": [
+      "DOC-ADR-024",
+      "DOC-ARCHREV-006",
+      "DOC-ARCHREV-014",
+      "DOC-CHG-118",
+      "DOC-CHG-153",
+      "DOC-INC-2025-009",
+      "DOC-INC-2025-021",
+      "DOC-INC-2026-013",
+      "DOC-INC-2026-043",
+      "DOC-INC-2026-051",
+      "DOC-INC-2026-054",
+      "DOC-LONG-001",
+      "DOC-LONG-003",
+      "DOC-MTG-009",
+      "DOC-POL-016",
+      "DOC-PROD-006-v1",
+      "DOC-PROD-006-v2",
+      "DOC-PROD-007",
+      "DOC-RB-004"
+    ],
+    "current_state_dependency": "separate frozen MCP snapshot"
+  },
+  {
+    "story_id": "S3",
+    "title": "Settlement and reconciliation",
+    "document_ids": [
+      "DOC-ADR-025",
+      "DOC-ARCH-002",
+      "DOC-ARCHREV-008",
+      "DOC-CHG-127",
+      "DOC-INC-2025-012",
+      "DOC-INC-2026-019",
+      "DOC-INC-2026-022",
+      "DOC-INC-2026-029",
+      "DOC-INC-2026-040",
+      "DOC-INC-2026-047",
+      "DOC-LONG-001",
+      "DOC-LONG-003",
+      "DOC-MTG-010",
+      "DOC-POL-012",
+      "DOC-PROD-005",
+      "DOC-PROD-009",
+      "DOC-RB-005",
+      "DOC-RB-008-v1",
+      "DOC-RB-008-v2",
+      "DOC-RISK-005",
+      "DOC-RISK-006"
+    ],
+    "current_state_dependency": "separate frozen MCP snapshot"
+  },
+  {
+    "story_id": "S4",
+    "title": "Corporate payment limits",
+    "document_ids": [
+      "DOC-ARCH-003",
+      "DOC-CHG-101",
+      "DOC-LONG-002",
+      "DOC-MTG-003",
+      "DOC-POL-002-v1",
+      "DOC-POL-002-v2",
+      "DOC-POL-019",
+      "DOC-PROD-003-v1",
+      "DOC-PROD-003-v2",
+      "DOC-PROD-004",
+      "DOC-PROD-012",
+      "DOC-RB-006",
+      "DOC-RISK-003"
+    ],
+    "current_state_dependency": "none for historical explanation"
+  },
+  {
+    "story_id": "S5",
+    "title": "FraudShield governance",
+    "document_ids": [
+      "DOC-ARCH-004",
+      "DOC-CHG-109",
+      "DOC-INC-2026-030",
+      "DOC-MTG-005",
+      "DOC-POL-010-v1",
+      "DOC-POL-010-v2",
+      "DOC-POL-017",
+      "DOC-PROD-008",
+      "DOC-PROD-011",
+      "DOC-RB-007",
+      "DOC-RISK-001",
+      "DOC-RISK-002",
+      "DOC-SEC-001"
+    ],
+    "current_state_dependency": "separate frozen MCP snapshot"
+  },
+  {
+    "story_id": "S6",
+    "title": "Emergency change compliance",
+    "document_ids": [
+      "DOC-ARCH-007",
+      "DOC-CHG-160",
+      "DOC-LONG-002",
+      "DOC-MTG-011",
+      "DOC-POL-007-v2",
+      "DOC-POL-011",
+      "DOC-RB-010",
+      "DOC-RISK-007"
+    ],
+    "current_state_dependency": "separate frozen MCP snapshot"
+  },
+  {
+    "story_id": "S7",
+    "title": "Privileged access remediation",
+    "document_ids": [
+      "DOC-ARCH-005",
+      "DOC-CHG-167",
+      "DOC-LONG-002",
+      "DOC-MTG-012",
+      "DOC-POL-013-v1",
+      "DOC-POL-013-v2",
+      "DOC-POL-018",
+      "DOC-RB-011",
+      "DOC-RISK-008",
+      "DOC-RISK-009",
+      "DOC-SEC-002"
+    ],
+    "current_state_dependency": "none for historical explanation"
+  },
+  {
+    "story_id": "S8",
+    "title": "DR dependency recovery",
+    "document_ids": [
+      "DOC-ADR-026",
+      "DOC-ARCHREV-012",
+      "DOC-CHG-132",
+      "DOC-INC-2026-025",
+      "DOC-LONG-004",
+      "DOC-POL-014",
+      "DOC-PROD-010",
+      "DOC-RB-012-v1",
+      "DOC-RB-012-v2"
+    ],
+    "current_state_dependency": "separate frozen MCP snapshot"
+  },
+  {
+    "story_id": "S9",
+    "title": "Payment triage",
+    "document_ids": [
+      "DOC-ARCH-006",
+      "DOC-CHG-178",
+      "DOC-INC-2025-008",
+      "DOC-INC-2025-011",
+      "DOC-INC-2025-018",
+      "DOC-INC-2025-031",
+      "DOC-INC-2025-034",
+      "DOC-INC-2026-006",
+      "DOC-INC-2026-016",
+      "DOC-INC-2026-032",
+      "DOC-INC-2026-033",
+      "DOC-INC-2026-035",
+      "DOC-INC-2026-041",
+      "DOC-INC-2026-049",
+      "DOC-INC-2026-050",
+      "DOC-INC-2026-052",
+      "DOC-LONG-003",
+      "DOC-PROD-001",
+      "DOC-RB-009"
+    ],
+    "current_state_dependency": "separate frozen MCP snapshot"
+  },
+  {
+    "story_id": "S10",
+    "title": "Ownership transition",
+    "document_ids": [
+      "DOC-ADR-027",
+      "DOC-ARCH-001",
+      "DOC-CHG-172",
+      "DOC-LONG-004",
+      "DOC-MTG-008",
+      "DOC-POL-015",
+      "DOC-RB-013"
+    ],
+    "current_state_dependency": "separate frozen MCP snapshot"
+  }
+]

@@ -1,0 +1,6326 @@
+[
+  {
+    "fact_id": "F-ADR-021-01",
+    "document_id": "DOC-ADR-021",
+    "citation_locator": "corpus/documents/DOC-ADR-021.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ADR-021-02",
+    "document_id": "DOC-ADR-021",
+    "citation_locator": "corpus/documents/DOC-ADR-021.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ADR-021-03",
+    "document_id": "DOC-ADR-021",
+    "citation_locator": "corpus/documents/DOC-ADR-021.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ADR-021-04",
+    "document_id": "DOC-ADR-021",
+    "citation_locator": "corpus/documents/DOC-ADR-021.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ADR-021-05",
+    "document_id": "DOC-ADR-021",
+    "citation_locator": "corpus/documents/DOC-ADR-021.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ADR-021-06",
+    "document_id": "DOC-ADR-021",
+    "citation_locator": "corpus/documents/DOC-ADR-021.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-ADR-024-01",
+    "document_id": "DOC-ADR-024",
+    "citation_locator": "corpus/documents/DOC-ADR-024.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ADR-024-02",
+    "document_id": "DOC-ADR-024",
+    "citation_locator": "corpus/documents/DOC-ADR-024.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ADR-024-03",
+    "document_id": "DOC-ADR-024",
+    "citation_locator": "corpus/documents/DOC-ADR-024.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ADR-024-04",
+    "document_id": "DOC-ADR-024",
+    "citation_locator": "corpus/documents/DOC-ADR-024.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ADR-024-05",
+    "document_id": "DOC-ADR-024",
+    "citation_locator": "corpus/documents/DOC-ADR-024.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ADR-024-06",
+    "document_id": "DOC-ADR-024",
+    "citation_locator": "corpus/documents/DOC-ADR-024.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-ADR-024-07",
+    "document_id": "DOC-ADR-024",
+    "citation_locator": "corpus/documents/DOC-ADR-024.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-ADR-025-01",
+    "document_id": "DOC-ADR-025",
+    "citation_locator": "corpus/documents/DOC-ADR-025.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ADR-025-02",
+    "document_id": "DOC-ADR-025",
+    "citation_locator": "corpus/documents/DOC-ADR-025.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ADR-025-03",
+    "document_id": "DOC-ADR-025",
+    "citation_locator": "corpus/documents/DOC-ADR-025.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ADR-025-04",
+    "document_id": "DOC-ADR-025",
+    "citation_locator": "corpus/documents/DOC-ADR-025.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ADR-025-05",
+    "document_id": "DOC-ADR-025",
+    "citation_locator": "corpus/documents/DOC-ADR-025.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ADR-025-06",
+    "document_id": "DOC-ADR-025",
+    "citation_locator": "corpus/documents/DOC-ADR-025.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-ADR-025-07",
+    "document_id": "DOC-ADR-025",
+    "citation_locator": "corpus/documents/DOC-ADR-025.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-ADR-026-01",
+    "document_id": "DOC-ADR-026",
+    "citation_locator": "corpus/documents/DOC-ADR-026.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ADR-026-02",
+    "document_id": "DOC-ADR-026",
+    "citation_locator": "corpus/documents/DOC-ADR-026.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ADR-026-03",
+    "document_id": "DOC-ADR-026",
+    "citation_locator": "corpus/documents/DOC-ADR-026.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ADR-026-04",
+    "document_id": "DOC-ADR-026",
+    "citation_locator": "corpus/documents/DOC-ADR-026.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ADR-026-05",
+    "document_id": "DOC-ADR-026",
+    "citation_locator": "corpus/documents/DOC-ADR-026.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ADR-026-06",
+    "document_id": "DOC-ADR-026",
+    "citation_locator": "corpus/documents/DOC-ADR-026.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-ADR-026-07",
+    "document_id": "DOC-ADR-026",
+    "citation_locator": "corpus/documents/DOC-ADR-026.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-ADR-027-01",
+    "document_id": "DOC-ADR-027",
+    "citation_locator": "corpus/documents/DOC-ADR-027.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ADR-027-02",
+    "document_id": "DOC-ADR-027",
+    "citation_locator": "corpus/documents/DOC-ADR-027.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ADR-027-03",
+    "document_id": "DOC-ADR-027",
+    "citation_locator": "corpus/documents/DOC-ADR-027.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ADR-027-04",
+    "document_id": "DOC-ADR-027",
+    "citation_locator": "corpus/documents/DOC-ADR-027.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ADR-027-05",
+    "document_id": "DOC-ADR-027",
+    "citation_locator": "corpus/documents/DOC-ADR-027.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ADR-027-06",
+    "document_id": "DOC-ADR-027",
+    "citation_locator": "corpus/documents/DOC-ADR-027.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-ADR-027-07",
+    "document_id": "DOC-ADR-027",
+    "citation_locator": "corpus/documents/DOC-ADR-027.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-ARCH-001-01",
+    "document_id": "DOC-ARCH-001",
+    "citation_locator": "corpus/documents/DOC-ARCH-001.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCH-001-02",
+    "document_id": "DOC-ARCH-001",
+    "citation_locator": "corpus/documents/DOC-ARCH-001.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCH-001-03",
+    "document_id": "DOC-ARCH-001",
+    "citation_locator": "corpus/documents/DOC-ARCH-001.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-001-04",
+    "document_id": "DOC-ARCH-001",
+    "citation_locator": "corpus/documents/DOC-ARCH-001.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-001-05",
+    "document_id": "DOC-ARCH-001",
+    "citation_locator": "corpus/documents/DOC-ARCH-001.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-001-06",
+    "document_id": "DOC-ARCH-001",
+    "citation_locator": "corpus/documents/DOC-ARCH-001.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-ARCH-002-01",
+    "document_id": "DOC-ARCH-002",
+    "citation_locator": "corpus/documents/DOC-ARCH-002.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCH-002-02",
+    "document_id": "DOC-ARCH-002",
+    "citation_locator": "corpus/documents/DOC-ARCH-002.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCH-002-03",
+    "document_id": "DOC-ARCH-002",
+    "citation_locator": "corpus/documents/DOC-ARCH-002.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-002-04",
+    "document_id": "DOC-ARCH-002",
+    "citation_locator": "corpus/documents/DOC-ARCH-002.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-002-05",
+    "document_id": "DOC-ARCH-002",
+    "citation_locator": "corpus/documents/DOC-ARCH-002.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-002-06",
+    "document_id": "DOC-ARCH-002",
+    "citation_locator": "corpus/documents/DOC-ARCH-002.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-ARCH-002-07",
+    "document_id": "DOC-ARCH-002",
+    "citation_locator": "corpus/documents/DOC-ARCH-002.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-ARCH-003-01",
+    "document_id": "DOC-ARCH-003",
+    "citation_locator": "corpus/documents/DOC-ARCH-003.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCH-003-02",
+    "document_id": "DOC-ARCH-003",
+    "citation_locator": "corpus/documents/DOC-ARCH-003.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCH-003-03",
+    "document_id": "DOC-ARCH-003",
+    "citation_locator": "corpus/documents/DOC-ARCH-003.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-003-04",
+    "document_id": "DOC-ARCH-003",
+    "citation_locator": "corpus/documents/DOC-ARCH-003.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-003-05",
+    "document_id": "DOC-ARCH-003",
+    "citation_locator": "corpus/documents/DOC-ARCH-003.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-003-06",
+    "document_id": "DOC-ARCH-003",
+    "citation_locator": "corpus/documents/DOC-ARCH-003.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-ARCH-004-01",
+    "document_id": "DOC-ARCH-004",
+    "citation_locator": "corpus/documents/DOC-ARCH-004.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCH-004-02",
+    "document_id": "DOC-ARCH-004",
+    "citation_locator": "corpus/documents/DOC-ARCH-004.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCH-004-03",
+    "document_id": "DOC-ARCH-004",
+    "citation_locator": "corpus/documents/DOC-ARCH-004.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-004-04",
+    "document_id": "DOC-ARCH-004",
+    "citation_locator": "corpus/documents/DOC-ARCH-004.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-004-05",
+    "document_id": "DOC-ARCH-004",
+    "citation_locator": "corpus/documents/DOC-ARCH-004.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-004-06",
+    "document_id": "DOC-ARCH-004",
+    "citation_locator": "corpus/documents/DOC-ARCH-004.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-ARCH-005-01",
+    "document_id": "DOC-ARCH-005",
+    "citation_locator": "corpus/documents/DOC-ARCH-005.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCH-005-02",
+    "document_id": "DOC-ARCH-005",
+    "citation_locator": "corpus/documents/DOC-ARCH-005.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCH-005-03",
+    "document_id": "DOC-ARCH-005",
+    "citation_locator": "corpus/documents/DOC-ARCH-005.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-005-04",
+    "document_id": "DOC-ARCH-005",
+    "citation_locator": "corpus/documents/DOC-ARCH-005.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-005-05",
+    "document_id": "DOC-ARCH-005",
+    "citation_locator": "corpus/documents/DOC-ARCH-005.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-005-06",
+    "document_id": "DOC-ARCH-005",
+    "citation_locator": "corpus/documents/DOC-ARCH-005.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-ARCH-005-07",
+    "document_id": "DOC-ARCH-005",
+    "citation_locator": "corpus/documents/DOC-ARCH-005.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-ARCH-006-01",
+    "document_id": "DOC-ARCH-006",
+    "citation_locator": "corpus/documents/DOC-ARCH-006.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCH-006-02",
+    "document_id": "DOC-ARCH-006",
+    "citation_locator": "corpus/documents/DOC-ARCH-006.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCH-006-03",
+    "document_id": "DOC-ARCH-006",
+    "citation_locator": "corpus/documents/DOC-ARCH-006.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-006-04",
+    "document_id": "DOC-ARCH-006",
+    "citation_locator": "corpus/documents/DOC-ARCH-006.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-006-05",
+    "document_id": "DOC-ARCH-006",
+    "citation_locator": "corpus/documents/DOC-ARCH-006.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-006-06",
+    "document_id": "DOC-ARCH-006",
+    "citation_locator": "corpus/documents/DOC-ARCH-006.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-ARCH-006-07",
+    "document_id": "DOC-ARCH-006",
+    "citation_locator": "corpus/documents/DOC-ARCH-006.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-ARCH-007-01",
+    "document_id": "DOC-ARCH-007",
+    "citation_locator": "corpus/documents/DOC-ARCH-007.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCH-007-02",
+    "document_id": "DOC-ARCH-007",
+    "citation_locator": "corpus/documents/DOC-ARCH-007.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCH-007-03",
+    "document_id": "DOC-ARCH-007",
+    "citation_locator": "corpus/documents/DOC-ARCH-007.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-007-04",
+    "document_id": "DOC-ARCH-007",
+    "citation_locator": "corpus/documents/DOC-ARCH-007.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-007-05",
+    "document_id": "DOC-ARCH-007",
+    "citation_locator": "corpus/documents/DOC-ARCH-007.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCH-007-06",
+    "document_id": "DOC-ARCH-007",
+    "citation_locator": "corpus/documents/DOC-ARCH-007.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-ARCHREV-004-01",
+    "document_id": "DOC-ARCHREV-004",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-004.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCHREV-004-02",
+    "document_id": "DOC-ARCHREV-004",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-004.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCHREV-004-03",
+    "document_id": "DOC-ARCHREV-004",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-004.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-004-04",
+    "document_id": "DOC-ARCHREV-004",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-004.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-004-05",
+    "document_id": "DOC-ARCHREV-004",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-004.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-004-06",
+    "document_id": "DOC-ARCHREV-004",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-004.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-ARCHREV-006-01",
+    "document_id": "DOC-ARCHREV-006",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-006.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCHREV-006-02",
+    "document_id": "DOC-ARCHREV-006",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-006.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCHREV-006-03",
+    "document_id": "DOC-ARCHREV-006",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-006.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-006-04",
+    "document_id": "DOC-ARCHREV-006",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-006.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-006-05",
+    "document_id": "DOC-ARCHREV-006",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-006.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-006-06",
+    "document_id": "DOC-ARCHREV-006",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-006.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-ARCHREV-008-01",
+    "document_id": "DOC-ARCHREV-008",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-008.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCHREV-008-02",
+    "document_id": "DOC-ARCHREV-008",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-008.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCHREV-008-03",
+    "document_id": "DOC-ARCHREV-008",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-008.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-008-04",
+    "document_id": "DOC-ARCHREV-008",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-008.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-008-05",
+    "document_id": "DOC-ARCHREV-008",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-008.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-008-06",
+    "document_id": "DOC-ARCHREV-008",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-008.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-ARCHREV-012-01",
+    "document_id": "DOC-ARCHREV-012",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-012.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCHREV-012-02",
+    "document_id": "DOC-ARCHREV-012",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-012.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCHREV-012-03",
+    "document_id": "DOC-ARCHREV-012",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-012.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-012-04",
+    "document_id": "DOC-ARCHREV-012",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-012.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-012-05",
+    "document_id": "DOC-ARCHREV-012",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-012.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-012-06",
+    "document_id": "DOC-ARCHREV-012",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-012.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-ARCHREV-012-07",
+    "document_id": "DOC-ARCHREV-012",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-012.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-ARCHREV-013-01",
+    "document_id": "DOC-ARCHREV-013",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-013.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCHREV-013-02",
+    "document_id": "DOC-ARCHREV-013",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-013.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCHREV-013-03",
+    "document_id": "DOC-ARCHREV-013",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-013.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-013-04",
+    "document_id": "DOC-ARCHREV-013",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-013.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-013-05",
+    "document_id": "DOC-ARCHREV-013",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-013.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-013-06",
+    "document_id": "DOC-ARCHREV-013",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-013.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-ARCHREV-014-01",
+    "document_id": "DOC-ARCHREV-014",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-014.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCHREV-014-02",
+    "document_id": "DOC-ARCHREV-014",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-014.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-ARCHREV-014-03",
+    "document_id": "DOC-ARCHREV-014",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-014.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-014-04",
+    "document_id": "DOC-ARCHREV-014",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-014.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-014-05",
+    "document_id": "DOC-ARCHREV-014",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-014.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-ARCHREV-014-06",
+    "document_id": "DOC-ARCHREV-014",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-014.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-ARCHREV-014-07",
+    "document_id": "DOC-ARCHREV-014",
+    "citation_locator": "corpus/documents/DOC-ARCHREV-014.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-CHG-101-01",
+    "document_id": "DOC-CHG-101",
+    "citation_locator": "corpus/documents/DOC-CHG-101.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-101-02",
+    "document_id": "DOC-CHG-101",
+    "citation_locator": "corpus/documents/DOC-CHG-101.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-101-03",
+    "document_id": "DOC-CHG-101",
+    "citation_locator": "corpus/documents/DOC-CHG-101.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-101-04",
+    "document_id": "DOC-CHG-101",
+    "citation_locator": "corpus/documents/DOC-CHG-101.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-101-05",
+    "document_id": "DOC-CHG-101",
+    "citation_locator": "corpus/documents/DOC-CHG-101.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-101-06",
+    "document_id": "DOC-CHG-101",
+    "citation_locator": "corpus/documents/DOC-CHG-101.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-CHG-109-01",
+    "document_id": "DOC-CHG-109",
+    "citation_locator": "corpus/documents/DOC-CHG-109.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-109-02",
+    "document_id": "DOC-CHG-109",
+    "citation_locator": "corpus/documents/DOC-CHG-109.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-109-03",
+    "document_id": "DOC-CHG-109",
+    "citation_locator": "corpus/documents/DOC-CHG-109.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-109-04",
+    "document_id": "DOC-CHG-109",
+    "citation_locator": "corpus/documents/DOC-CHG-109.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-109-05",
+    "document_id": "DOC-CHG-109",
+    "citation_locator": "corpus/documents/DOC-CHG-109.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-109-06",
+    "document_id": "DOC-CHG-109",
+    "citation_locator": "corpus/documents/DOC-CHG-109.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-CHG-109-07",
+    "document_id": "DOC-CHG-109",
+    "citation_locator": "corpus/documents/DOC-CHG-109.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-CHG-118-01",
+    "document_id": "DOC-CHG-118",
+    "citation_locator": "corpus/documents/DOC-CHG-118.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-118-02",
+    "document_id": "DOC-CHG-118",
+    "citation_locator": "corpus/documents/DOC-CHG-118.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-118-03",
+    "document_id": "DOC-CHG-118",
+    "citation_locator": "corpus/documents/DOC-CHG-118.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-118-04",
+    "document_id": "DOC-CHG-118",
+    "citation_locator": "corpus/documents/DOC-CHG-118.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-118-05",
+    "document_id": "DOC-CHG-118",
+    "citation_locator": "corpus/documents/DOC-CHG-118.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-118-06",
+    "document_id": "DOC-CHG-118",
+    "citation_locator": "corpus/documents/DOC-CHG-118.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-CHG-118-07",
+    "document_id": "DOC-CHG-118",
+    "citation_locator": "corpus/documents/DOC-CHG-118.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-CHG-127-01",
+    "document_id": "DOC-CHG-127",
+    "citation_locator": "corpus/documents/DOC-CHG-127.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-127-02",
+    "document_id": "DOC-CHG-127",
+    "citation_locator": "corpus/documents/DOC-CHG-127.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-127-03",
+    "document_id": "DOC-CHG-127",
+    "citation_locator": "corpus/documents/DOC-CHG-127.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-127-04",
+    "document_id": "DOC-CHG-127",
+    "citation_locator": "corpus/documents/DOC-CHG-127.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-127-05",
+    "document_id": "DOC-CHG-127",
+    "citation_locator": "corpus/documents/DOC-CHG-127.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-127-06",
+    "document_id": "DOC-CHG-127",
+    "citation_locator": "corpus/documents/DOC-CHG-127.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-CHG-127-07",
+    "document_id": "DOC-CHG-127",
+    "citation_locator": "corpus/documents/DOC-CHG-127.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-CHG-132-01",
+    "document_id": "DOC-CHG-132",
+    "citation_locator": "corpus/documents/DOC-CHG-132.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-132-02",
+    "document_id": "DOC-CHG-132",
+    "citation_locator": "corpus/documents/DOC-CHG-132.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-132-03",
+    "document_id": "DOC-CHG-132",
+    "citation_locator": "corpus/documents/DOC-CHG-132.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-132-04",
+    "document_id": "DOC-CHG-132",
+    "citation_locator": "corpus/documents/DOC-CHG-132.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-132-05",
+    "document_id": "DOC-CHG-132",
+    "citation_locator": "corpus/documents/DOC-CHG-132.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-132-06",
+    "document_id": "DOC-CHG-132",
+    "citation_locator": "corpus/documents/DOC-CHG-132.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-CHG-132-07",
+    "document_id": "DOC-CHG-132",
+    "citation_locator": "corpus/documents/DOC-CHG-132.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-CHG-139-01",
+    "document_id": "DOC-CHG-139",
+    "citation_locator": "corpus/documents/DOC-CHG-139.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-139-02",
+    "document_id": "DOC-CHG-139",
+    "citation_locator": "corpus/documents/DOC-CHG-139.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-139-03",
+    "document_id": "DOC-CHG-139",
+    "citation_locator": "corpus/documents/DOC-CHG-139.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-139-04",
+    "document_id": "DOC-CHG-139",
+    "citation_locator": "corpus/documents/DOC-CHG-139.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-139-05",
+    "document_id": "DOC-CHG-139",
+    "citation_locator": "corpus/documents/DOC-CHG-139.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-139-06",
+    "document_id": "DOC-CHG-139",
+    "citation_locator": "corpus/documents/DOC-CHG-139.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-CHG-139-07",
+    "document_id": "DOC-CHG-139",
+    "citation_locator": "corpus/documents/DOC-CHG-139.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-CHG-144-01",
+    "document_id": "DOC-CHG-144",
+    "citation_locator": "corpus/documents/DOC-CHG-144.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-144-02",
+    "document_id": "DOC-CHG-144",
+    "citation_locator": "corpus/documents/DOC-CHG-144.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-144-03",
+    "document_id": "DOC-CHG-144",
+    "citation_locator": "corpus/documents/DOC-CHG-144.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-144-04",
+    "document_id": "DOC-CHG-144",
+    "citation_locator": "corpus/documents/DOC-CHG-144.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-144-05",
+    "document_id": "DOC-CHG-144",
+    "citation_locator": "corpus/documents/DOC-CHG-144.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-144-06",
+    "document_id": "DOC-CHG-144",
+    "citation_locator": "corpus/documents/DOC-CHG-144.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-CHG-144-07",
+    "document_id": "DOC-CHG-144",
+    "citation_locator": "corpus/documents/DOC-CHG-144.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-CHG-153-01",
+    "document_id": "DOC-CHG-153",
+    "citation_locator": "corpus/documents/DOC-CHG-153.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-153-02",
+    "document_id": "DOC-CHG-153",
+    "citation_locator": "corpus/documents/DOC-CHG-153.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-153-03",
+    "document_id": "DOC-CHG-153",
+    "citation_locator": "corpus/documents/DOC-CHG-153.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-153-04",
+    "document_id": "DOC-CHG-153",
+    "citation_locator": "corpus/documents/DOC-CHG-153.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-153-05",
+    "document_id": "DOC-CHG-153",
+    "citation_locator": "corpus/documents/DOC-CHG-153.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-153-06",
+    "document_id": "DOC-CHG-153",
+    "citation_locator": "corpus/documents/DOC-CHG-153.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-CHG-153-07",
+    "document_id": "DOC-CHG-153",
+    "citation_locator": "corpus/documents/DOC-CHG-153.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-CHG-160-01",
+    "document_id": "DOC-CHG-160",
+    "citation_locator": "corpus/documents/DOC-CHG-160.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-160-02",
+    "document_id": "DOC-CHG-160",
+    "citation_locator": "corpus/documents/DOC-CHG-160.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-160-03",
+    "document_id": "DOC-CHG-160",
+    "citation_locator": "corpus/documents/DOC-CHG-160.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-160-04",
+    "document_id": "DOC-CHG-160",
+    "citation_locator": "corpus/documents/DOC-CHG-160.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-160-05",
+    "document_id": "DOC-CHG-160",
+    "citation_locator": "corpus/documents/DOC-CHG-160.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-160-06",
+    "document_id": "DOC-CHG-160",
+    "citation_locator": "corpus/documents/DOC-CHG-160.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-CHG-167-01",
+    "document_id": "DOC-CHG-167",
+    "citation_locator": "corpus/documents/DOC-CHG-167.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-167-02",
+    "document_id": "DOC-CHG-167",
+    "citation_locator": "corpus/documents/DOC-CHG-167.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-167-03",
+    "document_id": "DOC-CHG-167",
+    "citation_locator": "corpus/documents/DOC-CHG-167.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-167-04",
+    "document_id": "DOC-CHG-167",
+    "citation_locator": "corpus/documents/DOC-CHG-167.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-167-05",
+    "document_id": "DOC-CHG-167",
+    "citation_locator": "corpus/documents/DOC-CHG-167.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-167-06",
+    "document_id": "DOC-CHG-167",
+    "citation_locator": "corpus/documents/DOC-CHG-167.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-CHG-167-07",
+    "document_id": "DOC-CHG-167",
+    "citation_locator": "corpus/documents/DOC-CHG-167.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-CHG-172-01",
+    "document_id": "DOC-CHG-172",
+    "citation_locator": "corpus/documents/DOC-CHG-172.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-172-02",
+    "document_id": "DOC-CHG-172",
+    "citation_locator": "corpus/documents/DOC-CHG-172.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-172-03",
+    "document_id": "DOC-CHG-172",
+    "citation_locator": "corpus/documents/DOC-CHG-172.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-172-04",
+    "document_id": "DOC-CHG-172",
+    "citation_locator": "corpus/documents/DOC-CHG-172.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-172-05",
+    "document_id": "DOC-CHG-172",
+    "citation_locator": "corpus/documents/DOC-CHG-172.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-172-06",
+    "document_id": "DOC-CHG-172",
+    "citation_locator": "corpus/documents/DOC-CHG-172.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-CHG-172-07",
+    "document_id": "DOC-CHG-172",
+    "citation_locator": "corpus/documents/DOC-CHG-172.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-CHG-178-01",
+    "document_id": "DOC-CHG-178",
+    "citation_locator": "corpus/documents/DOC-CHG-178.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-178-02",
+    "document_id": "DOC-CHG-178",
+    "citation_locator": "corpus/documents/DOC-CHG-178.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-CHG-178-03",
+    "document_id": "DOC-CHG-178",
+    "citation_locator": "corpus/documents/DOC-CHG-178.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-178-04",
+    "document_id": "DOC-CHG-178",
+    "citation_locator": "corpus/documents/DOC-CHG-178.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-178-05",
+    "document_id": "DOC-CHG-178",
+    "citation_locator": "corpus/documents/DOC-CHG-178.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-CHG-178-06",
+    "document_id": "DOC-CHG-178",
+    "citation_locator": "corpus/documents/DOC-CHG-178.md#section-06",
+    "certainty": "untrusted"
+  },
+  {
+    "fact_id": "F-CHG-178-07",
+    "document_id": "DOC-CHG-178",
+    "citation_locator": "corpus/documents/DOC-CHG-178.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2025-006-01",
+    "document_id": "DOC-INC-2025-006",
+    "citation_locator": "corpus/documents/DOC-INC-2025-006.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-006-02",
+    "document_id": "DOC-INC-2025-006",
+    "citation_locator": "corpus/documents/DOC-INC-2025-006.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-006-03",
+    "document_id": "DOC-INC-2025-006",
+    "citation_locator": "corpus/documents/DOC-INC-2025-006.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-006-04",
+    "document_id": "DOC-INC-2025-006",
+    "citation_locator": "corpus/documents/DOC-INC-2025-006.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-006-05",
+    "document_id": "DOC-INC-2025-006",
+    "citation_locator": "corpus/documents/DOC-INC-2025-006.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-006-06",
+    "document_id": "DOC-INC-2025-006",
+    "citation_locator": "corpus/documents/DOC-INC-2025-006.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-006-07",
+    "document_id": "DOC-INC-2025-006",
+    "citation_locator": "corpus/documents/DOC-INC-2025-006.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2025-006-08",
+    "document_id": "DOC-INC-2025-006",
+    "citation_locator": "corpus/documents/DOC-INC-2025-006.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2025-008-01",
+    "document_id": "DOC-INC-2025-008",
+    "citation_locator": "corpus/documents/DOC-INC-2025-008.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-008-02",
+    "document_id": "DOC-INC-2025-008",
+    "citation_locator": "corpus/documents/DOC-INC-2025-008.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-008-03",
+    "document_id": "DOC-INC-2025-008",
+    "citation_locator": "corpus/documents/DOC-INC-2025-008.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-008-04",
+    "document_id": "DOC-INC-2025-008",
+    "citation_locator": "corpus/documents/DOC-INC-2025-008.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-008-05",
+    "document_id": "DOC-INC-2025-008",
+    "citation_locator": "corpus/documents/DOC-INC-2025-008.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-008-06",
+    "document_id": "DOC-INC-2025-008",
+    "citation_locator": "corpus/documents/DOC-INC-2025-008.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-008-07",
+    "document_id": "DOC-INC-2025-008",
+    "citation_locator": "corpus/documents/DOC-INC-2025-008.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2025-008-08",
+    "document_id": "DOC-INC-2025-008",
+    "citation_locator": "corpus/documents/DOC-INC-2025-008.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2025-009-01",
+    "document_id": "DOC-INC-2025-009",
+    "citation_locator": "corpus/documents/DOC-INC-2025-009.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-009-02",
+    "document_id": "DOC-INC-2025-009",
+    "citation_locator": "corpus/documents/DOC-INC-2025-009.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-009-03",
+    "document_id": "DOC-INC-2025-009",
+    "citation_locator": "corpus/documents/DOC-INC-2025-009.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-009-04",
+    "document_id": "DOC-INC-2025-009",
+    "citation_locator": "corpus/documents/DOC-INC-2025-009.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-009-05",
+    "document_id": "DOC-INC-2025-009",
+    "citation_locator": "corpus/documents/DOC-INC-2025-009.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-009-06",
+    "document_id": "DOC-INC-2025-009",
+    "citation_locator": "corpus/documents/DOC-INC-2025-009.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-009-07",
+    "document_id": "DOC-INC-2025-009",
+    "citation_locator": "corpus/documents/DOC-INC-2025-009.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2025-009-08",
+    "document_id": "DOC-INC-2025-009",
+    "citation_locator": "corpus/documents/DOC-INC-2025-009.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2025-011-01",
+    "document_id": "DOC-INC-2025-011",
+    "citation_locator": "corpus/documents/DOC-INC-2025-011.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-011-02",
+    "document_id": "DOC-INC-2025-011",
+    "citation_locator": "corpus/documents/DOC-INC-2025-011.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-011-03",
+    "document_id": "DOC-INC-2025-011",
+    "citation_locator": "corpus/documents/DOC-INC-2025-011.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-011-04",
+    "document_id": "DOC-INC-2025-011",
+    "citation_locator": "corpus/documents/DOC-INC-2025-011.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-011-05",
+    "document_id": "DOC-INC-2025-011",
+    "citation_locator": "corpus/documents/DOC-INC-2025-011.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-011-06",
+    "document_id": "DOC-INC-2025-011",
+    "citation_locator": "corpus/documents/DOC-INC-2025-011.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-011-07",
+    "document_id": "DOC-INC-2025-011",
+    "citation_locator": "corpus/documents/DOC-INC-2025-011.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2025-011-08",
+    "document_id": "DOC-INC-2025-011",
+    "citation_locator": "corpus/documents/DOC-INC-2025-011.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2025-012-01",
+    "document_id": "DOC-INC-2025-012",
+    "citation_locator": "corpus/documents/DOC-INC-2025-012.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-012-02",
+    "document_id": "DOC-INC-2025-012",
+    "citation_locator": "corpus/documents/DOC-INC-2025-012.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-012-03",
+    "document_id": "DOC-INC-2025-012",
+    "citation_locator": "corpus/documents/DOC-INC-2025-012.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-012-04",
+    "document_id": "DOC-INC-2025-012",
+    "citation_locator": "corpus/documents/DOC-INC-2025-012.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-012-05",
+    "document_id": "DOC-INC-2025-012",
+    "citation_locator": "corpus/documents/DOC-INC-2025-012.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-012-06",
+    "document_id": "DOC-INC-2025-012",
+    "citation_locator": "corpus/documents/DOC-INC-2025-012.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-012-07",
+    "document_id": "DOC-INC-2025-012",
+    "citation_locator": "corpus/documents/DOC-INC-2025-012.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2025-012-08",
+    "document_id": "DOC-INC-2025-012",
+    "citation_locator": "corpus/documents/DOC-INC-2025-012.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2025-014-01",
+    "document_id": "DOC-INC-2025-014",
+    "citation_locator": "corpus/documents/DOC-INC-2025-014.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-014-02",
+    "document_id": "DOC-INC-2025-014",
+    "citation_locator": "corpus/documents/DOC-INC-2025-014.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-014-03",
+    "document_id": "DOC-INC-2025-014",
+    "citation_locator": "corpus/documents/DOC-INC-2025-014.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-014-04",
+    "document_id": "DOC-INC-2025-014",
+    "citation_locator": "corpus/documents/DOC-INC-2025-014.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-014-05",
+    "document_id": "DOC-INC-2025-014",
+    "citation_locator": "corpus/documents/DOC-INC-2025-014.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-014-06",
+    "document_id": "DOC-INC-2025-014",
+    "citation_locator": "corpus/documents/DOC-INC-2025-014.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-014-07",
+    "document_id": "DOC-INC-2025-014",
+    "citation_locator": "corpus/documents/DOC-INC-2025-014.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2025-014-08",
+    "document_id": "DOC-INC-2025-014",
+    "citation_locator": "corpus/documents/DOC-INC-2025-014.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2025-018-01",
+    "document_id": "DOC-INC-2025-018",
+    "citation_locator": "corpus/documents/DOC-INC-2025-018.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-018-02",
+    "document_id": "DOC-INC-2025-018",
+    "citation_locator": "corpus/documents/DOC-INC-2025-018.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-018-03",
+    "document_id": "DOC-INC-2025-018",
+    "citation_locator": "corpus/documents/DOC-INC-2025-018.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-018-04",
+    "document_id": "DOC-INC-2025-018",
+    "citation_locator": "corpus/documents/DOC-INC-2025-018.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-018-05",
+    "document_id": "DOC-INC-2025-018",
+    "citation_locator": "corpus/documents/DOC-INC-2025-018.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-018-06",
+    "document_id": "DOC-INC-2025-018",
+    "citation_locator": "corpus/documents/DOC-INC-2025-018.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-018-07",
+    "document_id": "DOC-INC-2025-018",
+    "citation_locator": "corpus/documents/DOC-INC-2025-018.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2025-018-08",
+    "document_id": "DOC-INC-2025-018",
+    "citation_locator": "corpus/documents/DOC-INC-2025-018.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2025-021-01",
+    "document_id": "DOC-INC-2025-021",
+    "citation_locator": "corpus/documents/DOC-INC-2025-021.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-021-02",
+    "document_id": "DOC-INC-2025-021",
+    "citation_locator": "corpus/documents/DOC-INC-2025-021.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-021-03",
+    "document_id": "DOC-INC-2025-021",
+    "citation_locator": "corpus/documents/DOC-INC-2025-021.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-021-04",
+    "document_id": "DOC-INC-2025-021",
+    "citation_locator": "corpus/documents/DOC-INC-2025-021.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-021-05",
+    "document_id": "DOC-INC-2025-021",
+    "citation_locator": "corpus/documents/DOC-INC-2025-021.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-021-06",
+    "document_id": "DOC-INC-2025-021",
+    "citation_locator": "corpus/documents/DOC-INC-2025-021.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-021-07",
+    "document_id": "DOC-INC-2025-021",
+    "citation_locator": "corpus/documents/DOC-INC-2025-021.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2025-021-08",
+    "document_id": "DOC-INC-2025-021",
+    "citation_locator": "corpus/documents/DOC-INC-2025-021.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2025-026-01",
+    "document_id": "DOC-INC-2025-026",
+    "citation_locator": "corpus/documents/DOC-INC-2025-026.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-026-02",
+    "document_id": "DOC-INC-2025-026",
+    "citation_locator": "corpus/documents/DOC-INC-2025-026.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-026-03",
+    "document_id": "DOC-INC-2025-026",
+    "citation_locator": "corpus/documents/DOC-INC-2025-026.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-026-04",
+    "document_id": "DOC-INC-2025-026",
+    "citation_locator": "corpus/documents/DOC-INC-2025-026.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-026-05",
+    "document_id": "DOC-INC-2025-026",
+    "citation_locator": "corpus/documents/DOC-INC-2025-026.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-026-06",
+    "document_id": "DOC-INC-2025-026",
+    "citation_locator": "corpus/documents/DOC-INC-2025-026.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-026-07",
+    "document_id": "DOC-INC-2025-026",
+    "citation_locator": "corpus/documents/DOC-INC-2025-026.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2025-026-08",
+    "document_id": "DOC-INC-2025-026",
+    "citation_locator": "corpus/documents/DOC-INC-2025-026.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2025-031-01",
+    "document_id": "DOC-INC-2025-031",
+    "citation_locator": "corpus/documents/DOC-INC-2025-031.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-031-02",
+    "document_id": "DOC-INC-2025-031",
+    "citation_locator": "corpus/documents/DOC-INC-2025-031.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-031-03",
+    "document_id": "DOC-INC-2025-031",
+    "citation_locator": "corpus/documents/DOC-INC-2025-031.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-031-04",
+    "document_id": "DOC-INC-2025-031",
+    "citation_locator": "corpus/documents/DOC-INC-2025-031.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-031-05",
+    "document_id": "DOC-INC-2025-031",
+    "citation_locator": "corpus/documents/DOC-INC-2025-031.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-031-06",
+    "document_id": "DOC-INC-2025-031",
+    "citation_locator": "corpus/documents/DOC-INC-2025-031.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-031-07",
+    "document_id": "DOC-INC-2025-031",
+    "citation_locator": "corpus/documents/DOC-INC-2025-031.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2025-031-08",
+    "document_id": "DOC-INC-2025-031",
+    "citation_locator": "corpus/documents/DOC-INC-2025-031.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2025-034-01",
+    "document_id": "DOC-INC-2025-034",
+    "citation_locator": "corpus/documents/DOC-INC-2025-034.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-034-02",
+    "document_id": "DOC-INC-2025-034",
+    "citation_locator": "corpus/documents/DOC-INC-2025-034.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-034-03",
+    "document_id": "DOC-INC-2025-034",
+    "citation_locator": "corpus/documents/DOC-INC-2025-034.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-034-04",
+    "document_id": "DOC-INC-2025-034",
+    "citation_locator": "corpus/documents/DOC-INC-2025-034.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-034-05",
+    "document_id": "DOC-INC-2025-034",
+    "citation_locator": "corpus/documents/DOC-INC-2025-034.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-034-06",
+    "document_id": "DOC-INC-2025-034",
+    "citation_locator": "corpus/documents/DOC-INC-2025-034.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2025-034-07",
+    "document_id": "DOC-INC-2025-034",
+    "citation_locator": "corpus/documents/DOC-INC-2025-034.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2025-034-08",
+    "document_id": "DOC-INC-2025-034",
+    "citation_locator": "corpus/documents/DOC-INC-2025-034.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-006-01",
+    "document_id": "DOC-INC-2026-006",
+    "citation_locator": "corpus/documents/DOC-INC-2026-006.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-006-02",
+    "document_id": "DOC-INC-2026-006",
+    "citation_locator": "corpus/documents/DOC-INC-2026-006.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-006-03",
+    "document_id": "DOC-INC-2026-006",
+    "citation_locator": "corpus/documents/DOC-INC-2026-006.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-006-04",
+    "document_id": "DOC-INC-2026-006",
+    "citation_locator": "corpus/documents/DOC-INC-2026-006.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-006-05",
+    "document_id": "DOC-INC-2026-006",
+    "citation_locator": "corpus/documents/DOC-INC-2026-006.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-006-06",
+    "document_id": "DOC-INC-2026-006",
+    "citation_locator": "corpus/documents/DOC-INC-2026-006.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-006-07",
+    "document_id": "DOC-INC-2026-006",
+    "citation_locator": "corpus/documents/DOC-INC-2026-006.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-006-08",
+    "document_id": "DOC-INC-2026-006",
+    "citation_locator": "corpus/documents/DOC-INC-2026-006.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-011-01",
+    "document_id": "DOC-INC-2026-011",
+    "citation_locator": "corpus/documents/DOC-INC-2026-011.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-011-02",
+    "document_id": "DOC-INC-2026-011",
+    "citation_locator": "corpus/documents/DOC-INC-2026-011.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-011-03",
+    "document_id": "DOC-INC-2026-011",
+    "citation_locator": "corpus/documents/DOC-INC-2026-011.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-011-04",
+    "document_id": "DOC-INC-2026-011",
+    "citation_locator": "corpus/documents/DOC-INC-2026-011.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-011-05",
+    "document_id": "DOC-INC-2026-011",
+    "citation_locator": "corpus/documents/DOC-INC-2026-011.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-011-06",
+    "document_id": "DOC-INC-2026-011",
+    "citation_locator": "corpus/documents/DOC-INC-2026-011.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-011-07",
+    "document_id": "DOC-INC-2026-011",
+    "citation_locator": "corpus/documents/DOC-INC-2026-011.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-011-08",
+    "document_id": "DOC-INC-2026-011",
+    "citation_locator": "corpus/documents/DOC-INC-2026-011.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-013-01",
+    "document_id": "DOC-INC-2026-013",
+    "citation_locator": "corpus/documents/DOC-INC-2026-013.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-013-02",
+    "document_id": "DOC-INC-2026-013",
+    "citation_locator": "corpus/documents/DOC-INC-2026-013.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-013-03",
+    "document_id": "DOC-INC-2026-013",
+    "citation_locator": "corpus/documents/DOC-INC-2026-013.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-013-04",
+    "document_id": "DOC-INC-2026-013",
+    "citation_locator": "corpus/documents/DOC-INC-2026-013.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-013-05",
+    "document_id": "DOC-INC-2026-013",
+    "citation_locator": "corpus/documents/DOC-INC-2026-013.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-013-06",
+    "document_id": "DOC-INC-2026-013",
+    "citation_locator": "corpus/documents/DOC-INC-2026-013.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-013-07",
+    "document_id": "DOC-INC-2026-013",
+    "citation_locator": "corpus/documents/DOC-INC-2026-013.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-013-08",
+    "document_id": "DOC-INC-2026-013",
+    "citation_locator": "corpus/documents/DOC-INC-2026-013.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-016-01",
+    "document_id": "DOC-INC-2026-016",
+    "citation_locator": "corpus/documents/DOC-INC-2026-016.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-016-02",
+    "document_id": "DOC-INC-2026-016",
+    "citation_locator": "corpus/documents/DOC-INC-2026-016.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-016-03",
+    "document_id": "DOC-INC-2026-016",
+    "citation_locator": "corpus/documents/DOC-INC-2026-016.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-016-04",
+    "document_id": "DOC-INC-2026-016",
+    "citation_locator": "corpus/documents/DOC-INC-2026-016.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-016-05",
+    "document_id": "DOC-INC-2026-016",
+    "citation_locator": "corpus/documents/DOC-INC-2026-016.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-016-06",
+    "document_id": "DOC-INC-2026-016",
+    "citation_locator": "corpus/documents/DOC-INC-2026-016.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-016-07",
+    "document_id": "DOC-INC-2026-016",
+    "citation_locator": "corpus/documents/DOC-INC-2026-016.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-016-08",
+    "document_id": "DOC-INC-2026-016",
+    "citation_locator": "corpus/documents/DOC-INC-2026-016.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-017-01",
+    "document_id": "DOC-INC-2026-017",
+    "citation_locator": "corpus/documents/DOC-INC-2026-017.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-017-02",
+    "document_id": "DOC-INC-2026-017",
+    "citation_locator": "corpus/documents/DOC-INC-2026-017.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-017-03",
+    "document_id": "DOC-INC-2026-017",
+    "citation_locator": "corpus/documents/DOC-INC-2026-017.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-017-04",
+    "document_id": "DOC-INC-2026-017",
+    "citation_locator": "corpus/documents/DOC-INC-2026-017.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-017-05",
+    "document_id": "DOC-INC-2026-017",
+    "citation_locator": "corpus/documents/DOC-INC-2026-017.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-017-06",
+    "document_id": "DOC-INC-2026-017",
+    "citation_locator": "corpus/documents/DOC-INC-2026-017.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-017-07",
+    "document_id": "DOC-INC-2026-017",
+    "citation_locator": "corpus/documents/DOC-INC-2026-017.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-017-08",
+    "document_id": "DOC-INC-2026-017",
+    "citation_locator": "corpus/documents/DOC-INC-2026-017.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-019-01",
+    "document_id": "DOC-INC-2026-019",
+    "citation_locator": "corpus/documents/DOC-INC-2026-019.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-019-02",
+    "document_id": "DOC-INC-2026-019",
+    "citation_locator": "corpus/documents/DOC-INC-2026-019.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-019-03",
+    "document_id": "DOC-INC-2026-019",
+    "citation_locator": "corpus/documents/DOC-INC-2026-019.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-019-04",
+    "document_id": "DOC-INC-2026-019",
+    "citation_locator": "corpus/documents/DOC-INC-2026-019.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-019-05",
+    "document_id": "DOC-INC-2026-019",
+    "citation_locator": "corpus/documents/DOC-INC-2026-019.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-019-06",
+    "document_id": "DOC-INC-2026-019",
+    "citation_locator": "corpus/documents/DOC-INC-2026-019.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-019-07",
+    "document_id": "DOC-INC-2026-019",
+    "citation_locator": "corpus/documents/DOC-INC-2026-019.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-019-08",
+    "document_id": "DOC-INC-2026-019",
+    "citation_locator": "corpus/documents/DOC-INC-2026-019.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-022-01",
+    "document_id": "DOC-INC-2026-022",
+    "citation_locator": "corpus/documents/DOC-INC-2026-022.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-022-02",
+    "document_id": "DOC-INC-2026-022",
+    "citation_locator": "corpus/documents/DOC-INC-2026-022.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-022-03",
+    "document_id": "DOC-INC-2026-022",
+    "citation_locator": "corpus/documents/DOC-INC-2026-022.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-022-04",
+    "document_id": "DOC-INC-2026-022",
+    "citation_locator": "corpus/documents/DOC-INC-2026-022.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-022-05",
+    "document_id": "DOC-INC-2026-022",
+    "citation_locator": "corpus/documents/DOC-INC-2026-022.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-022-06",
+    "document_id": "DOC-INC-2026-022",
+    "citation_locator": "corpus/documents/DOC-INC-2026-022.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-022-07",
+    "document_id": "DOC-INC-2026-022",
+    "citation_locator": "corpus/documents/DOC-INC-2026-022.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-022-08",
+    "document_id": "DOC-INC-2026-022",
+    "citation_locator": "corpus/documents/DOC-INC-2026-022.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-024-01",
+    "document_id": "DOC-INC-2026-024",
+    "citation_locator": "corpus/documents/DOC-INC-2026-024.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-024-02",
+    "document_id": "DOC-INC-2026-024",
+    "citation_locator": "corpus/documents/DOC-INC-2026-024.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-024-03",
+    "document_id": "DOC-INC-2026-024",
+    "citation_locator": "corpus/documents/DOC-INC-2026-024.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-024-04",
+    "document_id": "DOC-INC-2026-024",
+    "citation_locator": "corpus/documents/DOC-INC-2026-024.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-024-05",
+    "document_id": "DOC-INC-2026-024",
+    "citation_locator": "corpus/documents/DOC-INC-2026-024.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-024-06",
+    "document_id": "DOC-INC-2026-024",
+    "citation_locator": "corpus/documents/DOC-INC-2026-024.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-024-07",
+    "document_id": "DOC-INC-2026-024",
+    "citation_locator": "corpus/documents/DOC-INC-2026-024.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-024-08",
+    "document_id": "DOC-INC-2026-024",
+    "citation_locator": "corpus/documents/DOC-INC-2026-024.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-025-01",
+    "document_id": "DOC-INC-2026-025",
+    "citation_locator": "corpus/documents/DOC-INC-2026-025.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-025-02",
+    "document_id": "DOC-INC-2026-025",
+    "citation_locator": "corpus/documents/DOC-INC-2026-025.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-025-03",
+    "document_id": "DOC-INC-2026-025",
+    "citation_locator": "corpus/documents/DOC-INC-2026-025.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-025-04",
+    "document_id": "DOC-INC-2026-025",
+    "citation_locator": "corpus/documents/DOC-INC-2026-025.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-025-05",
+    "document_id": "DOC-INC-2026-025",
+    "citation_locator": "corpus/documents/DOC-INC-2026-025.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-025-06",
+    "document_id": "DOC-INC-2026-025",
+    "citation_locator": "corpus/documents/DOC-INC-2026-025.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-025-07",
+    "document_id": "DOC-INC-2026-025",
+    "citation_locator": "corpus/documents/DOC-INC-2026-025.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-025-08",
+    "document_id": "DOC-INC-2026-025",
+    "citation_locator": "corpus/documents/DOC-INC-2026-025.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-029-01",
+    "document_id": "DOC-INC-2026-029",
+    "citation_locator": "corpus/documents/DOC-INC-2026-029.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-029-02",
+    "document_id": "DOC-INC-2026-029",
+    "citation_locator": "corpus/documents/DOC-INC-2026-029.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-029-03",
+    "document_id": "DOC-INC-2026-029",
+    "citation_locator": "corpus/documents/DOC-INC-2026-029.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-029-04",
+    "document_id": "DOC-INC-2026-029",
+    "citation_locator": "corpus/documents/DOC-INC-2026-029.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-029-05",
+    "document_id": "DOC-INC-2026-029",
+    "citation_locator": "corpus/documents/DOC-INC-2026-029.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-029-06",
+    "document_id": "DOC-INC-2026-029",
+    "citation_locator": "corpus/documents/DOC-INC-2026-029.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-029-07",
+    "document_id": "DOC-INC-2026-029",
+    "citation_locator": "corpus/documents/DOC-INC-2026-029.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-029-08",
+    "document_id": "DOC-INC-2026-029",
+    "citation_locator": "corpus/documents/DOC-INC-2026-029.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-030-01",
+    "document_id": "DOC-INC-2026-030",
+    "citation_locator": "corpus/documents/DOC-INC-2026-030.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-030-02",
+    "document_id": "DOC-INC-2026-030",
+    "citation_locator": "corpus/documents/DOC-INC-2026-030.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-030-03",
+    "document_id": "DOC-INC-2026-030",
+    "citation_locator": "corpus/documents/DOC-INC-2026-030.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-030-04",
+    "document_id": "DOC-INC-2026-030",
+    "citation_locator": "corpus/documents/DOC-INC-2026-030.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-030-05",
+    "document_id": "DOC-INC-2026-030",
+    "citation_locator": "corpus/documents/DOC-INC-2026-030.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-030-06",
+    "document_id": "DOC-INC-2026-030",
+    "citation_locator": "corpus/documents/DOC-INC-2026-030.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-030-07",
+    "document_id": "DOC-INC-2026-030",
+    "citation_locator": "corpus/documents/DOC-INC-2026-030.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-030-08",
+    "document_id": "DOC-INC-2026-030",
+    "citation_locator": "corpus/documents/DOC-INC-2026-030.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-032-01",
+    "document_id": "DOC-INC-2026-032",
+    "citation_locator": "corpus/documents/DOC-INC-2026-032.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-032-02",
+    "document_id": "DOC-INC-2026-032",
+    "citation_locator": "corpus/documents/DOC-INC-2026-032.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-032-03",
+    "document_id": "DOC-INC-2026-032",
+    "citation_locator": "corpus/documents/DOC-INC-2026-032.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-032-04",
+    "document_id": "DOC-INC-2026-032",
+    "citation_locator": "corpus/documents/DOC-INC-2026-032.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-032-05",
+    "document_id": "DOC-INC-2026-032",
+    "citation_locator": "corpus/documents/DOC-INC-2026-032.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-032-06",
+    "document_id": "DOC-INC-2026-032",
+    "citation_locator": "corpus/documents/DOC-INC-2026-032.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-032-07",
+    "document_id": "DOC-INC-2026-032",
+    "citation_locator": "corpus/documents/DOC-INC-2026-032.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-032-08",
+    "document_id": "DOC-INC-2026-032",
+    "citation_locator": "corpus/documents/DOC-INC-2026-032.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-033-01",
+    "document_id": "DOC-INC-2026-033",
+    "citation_locator": "corpus/documents/DOC-INC-2026-033.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-033-02",
+    "document_id": "DOC-INC-2026-033",
+    "citation_locator": "corpus/documents/DOC-INC-2026-033.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-033-03",
+    "document_id": "DOC-INC-2026-033",
+    "citation_locator": "corpus/documents/DOC-INC-2026-033.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-033-04",
+    "document_id": "DOC-INC-2026-033",
+    "citation_locator": "corpus/documents/DOC-INC-2026-033.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-033-05",
+    "document_id": "DOC-INC-2026-033",
+    "citation_locator": "corpus/documents/DOC-INC-2026-033.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-033-06",
+    "document_id": "DOC-INC-2026-033",
+    "citation_locator": "corpus/documents/DOC-INC-2026-033.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-033-07",
+    "document_id": "DOC-INC-2026-033",
+    "citation_locator": "corpus/documents/DOC-INC-2026-033.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-033-08",
+    "document_id": "DOC-INC-2026-033",
+    "citation_locator": "corpus/documents/DOC-INC-2026-033.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-035-01",
+    "document_id": "DOC-INC-2026-035",
+    "citation_locator": "corpus/documents/DOC-INC-2026-035.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-035-02",
+    "document_id": "DOC-INC-2026-035",
+    "citation_locator": "corpus/documents/DOC-INC-2026-035.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-035-03",
+    "document_id": "DOC-INC-2026-035",
+    "citation_locator": "corpus/documents/DOC-INC-2026-035.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-035-04",
+    "document_id": "DOC-INC-2026-035",
+    "citation_locator": "corpus/documents/DOC-INC-2026-035.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-035-05",
+    "document_id": "DOC-INC-2026-035",
+    "citation_locator": "corpus/documents/DOC-INC-2026-035.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-035-06",
+    "document_id": "DOC-INC-2026-035",
+    "citation_locator": "corpus/documents/DOC-INC-2026-035.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-035-07",
+    "document_id": "DOC-INC-2026-035",
+    "citation_locator": "corpus/documents/DOC-INC-2026-035.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-035-08",
+    "document_id": "DOC-INC-2026-035",
+    "citation_locator": "corpus/documents/DOC-INC-2026-035.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-038-01",
+    "document_id": "DOC-INC-2026-038",
+    "citation_locator": "corpus/documents/DOC-INC-2026-038.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-038-02",
+    "document_id": "DOC-INC-2026-038",
+    "citation_locator": "corpus/documents/DOC-INC-2026-038.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-038-03",
+    "document_id": "DOC-INC-2026-038",
+    "citation_locator": "corpus/documents/DOC-INC-2026-038.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-038-04",
+    "document_id": "DOC-INC-2026-038",
+    "citation_locator": "corpus/documents/DOC-INC-2026-038.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-038-05",
+    "document_id": "DOC-INC-2026-038",
+    "citation_locator": "corpus/documents/DOC-INC-2026-038.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-038-06",
+    "document_id": "DOC-INC-2026-038",
+    "citation_locator": "corpus/documents/DOC-INC-2026-038.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-038-07",
+    "document_id": "DOC-INC-2026-038",
+    "citation_locator": "corpus/documents/DOC-INC-2026-038.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-038-08",
+    "document_id": "DOC-INC-2026-038",
+    "citation_locator": "corpus/documents/DOC-INC-2026-038.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-040-01",
+    "document_id": "DOC-INC-2026-040",
+    "citation_locator": "corpus/documents/DOC-INC-2026-040.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-040-02",
+    "document_id": "DOC-INC-2026-040",
+    "citation_locator": "corpus/documents/DOC-INC-2026-040.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-040-03",
+    "document_id": "DOC-INC-2026-040",
+    "citation_locator": "corpus/documents/DOC-INC-2026-040.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-040-04",
+    "document_id": "DOC-INC-2026-040",
+    "citation_locator": "corpus/documents/DOC-INC-2026-040.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-040-05",
+    "document_id": "DOC-INC-2026-040",
+    "citation_locator": "corpus/documents/DOC-INC-2026-040.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-040-06",
+    "document_id": "DOC-INC-2026-040",
+    "citation_locator": "corpus/documents/DOC-INC-2026-040.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-040-07",
+    "document_id": "DOC-INC-2026-040",
+    "citation_locator": "corpus/documents/DOC-INC-2026-040.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-040-08",
+    "document_id": "DOC-INC-2026-040",
+    "citation_locator": "corpus/documents/DOC-INC-2026-040.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-041-01",
+    "document_id": "DOC-INC-2026-041",
+    "citation_locator": "corpus/documents/DOC-INC-2026-041.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-041-02",
+    "document_id": "DOC-INC-2026-041",
+    "citation_locator": "corpus/documents/DOC-INC-2026-041.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-041-03",
+    "document_id": "DOC-INC-2026-041",
+    "citation_locator": "corpus/documents/DOC-INC-2026-041.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-041-04",
+    "document_id": "DOC-INC-2026-041",
+    "citation_locator": "corpus/documents/DOC-INC-2026-041.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-041-05",
+    "document_id": "DOC-INC-2026-041",
+    "citation_locator": "corpus/documents/DOC-INC-2026-041.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-041-06",
+    "document_id": "DOC-INC-2026-041",
+    "citation_locator": "corpus/documents/DOC-INC-2026-041.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-041-07",
+    "document_id": "DOC-INC-2026-041",
+    "citation_locator": "corpus/documents/DOC-INC-2026-041.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-041-08",
+    "document_id": "DOC-INC-2026-041",
+    "citation_locator": "corpus/documents/DOC-INC-2026-041.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-043-01",
+    "document_id": "DOC-INC-2026-043",
+    "citation_locator": "corpus/documents/DOC-INC-2026-043.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-043-02",
+    "document_id": "DOC-INC-2026-043",
+    "citation_locator": "corpus/documents/DOC-INC-2026-043.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-043-03",
+    "document_id": "DOC-INC-2026-043",
+    "citation_locator": "corpus/documents/DOC-INC-2026-043.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-043-04",
+    "document_id": "DOC-INC-2026-043",
+    "citation_locator": "corpus/documents/DOC-INC-2026-043.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-043-05",
+    "document_id": "DOC-INC-2026-043",
+    "citation_locator": "corpus/documents/DOC-INC-2026-043.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-043-06",
+    "document_id": "DOC-INC-2026-043",
+    "citation_locator": "corpus/documents/DOC-INC-2026-043.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-043-07",
+    "document_id": "DOC-INC-2026-043",
+    "citation_locator": "corpus/documents/DOC-INC-2026-043.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-043-08",
+    "document_id": "DOC-INC-2026-043",
+    "citation_locator": "corpus/documents/DOC-INC-2026-043.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-046-01",
+    "document_id": "DOC-INC-2026-046",
+    "citation_locator": "corpus/documents/DOC-INC-2026-046.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-046-02",
+    "document_id": "DOC-INC-2026-046",
+    "citation_locator": "corpus/documents/DOC-INC-2026-046.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-046-03",
+    "document_id": "DOC-INC-2026-046",
+    "citation_locator": "corpus/documents/DOC-INC-2026-046.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-046-04",
+    "document_id": "DOC-INC-2026-046",
+    "citation_locator": "corpus/documents/DOC-INC-2026-046.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-046-05",
+    "document_id": "DOC-INC-2026-046",
+    "citation_locator": "corpus/documents/DOC-INC-2026-046.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-046-06",
+    "document_id": "DOC-INC-2026-046",
+    "citation_locator": "corpus/documents/DOC-INC-2026-046.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-046-07",
+    "document_id": "DOC-INC-2026-046",
+    "citation_locator": "corpus/documents/DOC-INC-2026-046.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-046-08",
+    "document_id": "DOC-INC-2026-046",
+    "citation_locator": "corpus/documents/DOC-INC-2026-046.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-047-01",
+    "document_id": "DOC-INC-2026-047",
+    "citation_locator": "corpus/documents/DOC-INC-2026-047.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-047-02",
+    "document_id": "DOC-INC-2026-047",
+    "citation_locator": "corpus/documents/DOC-INC-2026-047.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-047-03",
+    "document_id": "DOC-INC-2026-047",
+    "citation_locator": "corpus/documents/DOC-INC-2026-047.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-047-04",
+    "document_id": "DOC-INC-2026-047",
+    "citation_locator": "corpus/documents/DOC-INC-2026-047.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-047-05",
+    "document_id": "DOC-INC-2026-047",
+    "citation_locator": "corpus/documents/DOC-INC-2026-047.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-047-06",
+    "document_id": "DOC-INC-2026-047",
+    "citation_locator": "corpus/documents/DOC-INC-2026-047.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-047-07",
+    "document_id": "DOC-INC-2026-047",
+    "citation_locator": "corpus/documents/DOC-INC-2026-047.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-047-08",
+    "document_id": "DOC-INC-2026-047",
+    "citation_locator": "corpus/documents/DOC-INC-2026-047.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-049-01",
+    "document_id": "DOC-INC-2026-049",
+    "citation_locator": "corpus/documents/DOC-INC-2026-049.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-049-02",
+    "document_id": "DOC-INC-2026-049",
+    "citation_locator": "corpus/documents/DOC-INC-2026-049.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-049-03",
+    "document_id": "DOC-INC-2026-049",
+    "citation_locator": "corpus/documents/DOC-INC-2026-049.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-049-04",
+    "document_id": "DOC-INC-2026-049",
+    "citation_locator": "corpus/documents/DOC-INC-2026-049.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-049-05",
+    "document_id": "DOC-INC-2026-049",
+    "citation_locator": "corpus/documents/DOC-INC-2026-049.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-049-06",
+    "document_id": "DOC-INC-2026-049",
+    "citation_locator": "corpus/documents/DOC-INC-2026-049.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-049-07",
+    "document_id": "DOC-INC-2026-049",
+    "citation_locator": "corpus/documents/DOC-INC-2026-049.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-049-08",
+    "document_id": "DOC-INC-2026-049",
+    "citation_locator": "corpus/documents/DOC-INC-2026-049.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-050-01",
+    "document_id": "DOC-INC-2026-050",
+    "citation_locator": "corpus/documents/DOC-INC-2026-050.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-050-02",
+    "document_id": "DOC-INC-2026-050",
+    "citation_locator": "corpus/documents/DOC-INC-2026-050.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-050-03",
+    "document_id": "DOC-INC-2026-050",
+    "citation_locator": "corpus/documents/DOC-INC-2026-050.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-050-04",
+    "document_id": "DOC-INC-2026-050",
+    "citation_locator": "corpus/documents/DOC-INC-2026-050.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-050-05",
+    "document_id": "DOC-INC-2026-050",
+    "citation_locator": "corpus/documents/DOC-INC-2026-050.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-050-06",
+    "document_id": "DOC-INC-2026-050",
+    "citation_locator": "corpus/documents/DOC-INC-2026-050.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-050-07",
+    "document_id": "DOC-INC-2026-050",
+    "citation_locator": "corpus/documents/DOC-INC-2026-050.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-050-08",
+    "document_id": "DOC-INC-2026-050",
+    "citation_locator": "corpus/documents/DOC-INC-2026-050.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-051-01",
+    "document_id": "DOC-INC-2026-051",
+    "citation_locator": "corpus/documents/DOC-INC-2026-051.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-051-02",
+    "document_id": "DOC-INC-2026-051",
+    "citation_locator": "corpus/documents/DOC-INC-2026-051.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-051-03",
+    "document_id": "DOC-INC-2026-051",
+    "citation_locator": "corpus/documents/DOC-INC-2026-051.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-051-04",
+    "document_id": "DOC-INC-2026-051",
+    "citation_locator": "corpus/documents/DOC-INC-2026-051.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-051-05",
+    "document_id": "DOC-INC-2026-051",
+    "citation_locator": "corpus/documents/DOC-INC-2026-051.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-051-06",
+    "document_id": "DOC-INC-2026-051",
+    "citation_locator": "corpus/documents/DOC-INC-2026-051.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-051-07",
+    "document_id": "DOC-INC-2026-051",
+    "citation_locator": "corpus/documents/DOC-INC-2026-051.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-051-08",
+    "document_id": "DOC-INC-2026-051",
+    "citation_locator": "corpus/documents/DOC-INC-2026-051.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-052-01",
+    "document_id": "DOC-INC-2026-052",
+    "citation_locator": "corpus/documents/DOC-INC-2026-052.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-052-02",
+    "document_id": "DOC-INC-2026-052",
+    "citation_locator": "corpus/documents/DOC-INC-2026-052.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-052-03",
+    "document_id": "DOC-INC-2026-052",
+    "citation_locator": "corpus/documents/DOC-INC-2026-052.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-052-04",
+    "document_id": "DOC-INC-2026-052",
+    "citation_locator": "corpus/documents/DOC-INC-2026-052.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-052-05",
+    "document_id": "DOC-INC-2026-052",
+    "citation_locator": "corpus/documents/DOC-INC-2026-052.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-052-06",
+    "document_id": "DOC-INC-2026-052",
+    "citation_locator": "corpus/documents/DOC-INC-2026-052.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-052-07",
+    "document_id": "DOC-INC-2026-052",
+    "citation_locator": "corpus/documents/DOC-INC-2026-052.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-052-08",
+    "document_id": "DOC-INC-2026-052",
+    "citation_locator": "corpus/documents/DOC-INC-2026-052.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-INC-2026-054-01",
+    "document_id": "DOC-INC-2026-054",
+    "citation_locator": "corpus/documents/DOC-INC-2026-054.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-054-02",
+    "document_id": "DOC-INC-2026-054",
+    "citation_locator": "corpus/documents/DOC-INC-2026-054.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-054-03",
+    "document_id": "DOC-INC-2026-054",
+    "citation_locator": "corpus/documents/DOC-INC-2026-054.md#section-03",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-054-04",
+    "document_id": "DOC-INC-2026-054",
+    "citation_locator": "corpus/documents/DOC-INC-2026-054.md#section-04",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-054-05",
+    "document_id": "DOC-INC-2026-054",
+    "citation_locator": "corpus/documents/DOC-INC-2026-054.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-054-06",
+    "document_id": "DOC-INC-2026-054",
+    "citation_locator": "corpus/documents/DOC-INC-2026-054.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-INC-2026-054-07",
+    "document_id": "DOC-INC-2026-054",
+    "citation_locator": "corpus/documents/DOC-INC-2026-054.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-INC-2026-054-08",
+    "document_id": "DOC-INC-2026-054",
+    "citation_locator": "corpus/documents/DOC-INC-2026-054.md#section-08",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-LONG-001-01",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-01",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-02",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-02",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-03",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-04",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-05",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-06",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-06",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-07",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-08",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-08",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-09",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-09",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-10",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-10",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-11",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-11",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-12",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-12",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-13",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-13",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-14",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-14",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-15",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-15",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-16",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-16",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-17",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-17",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-18",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-18",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-19",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-19",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-20",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-20",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-21",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-21",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-22",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-22",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-23",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-23",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-24",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-24",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-25",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-25",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-26",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-26",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-27",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-27",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-28",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-28",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-29",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-29",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-30",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-30",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-31",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-31",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-32",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-32",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-33",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-33",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-34",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-34",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-35",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-35",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-36",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-36",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-37",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-37",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-38",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-38",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-39",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-39",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-001-40",
+    "document_id": "DOC-LONG-001",
+    "citation_locator": "corpus/documents/DOC-LONG-001.md#section-40",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-01",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-01",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-02",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-02",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-03",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-04",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-05",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-06",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-06",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-07",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-08",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-08",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-09",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-09",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-10",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-10",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-11",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-11",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-12",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-12",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-13",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-13",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-14",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-14",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-15",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-15",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-16",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-16",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-17",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-17",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-18",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-18",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-19",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-19",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-20",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-20",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-21",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-21",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-22",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-22",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-23",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-23",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-24",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-24",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-25",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-25",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-26",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-26",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-27",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-27",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-28",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-28",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-29",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-29",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-30",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-30",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-31",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-31",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-32",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-32",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-33",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-33",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-34",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-34",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-35",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-35",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-36",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-36",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-37",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-37",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-38",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-38",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-39",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-39",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-002-40",
+    "document_id": "DOC-LONG-002",
+    "citation_locator": "corpus/documents/DOC-LONG-002.md#section-40",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-003-01",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-01",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-003-02",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-02",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-003-03",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-003-04",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-003-05",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-05",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-06",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-06",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-07",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-07",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-08",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-08",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-09",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-09",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-10",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-10",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-11",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-11",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-12",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-12",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-13",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-13",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-14",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-14",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-15",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-15",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-16",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-16",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-17",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-17",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-18",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-18",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-19",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-19",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-20",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-20",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-21",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-21",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-22",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-22",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-23",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-23",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-24",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-24",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-25",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-25",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-26",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-26",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-27",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-27",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-28",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-28",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-29",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-29",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-30",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-30",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-31",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-31",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-32",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-32",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-33",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-33",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-34",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-34",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-35",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-35",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-36",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-36",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-37",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-37",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-38",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-38",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-39",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-39",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-003-40",
+    "document_id": "DOC-LONG-003",
+    "citation_locator": "corpus/documents/DOC-LONG-003.md#section-40",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-LONG-004-01",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-01",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-02",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-02",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-03",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-04",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-05",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-06",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-06",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-07",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-07",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-08",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-08",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-09",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-09",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-10",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-10",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-11",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-11",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-12",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-12",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-13",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-13",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-14",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-14",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-15",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-15",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-16",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-16",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-17",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-17",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-18",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-18",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-19",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-19",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-20",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-20",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-21",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-21",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-22",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-22",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-23",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-23",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-24",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-24",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-25",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-25",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-26",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-26",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-27",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-27",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-28",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-28",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-29",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-29",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-30",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-30",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-31",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-31",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-32",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-32",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-33",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-33",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-34",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-34",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-35",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-35",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-36",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-36",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-37",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-37",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-38",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-38",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-39",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-39",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-LONG-004-40",
+    "document_id": "DOC-LONG-004",
+    "citation_locator": "corpus/documents/DOC-LONG-004.md#section-40",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-003-01",
+    "document_id": "DOC-MTG-003",
+    "citation_locator": "corpus/documents/DOC-MTG-003.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-MTG-003-02",
+    "document_id": "DOC-MTG-003",
+    "citation_locator": "corpus/documents/DOC-MTG-003.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-MTG-003-03",
+    "document_id": "DOC-MTG-003",
+    "citation_locator": "corpus/documents/DOC-MTG-003.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-003-04",
+    "document_id": "DOC-MTG-003",
+    "citation_locator": "corpus/documents/DOC-MTG-003.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-003-05",
+    "document_id": "DOC-MTG-003",
+    "citation_locator": "corpus/documents/DOC-MTG-003.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-003-06",
+    "document_id": "DOC-MTG-003",
+    "citation_locator": "corpus/documents/DOC-MTG-003.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-MTG-003-07",
+    "document_id": "DOC-MTG-003",
+    "citation_locator": "corpus/documents/DOC-MTG-003.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-MTG-005-01",
+    "document_id": "DOC-MTG-005",
+    "citation_locator": "corpus/documents/DOC-MTG-005.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-MTG-005-02",
+    "document_id": "DOC-MTG-005",
+    "citation_locator": "corpus/documents/DOC-MTG-005.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-MTG-005-03",
+    "document_id": "DOC-MTG-005",
+    "citation_locator": "corpus/documents/DOC-MTG-005.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-005-04",
+    "document_id": "DOC-MTG-005",
+    "citation_locator": "corpus/documents/DOC-MTG-005.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-005-05",
+    "document_id": "DOC-MTG-005",
+    "citation_locator": "corpus/documents/DOC-MTG-005.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-005-06",
+    "document_id": "DOC-MTG-005",
+    "citation_locator": "corpus/documents/DOC-MTG-005.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-MTG-005-07",
+    "document_id": "DOC-MTG-005",
+    "citation_locator": "corpus/documents/DOC-MTG-005.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-MTG-008-01",
+    "document_id": "DOC-MTG-008",
+    "citation_locator": "corpus/documents/DOC-MTG-008.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-MTG-008-02",
+    "document_id": "DOC-MTG-008",
+    "citation_locator": "corpus/documents/DOC-MTG-008.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-MTG-008-03",
+    "document_id": "DOC-MTG-008",
+    "citation_locator": "corpus/documents/DOC-MTG-008.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-008-04",
+    "document_id": "DOC-MTG-008",
+    "citation_locator": "corpus/documents/DOC-MTG-008.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-008-05",
+    "document_id": "DOC-MTG-008",
+    "citation_locator": "corpus/documents/DOC-MTG-008.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-008-06",
+    "document_id": "DOC-MTG-008",
+    "citation_locator": "corpus/documents/DOC-MTG-008.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-MTG-008-07",
+    "document_id": "DOC-MTG-008",
+    "citation_locator": "corpus/documents/DOC-MTG-008.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-MTG-009-01",
+    "document_id": "DOC-MTG-009",
+    "citation_locator": "corpus/documents/DOC-MTG-009.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-MTG-009-02",
+    "document_id": "DOC-MTG-009",
+    "citation_locator": "corpus/documents/DOC-MTG-009.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-MTG-009-03",
+    "document_id": "DOC-MTG-009",
+    "citation_locator": "corpus/documents/DOC-MTG-009.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-009-04",
+    "document_id": "DOC-MTG-009",
+    "citation_locator": "corpus/documents/DOC-MTG-009.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-009-05",
+    "document_id": "DOC-MTG-009",
+    "citation_locator": "corpus/documents/DOC-MTG-009.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-009-06",
+    "document_id": "DOC-MTG-009",
+    "citation_locator": "corpus/documents/DOC-MTG-009.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-MTG-010-01",
+    "document_id": "DOC-MTG-010",
+    "citation_locator": "corpus/documents/DOC-MTG-010.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-MTG-010-02",
+    "document_id": "DOC-MTG-010",
+    "citation_locator": "corpus/documents/DOC-MTG-010.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-MTG-010-03",
+    "document_id": "DOC-MTG-010",
+    "citation_locator": "corpus/documents/DOC-MTG-010.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-010-04",
+    "document_id": "DOC-MTG-010",
+    "citation_locator": "corpus/documents/DOC-MTG-010.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-010-05",
+    "document_id": "DOC-MTG-010",
+    "citation_locator": "corpus/documents/DOC-MTG-010.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-010-06",
+    "document_id": "DOC-MTG-010",
+    "citation_locator": "corpus/documents/DOC-MTG-010.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-MTG-010-07",
+    "document_id": "DOC-MTG-010",
+    "citation_locator": "corpus/documents/DOC-MTG-010.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-MTG-011-01",
+    "document_id": "DOC-MTG-011",
+    "citation_locator": "corpus/documents/DOC-MTG-011.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-MTG-011-02",
+    "document_id": "DOC-MTG-011",
+    "citation_locator": "corpus/documents/DOC-MTG-011.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-MTG-011-03",
+    "document_id": "DOC-MTG-011",
+    "citation_locator": "corpus/documents/DOC-MTG-011.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-011-04",
+    "document_id": "DOC-MTG-011",
+    "citation_locator": "corpus/documents/DOC-MTG-011.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-011-05",
+    "document_id": "DOC-MTG-011",
+    "citation_locator": "corpus/documents/DOC-MTG-011.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-011-06",
+    "document_id": "DOC-MTG-011",
+    "citation_locator": "corpus/documents/DOC-MTG-011.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-MTG-011-07",
+    "document_id": "DOC-MTG-011",
+    "citation_locator": "corpus/documents/DOC-MTG-011.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-MTG-012-01",
+    "document_id": "DOC-MTG-012",
+    "citation_locator": "corpus/documents/DOC-MTG-012.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-MTG-012-02",
+    "document_id": "DOC-MTG-012",
+    "citation_locator": "corpus/documents/DOC-MTG-012.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-MTG-012-03",
+    "document_id": "DOC-MTG-012",
+    "citation_locator": "corpus/documents/DOC-MTG-012.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-012-04",
+    "document_id": "DOC-MTG-012",
+    "citation_locator": "corpus/documents/DOC-MTG-012.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-012-05",
+    "document_id": "DOC-MTG-012",
+    "citation_locator": "corpus/documents/DOC-MTG-012.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-012-06",
+    "document_id": "DOC-MTG-012",
+    "citation_locator": "corpus/documents/DOC-MTG-012.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-MTG-012-07",
+    "document_id": "DOC-MTG-012",
+    "citation_locator": "corpus/documents/DOC-MTG-012.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-MTG-017-01",
+    "document_id": "DOC-MTG-017",
+    "citation_locator": "corpus/documents/DOC-MTG-017.md#section-01",
+    "certainty": "proposal"
+  },
+  {
+    "fact_id": "F-MTG-017-02",
+    "document_id": "DOC-MTG-017",
+    "citation_locator": "corpus/documents/DOC-MTG-017.md#section-02",
+    "certainty": "proposal"
+  },
+  {
+    "fact_id": "F-MTG-017-03",
+    "document_id": "DOC-MTG-017",
+    "citation_locator": "corpus/documents/DOC-MTG-017.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-017-04",
+    "document_id": "DOC-MTG-017",
+    "citation_locator": "corpus/documents/DOC-MTG-017.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-017-05",
+    "document_id": "DOC-MTG-017",
+    "citation_locator": "corpus/documents/DOC-MTG-017.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-MTG-017-06",
+    "document_id": "DOC-MTG-017",
+    "citation_locator": "corpus/documents/DOC-MTG-017.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-POL-002-v1-01",
+    "document_id": "DOC-POL-002-v1",
+    "citation_locator": "corpus/documents/DOC-POL-002-v1.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-002-v1-02",
+    "document_id": "DOC-POL-002-v1",
+    "citation_locator": "corpus/documents/DOC-POL-002-v1.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-002-v1-03",
+    "document_id": "DOC-POL-002-v1",
+    "citation_locator": "corpus/documents/DOC-POL-002-v1.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-002-v1-04",
+    "document_id": "DOC-POL-002-v1",
+    "citation_locator": "corpus/documents/DOC-POL-002-v1.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-002-v1-05",
+    "document_id": "DOC-POL-002-v1",
+    "citation_locator": "corpus/documents/DOC-POL-002-v1.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-002-v1-06",
+    "document_id": "DOC-POL-002-v1",
+    "citation_locator": "corpus/documents/DOC-POL-002-v1.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-POL-002-v2-01",
+    "document_id": "DOC-POL-002-v2",
+    "citation_locator": "corpus/documents/DOC-POL-002-v2.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-002-v2-02",
+    "document_id": "DOC-POL-002-v2",
+    "citation_locator": "corpus/documents/DOC-POL-002-v2.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-002-v2-03",
+    "document_id": "DOC-POL-002-v2",
+    "citation_locator": "corpus/documents/DOC-POL-002-v2.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-002-v2-04",
+    "document_id": "DOC-POL-002-v2",
+    "citation_locator": "corpus/documents/DOC-POL-002-v2.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-002-v2-05",
+    "document_id": "DOC-POL-002-v2",
+    "citation_locator": "corpus/documents/DOC-POL-002-v2.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-002-v2-06",
+    "document_id": "DOC-POL-002-v2",
+    "citation_locator": "corpus/documents/DOC-POL-002-v2.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-POL-002-v2-07",
+    "document_id": "DOC-POL-002-v2",
+    "citation_locator": "corpus/documents/DOC-POL-002-v2.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-POL-007-v1-01",
+    "document_id": "DOC-POL-007-v1",
+    "citation_locator": "corpus/documents/DOC-POL-007-v1.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-007-v1-02",
+    "document_id": "DOC-POL-007-v1",
+    "citation_locator": "corpus/documents/DOC-POL-007-v1.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-007-v1-03",
+    "document_id": "DOC-POL-007-v1",
+    "citation_locator": "corpus/documents/DOC-POL-007-v1.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-007-v1-04",
+    "document_id": "DOC-POL-007-v1",
+    "citation_locator": "corpus/documents/DOC-POL-007-v1.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-007-v1-05",
+    "document_id": "DOC-POL-007-v1",
+    "citation_locator": "corpus/documents/DOC-POL-007-v1.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-007-v1-06",
+    "document_id": "DOC-POL-007-v1",
+    "citation_locator": "corpus/documents/DOC-POL-007-v1.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-POL-007-v2-01",
+    "document_id": "DOC-POL-007-v2",
+    "citation_locator": "corpus/documents/DOC-POL-007-v2.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-007-v2-02",
+    "document_id": "DOC-POL-007-v2",
+    "citation_locator": "corpus/documents/DOC-POL-007-v2.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-007-v2-03",
+    "document_id": "DOC-POL-007-v2",
+    "citation_locator": "corpus/documents/DOC-POL-007-v2.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-007-v2-04",
+    "document_id": "DOC-POL-007-v2",
+    "citation_locator": "corpus/documents/DOC-POL-007-v2.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-007-v2-05",
+    "document_id": "DOC-POL-007-v2",
+    "citation_locator": "corpus/documents/DOC-POL-007-v2.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-007-v2-06",
+    "document_id": "DOC-POL-007-v2",
+    "citation_locator": "corpus/documents/DOC-POL-007-v2.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-POL-010-v1-01",
+    "document_id": "DOC-POL-010-v1",
+    "citation_locator": "corpus/documents/DOC-POL-010-v1.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-010-v1-02",
+    "document_id": "DOC-POL-010-v1",
+    "citation_locator": "corpus/documents/DOC-POL-010-v1.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-010-v1-03",
+    "document_id": "DOC-POL-010-v1",
+    "citation_locator": "corpus/documents/DOC-POL-010-v1.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-010-v1-04",
+    "document_id": "DOC-POL-010-v1",
+    "citation_locator": "corpus/documents/DOC-POL-010-v1.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-010-v1-05",
+    "document_id": "DOC-POL-010-v1",
+    "citation_locator": "corpus/documents/DOC-POL-010-v1.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-010-v1-06",
+    "document_id": "DOC-POL-010-v1",
+    "citation_locator": "corpus/documents/DOC-POL-010-v1.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-POL-010-v1-07",
+    "document_id": "DOC-POL-010-v1",
+    "citation_locator": "corpus/documents/DOC-POL-010-v1.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-POL-010-v2-01",
+    "document_id": "DOC-POL-010-v2",
+    "citation_locator": "corpus/documents/DOC-POL-010-v2.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-010-v2-02",
+    "document_id": "DOC-POL-010-v2",
+    "citation_locator": "corpus/documents/DOC-POL-010-v2.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-010-v2-03",
+    "document_id": "DOC-POL-010-v2",
+    "citation_locator": "corpus/documents/DOC-POL-010-v2.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-010-v2-04",
+    "document_id": "DOC-POL-010-v2",
+    "citation_locator": "corpus/documents/DOC-POL-010-v2.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-010-v2-05",
+    "document_id": "DOC-POL-010-v2",
+    "citation_locator": "corpus/documents/DOC-POL-010-v2.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-010-v2-06",
+    "document_id": "DOC-POL-010-v2",
+    "citation_locator": "corpus/documents/DOC-POL-010-v2.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-POL-011-01",
+    "document_id": "DOC-POL-011",
+    "citation_locator": "corpus/documents/DOC-POL-011.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-011-02",
+    "document_id": "DOC-POL-011",
+    "citation_locator": "corpus/documents/DOC-POL-011.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-011-03",
+    "document_id": "DOC-POL-011",
+    "citation_locator": "corpus/documents/DOC-POL-011.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-011-04",
+    "document_id": "DOC-POL-011",
+    "citation_locator": "corpus/documents/DOC-POL-011.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-011-05",
+    "document_id": "DOC-POL-011",
+    "citation_locator": "corpus/documents/DOC-POL-011.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-011-06",
+    "document_id": "DOC-POL-011",
+    "citation_locator": "corpus/documents/DOC-POL-011.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-POL-011-07",
+    "document_id": "DOC-POL-011",
+    "citation_locator": "corpus/documents/DOC-POL-011.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-POL-012-01",
+    "document_id": "DOC-POL-012",
+    "citation_locator": "corpus/documents/DOC-POL-012.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-012-02",
+    "document_id": "DOC-POL-012",
+    "citation_locator": "corpus/documents/DOC-POL-012.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-012-03",
+    "document_id": "DOC-POL-012",
+    "citation_locator": "corpus/documents/DOC-POL-012.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-012-04",
+    "document_id": "DOC-POL-012",
+    "citation_locator": "corpus/documents/DOC-POL-012.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-012-05",
+    "document_id": "DOC-POL-012",
+    "citation_locator": "corpus/documents/DOC-POL-012.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-012-06",
+    "document_id": "DOC-POL-012",
+    "citation_locator": "corpus/documents/DOC-POL-012.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-POL-013-v1-01",
+    "document_id": "DOC-POL-013-v1",
+    "citation_locator": "corpus/documents/DOC-POL-013-v1.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-013-v1-02",
+    "document_id": "DOC-POL-013-v1",
+    "citation_locator": "corpus/documents/DOC-POL-013-v1.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-013-v1-03",
+    "document_id": "DOC-POL-013-v1",
+    "citation_locator": "corpus/documents/DOC-POL-013-v1.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-013-v1-04",
+    "document_id": "DOC-POL-013-v1",
+    "citation_locator": "corpus/documents/DOC-POL-013-v1.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-013-v1-05",
+    "document_id": "DOC-POL-013-v1",
+    "citation_locator": "corpus/documents/DOC-POL-013-v1.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-013-v1-06",
+    "document_id": "DOC-POL-013-v1",
+    "citation_locator": "corpus/documents/DOC-POL-013-v1.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-POL-013-v2-01",
+    "document_id": "DOC-POL-013-v2",
+    "citation_locator": "corpus/documents/DOC-POL-013-v2.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-013-v2-02",
+    "document_id": "DOC-POL-013-v2",
+    "citation_locator": "corpus/documents/DOC-POL-013-v2.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-013-v2-03",
+    "document_id": "DOC-POL-013-v2",
+    "citation_locator": "corpus/documents/DOC-POL-013-v2.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-013-v2-04",
+    "document_id": "DOC-POL-013-v2",
+    "citation_locator": "corpus/documents/DOC-POL-013-v2.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-013-v2-05",
+    "document_id": "DOC-POL-013-v2",
+    "citation_locator": "corpus/documents/DOC-POL-013-v2.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-013-v2-06",
+    "document_id": "DOC-POL-013-v2",
+    "citation_locator": "corpus/documents/DOC-POL-013-v2.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-POL-013-v2-07",
+    "document_id": "DOC-POL-013-v2",
+    "citation_locator": "corpus/documents/DOC-POL-013-v2.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-POL-014-01",
+    "document_id": "DOC-POL-014",
+    "citation_locator": "corpus/documents/DOC-POL-014.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-014-02",
+    "document_id": "DOC-POL-014",
+    "citation_locator": "corpus/documents/DOC-POL-014.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-014-03",
+    "document_id": "DOC-POL-014",
+    "citation_locator": "corpus/documents/DOC-POL-014.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-014-04",
+    "document_id": "DOC-POL-014",
+    "citation_locator": "corpus/documents/DOC-POL-014.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-014-05",
+    "document_id": "DOC-POL-014",
+    "citation_locator": "corpus/documents/DOC-POL-014.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-014-06",
+    "document_id": "DOC-POL-014",
+    "citation_locator": "corpus/documents/DOC-POL-014.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-POL-014-07",
+    "document_id": "DOC-POL-014",
+    "citation_locator": "corpus/documents/DOC-POL-014.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-POL-015-01",
+    "document_id": "DOC-POL-015",
+    "citation_locator": "corpus/documents/DOC-POL-015.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-015-02",
+    "document_id": "DOC-POL-015",
+    "citation_locator": "corpus/documents/DOC-POL-015.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-015-03",
+    "document_id": "DOC-POL-015",
+    "citation_locator": "corpus/documents/DOC-POL-015.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-015-04",
+    "document_id": "DOC-POL-015",
+    "citation_locator": "corpus/documents/DOC-POL-015.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-015-05",
+    "document_id": "DOC-POL-015",
+    "citation_locator": "corpus/documents/DOC-POL-015.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-015-06",
+    "document_id": "DOC-POL-015",
+    "citation_locator": "corpus/documents/DOC-POL-015.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-POL-015-07",
+    "document_id": "DOC-POL-015",
+    "citation_locator": "corpus/documents/DOC-POL-015.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-POL-016-01",
+    "document_id": "DOC-POL-016",
+    "citation_locator": "corpus/documents/DOC-POL-016.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-016-02",
+    "document_id": "DOC-POL-016",
+    "citation_locator": "corpus/documents/DOC-POL-016.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-016-03",
+    "document_id": "DOC-POL-016",
+    "citation_locator": "corpus/documents/DOC-POL-016.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-016-04",
+    "document_id": "DOC-POL-016",
+    "citation_locator": "corpus/documents/DOC-POL-016.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-016-05",
+    "document_id": "DOC-POL-016",
+    "citation_locator": "corpus/documents/DOC-POL-016.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-016-06",
+    "document_id": "DOC-POL-016",
+    "citation_locator": "corpus/documents/DOC-POL-016.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-POL-017-01",
+    "document_id": "DOC-POL-017",
+    "citation_locator": "corpus/documents/DOC-POL-017.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-017-02",
+    "document_id": "DOC-POL-017",
+    "citation_locator": "corpus/documents/DOC-POL-017.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-017-03",
+    "document_id": "DOC-POL-017",
+    "citation_locator": "corpus/documents/DOC-POL-017.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-017-04",
+    "document_id": "DOC-POL-017",
+    "citation_locator": "corpus/documents/DOC-POL-017.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-017-05",
+    "document_id": "DOC-POL-017",
+    "citation_locator": "corpus/documents/DOC-POL-017.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-017-06",
+    "document_id": "DOC-POL-017",
+    "citation_locator": "corpus/documents/DOC-POL-017.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-POL-017-07",
+    "document_id": "DOC-POL-017",
+    "citation_locator": "corpus/documents/DOC-POL-017.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-POL-018-01",
+    "document_id": "DOC-POL-018",
+    "citation_locator": "corpus/documents/DOC-POL-018.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-018-02",
+    "document_id": "DOC-POL-018",
+    "citation_locator": "corpus/documents/DOC-POL-018.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-018-03",
+    "document_id": "DOC-POL-018",
+    "citation_locator": "corpus/documents/DOC-POL-018.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-018-04",
+    "document_id": "DOC-POL-018",
+    "citation_locator": "corpus/documents/DOC-POL-018.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-018-05",
+    "document_id": "DOC-POL-018",
+    "citation_locator": "corpus/documents/DOC-POL-018.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-018-06",
+    "document_id": "DOC-POL-018",
+    "citation_locator": "corpus/documents/DOC-POL-018.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-POL-018-07",
+    "document_id": "DOC-POL-018",
+    "citation_locator": "corpus/documents/DOC-POL-018.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-POL-019-01",
+    "document_id": "DOC-POL-019",
+    "citation_locator": "corpus/documents/DOC-POL-019.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-019-02",
+    "document_id": "DOC-POL-019",
+    "citation_locator": "corpus/documents/DOC-POL-019.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-POL-019-03",
+    "document_id": "DOC-POL-019",
+    "citation_locator": "corpus/documents/DOC-POL-019.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-019-04",
+    "document_id": "DOC-POL-019",
+    "citation_locator": "corpus/documents/DOC-POL-019.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-019-05",
+    "document_id": "DOC-POL-019",
+    "citation_locator": "corpus/documents/DOC-POL-019.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-POL-019-06",
+    "document_id": "DOC-POL-019",
+    "citation_locator": "corpus/documents/DOC-POL-019.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-PROD-001-01",
+    "document_id": "DOC-PROD-001",
+    "citation_locator": "corpus/documents/DOC-PROD-001.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-001-02",
+    "document_id": "DOC-PROD-001",
+    "citation_locator": "corpus/documents/DOC-PROD-001.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-001-03",
+    "document_id": "DOC-PROD-001",
+    "citation_locator": "corpus/documents/DOC-PROD-001.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-001-04",
+    "document_id": "DOC-PROD-001",
+    "citation_locator": "corpus/documents/DOC-PROD-001.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-001-05",
+    "document_id": "DOC-PROD-001",
+    "citation_locator": "corpus/documents/DOC-PROD-001.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-001-06",
+    "document_id": "DOC-PROD-001",
+    "citation_locator": "corpus/documents/DOC-PROD-001.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-PROD-001-07",
+    "document_id": "DOC-PROD-001",
+    "citation_locator": "corpus/documents/DOC-PROD-001.md#section-07",
+    "certainty": "untrusted"
+  },
+  {
+    "fact_id": "F-PROD-002-01",
+    "document_id": "DOC-PROD-002",
+    "citation_locator": "corpus/documents/DOC-PROD-002.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-002-02",
+    "document_id": "DOC-PROD-002",
+    "citation_locator": "corpus/documents/DOC-PROD-002.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-002-03",
+    "document_id": "DOC-PROD-002",
+    "citation_locator": "corpus/documents/DOC-PROD-002.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-002-04",
+    "document_id": "DOC-PROD-002",
+    "citation_locator": "corpus/documents/DOC-PROD-002.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-002-05",
+    "document_id": "DOC-PROD-002",
+    "citation_locator": "corpus/documents/DOC-PROD-002.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-002-06",
+    "document_id": "DOC-PROD-002",
+    "citation_locator": "corpus/documents/DOC-PROD-002.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-PROD-002-07",
+    "document_id": "DOC-PROD-002",
+    "citation_locator": "corpus/documents/DOC-PROD-002.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-PROD-003-v1-01",
+    "document_id": "DOC-PROD-003-v1",
+    "citation_locator": "corpus/documents/DOC-PROD-003-v1.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-003-v1-02",
+    "document_id": "DOC-PROD-003-v1",
+    "citation_locator": "corpus/documents/DOC-PROD-003-v1.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-003-v1-03",
+    "document_id": "DOC-PROD-003-v1",
+    "citation_locator": "corpus/documents/DOC-PROD-003-v1.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-003-v1-04",
+    "document_id": "DOC-PROD-003-v1",
+    "citation_locator": "corpus/documents/DOC-PROD-003-v1.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-003-v1-05",
+    "document_id": "DOC-PROD-003-v1",
+    "citation_locator": "corpus/documents/DOC-PROD-003-v1.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-003-v1-06",
+    "document_id": "DOC-PROD-003-v1",
+    "citation_locator": "corpus/documents/DOC-PROD-003-v1.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-PROD-003-v1-07",
+    "document_id": "DOC-PROD-003-v1",
+    "citation_locator": "corpus/documents/DOC-PROD-003-v1.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-PROD-003-v2-01",
+    "document_id": "DOC-PROD-003-v2",
+    "citation_locator": "corpus/documents/DOC-PROD-003-v2.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-003-v2-02",
+    "document_id": "DOC-PROD-003-v2",
+    "citation_locator": "corpus/documents/DOC-PROD-003-v2.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-003-v2-03",
+    "document_id": "DOC-PROD-003-v2",
+    "citation_locator": "corpus/documents/DOC-PROD-003-v2.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-003-v2-04",
+    "document_id": "DOC-PROD-003-v2",
+    "citation_locator": "corpus/documents/DOC-PROD-003-v2.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-003-v2-05",
+    "document_id": "DOC-PROD-003-v2",
+    "citation_locator": "corpus/documents/DOC-PROD-003-v2.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-003-v2-06",
+    "document_id": "DOC-PROD-003-v2",
+    "citation_locator": "corpus/documents/DOC-PROD-003-v2.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-PROD-003-v2-07",
+    "document_id": "DOC-PROD-003-v2",
+    "citation_locator": "corpus/documents/DOC-PROD-003-v2.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-PROD-004-01",
+    "document_id": "DOC-PROD-004",
+    "citation_locator": "corpus/documents/DOC-PROD-004.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-004-02",
+    "document_id": "DOC-PROD-004",
+    "citation_locator": "corpus/documents/DOC-PROD-004.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-004-03",
+    "document_id": "DOC-PROD-004",
+    "citation_locator": "corpus/documents/DOC-PROD-004.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-004-04",
+    "document_id": "DOC-PROD-004",
+    "citation_locator": "corpus/documents/DOC-PROD-004.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-004-05",
+    "document_id": "DOC-PROD-004",
+    "citation_locator": "corpus/documents/DOC-PROD-004.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-004-06",
+    "document_id": "DOC-PROD-004",
+    "citation_locator": "corpus/documents/DOC-PROD-004.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-PROD-005-01",
+    "document_id": "DOC-PROD-005",
+    "citation_locator": "corpus/documents/DOC-PROD-005.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-005-02",
+    "document_id": "DOC-PROD-005",
+    "citation_locator": "corpus/documents/DOC-PROD-005.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-005-03",
+    "document_id": "DOC-PROD-005",
+    "citation_locator": "corpus/documents/DOC-PROD-005.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-005-04",
+    "document_id": "DOC-PROD-005",
+    "citation_locator": "corpus/documents/DOC-PROD-005.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-005-05",
+    "document_id": "DOC-PROD-005",
+    "citation_locator": "corpus/documents/DOC-PROD-005.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-005-06",
+    "document_id": "DOC-PROD-005",
+    "citation_locator": "corpus/documents/DOC-PROD-005.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-PROD-005-07",
+    "document_id": "DOC-PROD-005",
+    "citation_locator": "corpus/documents/DOC-PROD-005.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-PROD-006-v1-01",
+    "document_id": "DOC-PROD-006-v1",
+    "citation_locator": "corpus/documents/DOC-PROD-006-v1.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-006-v1-02",
+    "document_id": "DOC-PROD-006-v1",
+    "citation_locator": "corpus/documents/DOC-PROD-006-v1.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-006-v1-03",
+    "document_id": "DOC-PROD-006-v1",
+    "citation_locator": "corpus/documents/DOC-PROD-006-v1.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-006-v1-04",
+    "document_id": "DOC-PROD-006-v1",
+    "citation_locator": "corpus/documents/DOC-PROD-006-v1.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-006-v1-05",
+    "document_id": "DOC-PROD-006-v1",
+    "citation_locator": "corpus/documents/DOC-PROD-006-v1.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-006-v1-06",
+    "document_id": "DOC-PROD-006-v1",
+    "citation_locator": "corpus/documents/DOC-PROD-006-v1.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-PROD-006-v2-01",
+    "document_id": "DOC-PROD-006-v2",
+    "citation_locator": "corpus/documents/DOC-PROD-006-v2.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-006-v2-02",
+    "document_id": "DOC-PROD-006-v2",
+    "citation_locator": "corpus/documents/DOC-PROD-006-v2.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-006-v2-03",
+    "document_id": "DOC-PROD-006-v2",
+    "citation_locator": "corpus/documents/DOC-PROD-006-v2.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-006-v2-04",
+    "document_id": "DOC-PROD-006-v2",
+    "citation_locator": "corpus/documents/DOC-PROD-006-v2.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-006-v2-05",
+    "document_id": "DOC-PROD-006-v2",
+    "citation_locator": "corpus/documents/DOC-PROD-006-v2.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-006-v2-06",
+    "document_id": "DOC-PROD-006-v2",
+    "citation_locator": "corpus/documents/DOC-PROD-006-v2.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-PROD-007-01",
+    "document_id": "DOC-PROD-007",
+    "citation_locator": "corpus/documents/DOC-PROD-007.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-007-02",
+    "document_id": "DOC-PROD-007",
+    "citation_locator": "corpus/documents/DOC-PROD-007.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-007-03",
+    "document_id": "DOC-PROD-007",
+    "citation_locator": "corpus/documents/DOC-PROD-007.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-007-04",
+    "document_id": "DOC-PROD-007",
+    "citation_locator": "corpus/documents/DOC-PROD-007.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-007-05",
+    "document_id": "DOC-PROD-007",
+    "citation_locator": "corpus/documents/DOC-PROD-007.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-007-06",
+    "document_id": "DOC-PROD-007",
+    "citation_locator": "corpus/documents/DOC-PROD-007.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-PROD-008-01",
+    "document_id": "DOC-PROD-008",
+    "citation_locator": "corpus/documents/DOC-PROD-008.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-008-02",
+    "document_id": "DOC-PROD-008",
+    "citation_locator": "corpus/documents/DOC-PROD-008.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-008-03",
+    "document_id": "DOC-PROD-008",
+    "citation_locator": "corpus/documents/DOC-PROD-008.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-008-04",
+    "document_id": "DOC-PROD-008",
+    "citation_locator": "corpus/documents/DOC-PROD-008.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-008-05",
+    "document_id": "DOC-PROD-008",
+    "citation_locator": "corpus/documents/DOC-PROD-008.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-008-06",
+    "document_id": "DOC-PROD-008",
+    "citation_locator": "corpus/documents/DOC-PROD-008.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-PROD-008-07",
+    "document_id": "DOC-PROD-008",
+    "citation_locator": "corpus/documents/DOC-PROD-008.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-PROD-009-01",
+    "document_id": "DOC-PROD-009",
+    "citation_locator": "corpus/documents/DOC-PROD-009.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-009-02",
+    "document_id": "DOC-PROD-009",
+    "citation_locator": "corpus/documents/DOC-PROD-009.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-009-03",
+    "document_id": "DOC-PROD-009",
+    "citation_locator": "corpus/documents/DOC-PROD-009.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-009-04",
+    "document_id": "DOC-PROD-009",
+    "citation_locator": "corpus/documents/DOC-PROD-009.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-009-05",
+    "document_id": "DOC-PROD-009",
+    "citation_locator": "corpus/documents/DOC-PROD-009.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-009-06",
+    "document_id": "DOC-PROD-009",
+    "citation_locator": "corpus/documents/DOC-PROD-009.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-PROD-009-07",
+    "document_id": "DOC-PROD-009",
+    "citation_locator": "corpus/documents/DOC-PROD-009.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-PROD-010-01",
+    "document_id": "DOC-PROD-010",
+    "citation_locator": "corpus/documents/DOC-PROD-010.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-010-02",
+    "document_id": "DOC-PROD-010",
+    "citation_locator": "corpus/documents/DOC-PROD-010.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-010-03",
+    "document_id": "DOC-PROD-010",
+    "citation_locator": "corpus/documents/DOC-PROD-010.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-010-04",
+    "document_id": "DOC-PROD-010",
+    "citation_locator": "corpus/documents/DOC-PROD-010.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-010-05",
+    "document_id": "DOC-PROD-010",
+    "citation_locator": "corpus/documents/DOC-PROD-010.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-010-06",
+    "document_id": "DOC-PROD-010",
+    "citation_locator": "corpus/documents/DOC-PROD-010.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-PROD-011-01",
+    "document_id": "DOC-PROD-011",
+    "citation_locator": "corpus/documents/DOC-PROD-011.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-011-02",
+    "document_id": "DOC-PROD-011",
+    "citation_locator": "corpus/documents/DOC-PROD-011.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-011-03",
+    "document_id": "DOC-PROD-011",
+    "citation_locator": "corpus/documents/DOC-PROD-011.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-011-04",
+    "document_id": "DOC-PROD-011",
+    "citation_locator": "corpus/documents/DOC-PROD-011.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-011-05",
+    "document_id": "DOC-PROD-011",
+    "citation_locator": "corpus/documents/DOC-PROD-011.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-011-06",
+    "document_id": "DOC-PROD-011",
+    "citation_locator": "corpus/documents/DOC-PROD-011.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-PROD-012-01",
+    "document_id": "DOC-PROD-012",
+    "citation_locator": "corpus/documents/DOC-PROD-012.md#section-01",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-012-02",
+    "document_id": "DOC-PROD-012",
+    "citation_locator": "corpus/documents/DOC-PROD-012.md#section-02",
+    "certainty": "decision"
+  },
+  {
+    "fact_id": "F-PROD-012-03",
+    "document_id": "DOC-PROD-012",
+    "citation_locator": "corpus/documents/DOC-PROD-012.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-012-04",
+    "document_id": "DOC-PROD-012",
+    "citation_locator": "corpus/documents/DOC-PROD-012.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-012-05",
+    "document_id": "DOC-PROD-012",
+    "citation_locator": "corpus/documents/DOC-PROD-012.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-PROD-012-06",
+    "document_id": "DOC-PROD-012",
+    "citation_locator": "corpus/documents/DOC-PROD-012.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-PROD-012-07",
+    "document_id": "DOC-PROD-012",
+    "citation_locator": "corpus/documents/DOC-PROD-012.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RB-003-v1-01",
+    "document_id": "DOC-RB-003-v1",
+    "citation_locator": "corpus/documents/DOC-RB-003-v1.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-003-v1-02",
+    "document_id": "DOC-RB-003-v1",
+    "citation_locator": "corpus/documents/DOC-RB-003-v1.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-003-v1-03",
+    "document_id": "DOC-RB-003-v1",
+    "citation_locator": "corpus/documents/DOC-RB-003-v1.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-003-v1-04",
+    "document_id": "DOC-RB-003-v1",
+    "citation_locator": "corpus/documents/DOC-RB-003-v1.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-003-v1-05",
+    "document_id": "DOC-RB-003-v1",
+    "citation_locator": "corpus/documents/DOC-RB-003-v1.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-003-v1-06",
+    "document_id": "DOC-RB-003-v1",
+    "citation_locator": "corpus/documents/DOC-RB-003-v1.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-RB-003-v1-07",
+    "document_id": "DOC-RB-003-v1",
+    "citation_locator": "corpus/documents/DOC-RB-003-v1.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RB-003-v2-01",
+    "document_id": "DOC-RB-003-v2",
+    "citation_locator": "corpus/documents/DOC-RB-003-v2.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-003-v2-02",
+    "document_id": "DOC-RB-003-v2",
+    "citation_locator": "corpus/documents/DOC-RB-003-v2.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-003-v2-03",
+    "document_id": "DOC-RB-003-v2",
+    "citation_locator": "corpus/documents/DOC-RB-003-v2.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-003-v2-04",
+    "document_id": "DOC-RB-003-v2",
+    "citation_locator": "corpus/documents/DOC-RB-003-v2.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-003-v2-05",
+    "document_id": "DOC-RB-003-v2",
+    "citation_locator": "corpus/documents/DOC-RB-003-v2.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-003-v2-06",
+    "document_id": "DOC-RB-003-v2",
+    "citation_locator": "corpus/documents/DOC-RB-003-v2.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RB-004-01",
+    "document_id": "DOC-RB-004",
+    "citation_locator": "corpus/documents/DOC-RB-004.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-004-02",
+    "document_id": "DOC-RB-004",
+    "citation_locator": "corpus/documents/DOC-RB-004.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-004-03",
+    "document_id": "DOC-RB-004",
+    "citation_locator": "corpus/documents/DOC-RB-004.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-004-04",
+    "document_id": "DOC-RB-004",
+    "citation_locator": "corpus/documents/DOC-RB-004.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-004-05",
+    "document_id": "DOC-RB-004",
+    "citation_locator": "corpus/documents/DOC-RB-004.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-004-06",
+    "document_id": "DOC-RB-004",
+    "citation_locator": "corpus/documents/DOC-RB-004.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-RB-004-07",
+    "document_id": "DOC-RB-004",
+    "citation_locator": "corpus/documents/DOC-RB-004.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RB-005-01",
+    "document_id": "DOC-RB-005",
+    "citation_locator": "corpus/documents/DOC-RB-005.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-005-02",
+    "document_id": "DOC-RB-005",
+    "citation_locator": "corpus/documents/DOC-RB-005.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-005-03",
+    "document_id": "DOC-RB-005",
+    "citation_locator": "corpus/documents/DOC-RB-005.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-005-04",
+    "document_id": "DOC-RB-005",
+    "citation_locator": "corpus/documents/DOC-RB-005.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-005-05",
+    "document_id": "DOC-RB-005",
+    "citation_locator": "corpus/documents/DOC-RB-005.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-005-06",
+    "document_id": "DOC-RB-005",
+    "citation_locator": "corpus/documents/DOC-RB-005.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-RB-005-07",
+    "document_id": "DOC-RB-005",
+    "citation_locator": "corpus/documents/DOC-RB-005.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RB-006-01",
+    "document_id": "DOC-RB-006",
+    "citation_locator": "corpus/documents/DOC-RB-006.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-006-02",
+    "document_id": "DOC-RB-006",
+    "citation_locator": "corpus/documents/DOC-RB-006.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-006-03",
+    "document_id": "DOC-RB-006",
+    "citation_locator": "corpus/documents/DOC-RB-006.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-006-04",
+    "document_id": "DOC-RB-006",
+    "citation_locator": "corpus/documents/DOC-RB-006.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-006-05",
+    "document_id": "DOC-RB-006",
+    "citation_locator": "corpus/documents/DOC-RB-006.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-006-06",
+    "document_id": "DOC-RB-006",
+    "citation_locator": "corpus/documents/DOC-RB-006.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RB-007-01",
+    "document_id": "DOC-RB-007",
+    "citation_locator": "corpus/documents/DOC-RB-007.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-007-02",
+    "document_id": "DOC-RB-007",
+    "citation_locator": "corpus/documents/DOC-RB-007.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-007-03",
+    "document_id": "DOC-RB-007",
+    "citation_locator": "corpus/documents/DOC-RB-007.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-007-04",
+    "document_id": "DOC-RB-007",
+    "citation_locator": "corpus/documents/DOC-RB-007.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-007-05",
+    "document_id": "DOC-RB-007",
+    "citation_locator": "corpus/documents/DOC-RB-007.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-007-06",
+    "document_id": "DOC-RB-007",
+    "citation_locator": "corpus/documents/DOC-RB-007.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RB-008-v1-01",
+    "document_id": "DOC-RB-008-v1",
+    "citation_locator": "corpus/documents/DOC-RB-008-v1.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-008-v1-02",
+    "document_id": "DOC-RB-008-v1",
+    "citation_locator": "corpus/documents/DOC-RB-008-v1.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-008-v1-03",
+    "document_id": "DOC-RB-008-v1",
+    "citation_locator": "corpus/documents/DOC-RB-008-v1.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-008-v1-04",
+    "document_id": "DOC-RB-008-v1",
+    "citation_locator": "corpus/documents/DOC-RB-008-v1.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-008-v1-05",
+    "document_id": "DOC-RB-008-v1",
+    "citation_locator": "corpus/documents/DOC-RB-008-v1.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-008-v1-06",
+    "document_id": "DOC-RB-008-v1",
+    "citation_locator": "corpus/documents/DOC-RB-008-v1.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-RB-008-v1-07",
+    "document_id": "DOC-RB-008-v1",
+    "citation_locator": "corpus/documents/DOC-RB-008-v1.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RB-008-v2-01",
+    "document_id": "DOC-RB-008-v2",
+    "citation_locator": "corpus/documents/DOC-RB-008-v2.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-008-v2-02",
+    "document_id": "DOC-RB-008-v2",
+    "citation_locator": "corpus/documents/DOC-RB-008-v2.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-008-v2-03",
+    "document_id": "DOC-RB-008-v2",
+    "citation_locator": "corpus/documents/DOC-RB-008-v2.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-008-v2-04",
+    "document_id": "DOC-RB-008-v2",
+    "citation_locator": "corpus/documents/DOC-RB-008-v2.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-008-v2-05",
+    "document_id": "DOC-RB-008-v2",
+    "citation_locator": "corpus/documents/DOC-RB-008-v2.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-008-v2-06",
+    "document_id": "DOC-RB-008-v2",
+    "citation_locator": "corpus/documents/DOC-RB-008-v2.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RB-009-01",
+    "document_id": "DOC-RB-009",
+    "citation_locator": "corpus/documents/DOC-RB-009.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-009-02",
+    "document_id": "DOC-RB-009",
+    "citation_locator": "corpus/documents/DOC-RB-009.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-009-03",
+    "document_id": "DOC-RB-009",
+    "citation_locator": "corpus/documents/DOC-RB-009.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-009-04",
+    "document_id": "DOC-RB-009",
+    "citation_locator": "corpus/documents/DOC-RB-009.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-009-05",
+    "document_id": "DOC-RB-009",
+    "citation_locator": "corpus/documents/DOC-RB-009.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-009-06",
+    "document_id": "DOC-RB-009",
+    "citation_locator": "corpus/documents/DOC-RB-009.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-RB-009-07",
+    "document_id": "DOC-RB-009",
+    "citation_locator": "corpus/documents/DOC-RB-009.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RB-010-01",
+    "document_id": "DOC-RB-010",
+    "citation_locator": "corpus/documents/DOC-RB-010.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-010-02",
+    "document_id": "DOC-RB-010",
+    "citation_locator": "corpus/documents/DOC-RB-010.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-010-03",
+    "document_id": "DOC-RB-010",
+    "citation_locator": "corpus/documents/DOC-RB-010.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-010-04",
+    "document_id": "DOC-RB-010",
+    "citation_locator": "corpus/documents/DOC-RB-010.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-010-05",
+    "document_id": "DOC-RB-010",
+    "citation_locator": "corpus/documents/DOC-RB-010.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-010-06",
+    "document_id": "DOC-RB-010",
+    "citation_locator": "corpus/documents/DOC-RB-010.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-RB-010-07",
+    "document_id": "DOC-RB-010",
+    "citation_locator": "corpus/documents/DOC-RB-010.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RB-011-01",
+    "document_id": "DOC-RB-011",
+    "citation_locator": "corpus/documents/DOC-RB-011.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-011-02",
+    "document_id": "DOC-RB-011",
+    "citation_locator": "corpus/documents/DOC-RB-011.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-011-03",
+    "document_id": "DOC-RB-011",
+    "citation_locator": "corpus/documents/DOC-RB-011.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-011-04",
+    "document_id": "DOC-RB-011",
+    "citation_locator": "corpus/documents/DOC-RB-011.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-011-05",
+    "document_id": "DOC-RB-011",
+    "citation_locator": "corpus/documents/DOC-RB-011.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-011-06",
+    "document_id": "DOC-RB-011",
+    "citation_locator": "corpus/documents/DOC-RB-011.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-RB-011-07",
+    "document_id": "DOC-RB-011",
+    "citation_locator": "corpus/documents/DOC-RB-011.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RB-012-v1-01",
+    "document_id": "DOC-RB-012-v1",
+    "citation_locator": "corpus/documents/DOC-RB-012-v1.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-012-v1-02",
+    "document_id": "DOC-RB-012-v1",
+    "citation_locator": "corpus/documents/DOC-RB-012-v1.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-012-v1-03",
+    "document_id": "DOC-RB-012-v1",
+    "citation_locator": "corpus/documents/DOC-RB-012-v1.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-012-v1-04",
+    "document_id": "DOC-RB-012-v1",
+    "citation_locator": "corpus/documents/DOC-RB-012-v1.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-012-v1-05",
+    "document_id": "DOC-RB-012-v1",
+    "citation_locator": "corpus/documents/DOC-RB-012-v1.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-012-v1-06",
+    "document_id": "DOC-RB-012-v1",
+    "citation_locator": "corpus/documents/DOC-RB-012-v1.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-RB-012-v1-07",
+    "document_id": "DOC-RB-012-v1",
+    "citation_locator": "corpus/documents/DOC-RB-012-v1.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RB-012-v2-01",
+    "document_id": "DOC-RB-012-v2",
+    "citation_locator": "corpus/documents/DOC-RB-012-v2.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-012-v2-02",
+    "document_id": "DOC-RB-012-v2",
+    "citation_locator": "corpus/documents/DOC-RB-012-v2.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-012-v2-03",
+    "document_id": "DOC-RB-012-v2",
+    "citation_locator": "corpus/documents/DOC-RB-012-v2.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-012-v2-04",
+    "document_id": "DOC-RB-012-v2",
+    "citation_locator": "corpus/documents/DOC-RB-012-v2.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-012-v2-05",
+    "document_id": "DOC-RB-012-v2",
+    "citation_locator": "corpus/documents/DOC-RB-012-v2.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-012-v2-06",
+    "document_id": "DOC-RB-012-v2",
+    "citation_locator": "corpus/documents/DOC-RB-012-v2.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-RB-012-v2-07",
+    "document_id": "DOC-RB-012-v2",
+    "citation_locator": "corpus/documents/DOC-RB-012-v2.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RB-013-01",
+    "document_id": "DOC-RB-013",
+    "citation_locator": "corpus/documents/DOC-RB-013.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-013-02",
+    "document_id": "DOC-RB-013",
+    "citation_locator": "corpus/documents/DOC-RB-013.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RB-013-03",
+    "document_id": "DOC-RB-013",
+    "citation_locator": "corpus/documents/DOC-RB-013.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-013-04",
+    "document_id": "DOC-RB-013",
+    "citation_locator": "corpus/documents/DOC-RB-013.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-013-05",
+    "document_id": "DOC-RB-013",
+    "citation_locator": "corpus/documents/DOC-RB-013.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RB-013-06",
+    "document_id": "DOC-RB-013",
+    "citation_locator": "corpus/documents/DOC-RB-013.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-RB-013-07",
+    "document_id": "DOC-RB-013",
+    "citation_locator": "corpus/documents/DOC-RB-013.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RISK-001-01",
+    "document_id": "DOC-RISK-001",
+    "citation_locator": "corpus/documents/DOC-RISK-001.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RISK-001-02",
+    "document_id": "DOC-RISK-001",
+    "citation_locator": "corpus/documents/DOC-RISK-001.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RISK-001-03",
+    "document_id": "DOC-RISK-001",
+    "citation_locator": "corpus/documents/DOC-RISK-001.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-001-04",
+    "document_id": "DOC-RISK-001",
+    "citation_locator": "corpus/documents/DOC-RISK-001.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-001-05",
+    "document_id": "DOC-RISK-001",
+    "citation_locator": "corpus/documents/DOC-RISK-001.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-001-06",
+    "document_id": "DOC-RISK-001",
+    "citation_locator": "corpus/documents/DOC-RISK-001.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RISK-002-01",
+    "document_id": "DOC-RISK-002",
+    "citation_locator": "corpus/documents/DOC-RISK-002.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RISK-002-02",
+    "document_id": "DOC-RISK-002",
+    "citation_locator": "corpus/documents/DOC-RISK-002.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RISK-002-03",
+    "document_id": "DOC-RISK-002",
+    "citation_locator": "corpus/documents/DOC-RISK-002.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-002-04",
+    "document_id": "DOC-RISK-002",
+    "citation_locator": "corpus/documents/DOC-RISK-002.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-002-05",
+    "document_id": "DOC-RISK-002",
+    "citation_locator": "corpus/documents/DOC-RISK-002.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-002-06",
+    "document_id": "DOC-RISK-002",
+    "citation_locator": "corpus/documents/DOC-RISK-002.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RISK-003-01",
+    "document_id": "DOC-RISK-003",
+    "citation_locator": "corpus/documents/DOC-RISK-003.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RISK-003-02",
+    "document_id": "DOC-RISK-003",
+    "citation_locator": "corpus/documents/DOC-RISK-003.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RISK-003-03",
+    "document_id": "DOC-RISK-003",
+    "citation_locator": "corpus/documents/DOC-RISK-003.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-003-04",
+    "document_id": "DOC-RISK-003",
+    "citation_locator": "corpus/documents/DOC-RISK-003.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-003-05",
+    "document_id": "DOC-RISK-003",
+    "citation_locator": "corpus/documents/DOC-RISK-003.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-003-06",
+    "document_id": "DOC-RISK-003",
+    "citation_locator": "corpus/documents/DOC-RISK-003.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-RISK-003-07",
+    "document_id": "DOC-RISK-003",
+    "citation_locator": "corpus/documents/DOC-RISK-003.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RISK-005-01",
+    "document_id": "DOC-RISK-005",
+    "citation_locator": "corpus/documents/DOC-RISK-005.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RISK-005-02",
+    "document_id": "DOC-RISK-005",
+    "citation_locator": "corpus/documents/DOC-RISK-005.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RISK-005-03",
+    "document_id": "DOC-RISK-005",
+    "citation_locator": "corpus/documents/DOC-RISK-005.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-005-04",
+    "document_id": "DOC-RISK-005",
+    "citation_locator": "corpus/documents/DOC-RISK-005.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-005-05",
+    "document_id": "DOC-RISK-005",
+    "citation_locator": "corpus/documents/DOC-RISK-005.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-005-06",
+    "document_id": "DOC-RISK-005",
+    "citation_locator": "corpus/documents/DOC-RISK-005.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RISK-006-01",
+    "document_id": "DOC-RISK-006",
+    "citation_locator": "corpus/documents/DOC-RISK-006.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RISK-006-02",
+    "document_id": "DOC-RISK-006",
+    "citation_locator": "corpus/documents/DOC-RISK-006.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RISK-006-03",
+    "document_id": "DOC-RISK-006",
+    "citation_locator": "corpus/documents/DOC-RISK-006.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-006-04",
+    "document_id": "DOC-RISK-006",
+    "citation_locator": "corpus/documents/DOC-RISK-006.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-006-05",
+    "document_id": "DOC-RISK-006",
+    "citation_locator": "corpus/documents/DOC-RISK-006.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-006-06",
+    "document_id": "DOC-RISK-006",
+    "citation_locator": "corpus/documents/DOC-RISK-006.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-RISK-006-07",
+    "document_id": "DOC-RISK-006",
+    "citation_locator": "corpus/documents/DOC-RISK-006.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RISK-007-01",
+    "document_id": "DOC-RISK-007",
+    "citation_locator": "corpus/documents/DOC-RISK-007.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RISK-007-02",
+    "document_id": "DOC-RISK-007",
+    "citation_locator": "corpus/documents/DOC-RISK-007.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RISK-007-03",
+    "document_id": "DOC-RISK-007",
+    "citation_locator": "corpus/documents/DOC-RISK-007.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-007-04",
+    "document_id": "DOC-RISK-007",
+    "citation_locator": "corpus/documents/DOC-RISK-007.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-007-05",
+    "document_id": "DOC-RISK-007",
+    "citation_locator": "corpus/documents/DOC-RISK-007.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-007-06",
+    "document_id": "DOC-RISK-007",
+    "citation_locator": "corpus/documents/DOC-RISK-007.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RISK-008-01",
+    "document_id": "DOC-RISK-008",
+    "citation_locator": "corpus/documents/DOC-RISK-008.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RISK-008-02",
+    "document_id": "DOC-RISK-008",
+    "citation_locator": "corpus/documents/DOC-RISK-008.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RISK-008-03",
+    "document_id": "DOC-RISK-008",
+    "citation_locator": "corpus/documents/DOC-RISK-008.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-008-04",
+    "document_id": "DOC-RISK-008",
+    "citation_locator": "corpus/documents/DOC-RISK-008.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-008-05",
+    "document_id": "DOC-RISK-008",
+    "citation_locator": "corpus/documents/DOC-RISK-008.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-008-06",
+    "document_id": "DOC-RISK-008",
+    "citation_locator": "corpus/documents/DOC-RISK-008.md#section-06",
+    "certainty": "illustrative"
+  },
+  {
+    "fact_id": "F-RISK-008-07",
+    "document_id": "DOC-RISK-008",
+    "citation_locator": "corpus/documents/DOC-RISK-008.md#section-07",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-RISK-009-01",
+    "document_id": "DOC-RISK-009",
+    "citation_locator": "corpus/documents/DOC-RISK-009.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RISK-009-02",
+    "document_id": "DOC-RISK-009",
+    "citation_locator": "corpus/documents/DOC-RISK-009.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-RISK-009-03",
+    "document_id": "DOC-RISK-009",
+    "citation_locator": "corpus/documents/DOC-RISK-009.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-009-04",
+    "document_id": "DOC-RISK-009",
+    "citation_locator": "corpus/documents/DOC-RISK-009.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-009-05",
+    "document_id": "DOC-RISK-009",
+    "citation_locator": "corpus/documents/DOC-RISK-009.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-RISK-009-06",
+    "document_id": "DOC-RISK-009",
+    "citation_locator": "corpus/documents/DOC-RISK-009.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-SEC-001-01",
+    "document_id": "DOC-SEC-001",
+    "citation_locator": "corpus/documents/DOC-SEC-001.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-SEC-001-02",
+    "document_id": "DOC-SEC-001",
+    "citation_locator": "corpus/documents/DOC-SEC-001.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-SEC-001-03",
+    "document_id": "DOC-SEC-001",
+    "citation_locator": "corpus/documents/DOC-SEC-001.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-SEC-001-04",
+    "document_id": "DOC-SEC-001",
+    "citation_locator": "corpus/documents/DOC-SEC-001.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-SEC-001-05",
+    "document_id": "DOC-SEC-001",
+    "citation_locator": "corpus/documents/DOC-SEC-001.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-SEC-001-06",
+    "document_id": "DOC-SEC-001",
+    "citation_locator": "corpus/documents/DOC-SEC-001.md#section-06",
+    "certainty": "reference"
+  },
+  {
+    "fact_id": "F-SEC-002-01",
+    "document_id": "DOC-SEC-002",
+    "citation_locator": "corpus/documents/DOC-SEC-002.md#section-01",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-SEC-002-02",
+    "document_id": "DOC-SEC-002",
+    "citation_locator": "corpus/documents/DOC-SEC-002.md#section-02",
+    "certainty": "observed"
+  },
+  {
+    "fact_id": "F-SEC-002-03",
+    "document_id": "DOC-SEC-002",
+    "citation_locator": "corpus/documents/DOC-SEC-002.md#section-03",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-SEC-002-04",
+    "document_id": "DOC-SEC-002",
+    "citation_locator": "corpus/documents/DOC-SEC-002.md#section-04",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-SEC-002-05",
+    "document_id": "DOC-SEC-002",
+    "citation_locator": "corpus/documents/DOC-SEC-002.md#section-05",
+    "certainty": "guidance"
+  },
+  {
+    "fact_id": "F-SEC-002-06",
+    "document_id": "DOC-SEC-002",
+    "citation_locator": "corpus/documents/DOC-SEC-002.md#section-06",
+    "certainty": "reference"
+  }
+]

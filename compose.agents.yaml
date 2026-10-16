@@ -1,0 +1,12 @@
+services:
+  api:
+    environment:
+      AGENT_MODE: enterprise
+      AGENT_MCP_URL: http://northstar-mcp:8001/mcp
+      INGESTION_ARTIFACT_ROOT: /app/var/ingestion
+      REQUEST_TIMEOUT_SECONDS: "300"
+    volumes:
+      - ./var/ingestion:/app/var/ingestion:ro
+    depends_on:
+      northstar-mcp:
+        condition: service_healthy

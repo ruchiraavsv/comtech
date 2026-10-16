@@ -62,8 +62,8 @@ class Observability:
         self.instrumentor.instrument(
             tracer_provider=self.provider,
             config=TraceConfig(
-                hide_inputs=settings.trace_hide_inputs,
-                hide_outputs=settings.trace_hide_outputs,
+                hide_inputs=settings.trace_hide_inputs or settings.research_enabled,
+                hide_outputs=settings.trace_hide_outputs or settings.research_enabled,
             ),
         )
 
@@ -78,7 +78,7 @@ class Observability:
             "metadata": json.dumps({**context, "parent_run_id": str(parent) if parent else None}),
             "input.mime_type": "text/plain",
             "input.value": "[REDACTED]"
-            if self.settings.trace_hide_inputs
+            if self.settings.trace_hide_inputs or self.settings.research_enabled
             else (str(inputs["messages"][-1].content) if inputs else "Resume from checkpoint"),
         }
         with (
@@ -102,7 +102,10 @@ class Observability:
         span = trace.get_current_span()
         span.set_attribute("output.mime_type", "text/plain")
         span.set_attribute(
-            "output.value", "[REDACTED]" if self.settings.trace_hide_outputs else value
+            "output.value",
+            "[REDACTED]"
+            if self.settings.trace_hide_outputs or self.settings.research_enabled
+            else value,
         )
 
     @staticmethod

@@ -19,11 +19,20 @@ dependencies = [
   "openinference-instrumentation-langchain>=0.1,<1",
   "opentelemetry-sdk>=1.30,<2",
   "opentelemetry-exporter-otlp-proto-http>=1.30,<2",
+  "tiktoken>=0.12,<1",
+]
+
+[project.optional-dependencies]
+research = ["pyarrow==25.0.1"]
+mcp = [
+    "mcp>=2,<3",
 ]
 
 [dependency-groups]
+runner-runtime = ["numpy==2.5.3", "pandas==3.0.6", "pyarrow==25.0.1"]
+mcp-runtime = ["mcp>=2,<3", "uvicorn[standard]>=0.34,<1", "pydantic-settings>=2.7,<3"]
 ui = ["streamlit>=1.45,<2", "httpx-sse>=0.4,<1"]
-dev = ["pytest>=8,<10", "pytest-asyncio>=1,<2", "ruff>=0.11,<1", "httpx-sse>=0.4,<1"]
+dev = ["pytest>=8,<10", "pytest-asyncio>=1,<2", "ruff>=0.11,<1", "httpx-sse>=0.4,<1", "httpx>=0.28,<1"]
 
 [build-system]
 requires = ["hatchling"]

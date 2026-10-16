@@ -1,0 +1,23 @@
+# Isolated project; no Postgres, app API, UI, provider keys, or published ports.
+services:
+  northstar-mcp:
+    build:
+      context: .
+      target: mcp
+    read_only: true
+    tmpfs: [/tmp]
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8001/health/ready', timeout=3)"]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+    stop_grace_period: 15s
+  tests:
+    build:
+      context: .
+      target: mcp-test
+    environment:
+      NORTHSTAR_MCP_TEST_URL: http://northstar-mcp:8001
+    depends_on:
+      northstar-mcp:
+        condition: service_healthy

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "snapshot_id": "DEMO-2026-09-15-A",
+  "as_of": "2026-09-15T10:00:00Z",
+  "schema_version": 1,
+  "snapshot_digest": "f56a4ecf60cb50fdf7d7009785fddf22d58fbf96737e8dd6468c6c3b1ec97e02",
+  "counts": {
+    "employees": 21,
+    "teams": 8,
+    "services": 10,
+    "oncall_shifts": 20,
+    "open_incidents": 3,
+    "deployments": 10
+  },
+  "story_coverage": {
+    "S1": "MerchantConnect symptoms, ownership, shift and employee joins",
+    "S2": "MerchantConnect current deployment references CHG-153",
+    "S3": "SettlementHub current incident and EventMesh dependency",
+    "S4": "Document-only; no operational answer invented",
+    "S5": "FraudShield deployment, model and configuration identities",
+    "S6": "SEV-1 record and explicit capacity-approval contact",
+    "S7": "AuthHub privileged-review control-owner reference",
+    "S8": "No general regional health telemetry; empty incident query is bounded",
+    "S9": "Three open incidents and incident/service/shift/person lookup paths",
+    "S10": "Current owner differs from original design ownership in ARCH-001"
+  },
+  "permissions": "deferred",
+  "client_integration": "deferred"
+}

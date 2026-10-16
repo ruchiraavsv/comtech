@@ -1,0 +1,998 @@
+{
+  "snapshot_id": "DEMO-2026-09-15-A",
+  "as_of": "2026-09-15T10:00:00Z",
+  "schema_version": 1,
+  "horizon_start": "2026-09-15T08:00:00Z",
+  "horizon_end": "2026-09-16T08:00:00Z",
+  "private_do_not_index": true,
+  "historical_changes": [
+    {
+      "change_id": "CHG-153",
+      "service_id": "merchantconnect",
+      "implemented_at": "2026-08-07T09:00:00Z",
+      "document_id": "DOC-CHG-153"
+    },
+    {
+      "change_id": "CHG-178",
+      "service_id": "payflow",
+      "implemented_at": "2026-08-26T09:00:00Z",
+      "document_id": "DOC-CHG-178"
+    },
+    {
+      "change_id": "CHG-301",
+      "service_id": "settlementhub",
+      "implemented_at": "2026-08-15T09:00:00Z",
+      "document_id": null
+    },
+    {
+      "change_id": "CHG-127",
+      "service_id": "eventmesh",
+      "implemented_at": "2026-06-01T09:00:00Z",
+      "document_id": "DOC-CHG-127"
+    },
+    {
+      "change_id": "CHG-109",
+      "service_id": "fraudshield",
+      "implemented_at": "2026-05-10T09:00:00Z",
+      "document_id": "DOC-CHG-109"
+    },
+    {
+      "change_id": "CHG-302",
+      "service_id": "authhub",
+      "implemented_at": "2026-08-12T09:00:00Z",
+      "document_id": null
+    },
+    {
+      "change_id": "CHG-303",
+      "service_id": "notifyhub",
+      "implemented_at": "2026-08-11T09:00:00Z",
+      "document_id": null
+    },
+    {
+      "change_id": "CHG-304",
+      "service_id": "ledgercore",
+      "implemented_at": "2026-08-14T09:00:00Z",
+      "document_id": null
+    },
+    {
+      "change_id": "CHG-305",
+      "service_id": "psp-gateway",
+      "implemented_at": "2026-08-17T09:00:00Z",
+      "document_id": null
+    },
+    {
+      "change_id": "CHG-306",
+      "service_id": "datagateway",
+      "implemented_at": "2026-08-18T09:00:00Z",
+      "document_id": null
+    }
+  ],
+  "history_sha256": "c1bc5981ba6a0e9d0be076630c575176256f5e51f7e08aead19b9f24d7a95b93",
+  "tables": {
+    "employees": [
+      {
+        "record_id": "E1043",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E1043",
+        "name": "Alice Chen",
+        "team_id": "payments-platform-reliability",
+        "title": "Senior SRE",
+        "email": "alice.chen@northstar.example",
+        "manager_id": "E1044",
+        "active": true
+      },
+      {
+        "record_id": "E1044",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E1044",
+        "name": "Daniel Wong",
+        "team_id": "payments-platform-reliability",
+        "title": "Payments Platform Reliability Manager",
+        "email": "daniel.wong@northstar.example",
+        "manager_id": null,
+        "active": true
+      },
+      {
+        "record_id": "E1051",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E1051",
+        "name": "Leila Hassan",
+        "team_id": "payments-platform-reliability",
+        "title": "SRE",
+        "email": "leila.hassan@northstar.example",
+        "manager_id": "E1044",
+        "active": true
+      },
+      {
+        "record_id": "E2050",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E2050",
+        "name": "Ravi Perera",
+        "team_id": "checkout-engineering",
+        "title": "Senior Checkout Engineer",
+        "email": "ravi.perera@northstar.example",
+        "manager_id": "E2051",
+        "active": true
+      },
+      {
+        "record_id": "E2051",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E2051",
+        "name": "Nora Silva",
+        "team_id": "checkout-engineering",
+        "title": "Checkout Engineering Manager",
+        "email": "nora.silva@northstar.example",
+        "manager_id": null,
+        "active": true
+      },
+      {
+        "record_id": "E2052",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E2052",
+        "name": "Owen Park",
+        "team_id": "checkout-engineering",
+        "title": "Checkout Engineer",
+        "email": "owen.park@northstar.example",
+        "manager_id": "E2051",
+        "active": true
+      },
+      {
+        "record_id": "E2031",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E2031",
+        "name": "Priya Rao",
+        "team_id": "settlement-platform",
+        "title": "Settlement Platform Manager",
+        "email": "priya.rao@northstar.example",
+        "manager_id": null,
+        "active": true
+      },
+      {
+        "record_id": "E2032",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E2032",
+        "name": "Amir Tan",
+        "team_id": "settlement-platform",
+        "title": "Settlement Engineer",
+        "email": "amir.tan@northstar.example",
+        "manager_id": "E2031",
+        "active": true
+      },
+      {
+        "record_id": "E2033",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E2033",
+        "name": "Elena Costa",
+        "team_id": "settlement-platform",
+        "title": "Ledger Engineer",
+        "email": "elena.costa@northstar.example",
+        "manager_id": "E2031",
+        "active": true
+      },
+      {
+        "record_id": "E3010",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E3010",
+        "name": "Jonas Lee",
+        "team_id": "messaging-platform",
+        "title": "Messaging Platform Manager",
+        "email": "jonas.lee@northstar.example",
+        "manager_id": null,
+        "active": true
+      },
+      {
+        "record_id": "E3011",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E3011",
+        "name": "Mina Patel",
+        "team_id": "messaging-platform",
+        "title": "Messaging Engineer",
+        "email": "mina.patel@northstar.example",
+        "manager_id": "E3010",
+        "active": true
+      },
+      {
+        "record_id": "E3042",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E3042",
+        "name": "Maya Fernando",
+        "team_id": "fraud-platform",
+        "title": "Fraud Platform Manager",
+        "email": "maya.fernando@northstar.example",
+        "manager_id": null,
+        "active": true
+      },
+      {
+        "record_id": "E3043",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E3043",
+        "name": "Theo Martins",
+        "team_id": "fraud-platform",
+        "title": "Fraud Platform Engineer",
+        "email": "theo.martins@northstar.example",
+        "manager_id": "E3042",
+        "active": true
+      },
+      {
+        "record_id": "E4010",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E4010",
+        "name": "Sara Iqbal",
+        "team_id": "identity-platform",
+        "title": "Identity Platform Manager",
+        "email": "sara.iqbal@northstar.example",
+        "manager_id": null,
+        "active": true
+      },
+      {
+        "record_id": "E4011",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E4011",
+        "name": "Lucas Tran",
+        "team_id": "identity-platform",
+        "title": "Identity Engineer",
+        "email": "lucas.tran@northstar.example",
+        "manager_id": "E4010",
+        "active": true
+      },
+      {
+        "record_id": "E5010",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E5010",
+        "name": "Asha Reed",
+        "team_id": "customer-communications",
+        "title": "Customer Communications Manager",
+        "email": "asha.reed@northstar.example",
+        "manager_id": null,
+        "active": true
+      },
+      {
+        "record_id": "E5011",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E5011",
+        "name": "Noah Lim",
+        "team_id": "customer-communications",
+        "title": "Notification Engineer",
+        "email": "noah.lim@northstar.example",
+        "manager_id": "E5010",
+        "active": true
+      },
+      {
+        "record_id": "E6010",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E6010",
+        "name": "Iris Mensah",
+        "team_id": "platform-reliability",
+        "title": "Platform Reliability Manager",
+        "email": "iris.mensah@northstar.example",
+        "manager_id": null,
+        "active": true
+      },
+      {
+        "record_id": "E6011",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E6011",
+        "name": "Mateo Cruz",
+        "team_id": "platform-reliability",
+        "title": "Platform SRE",
+        "email": "mateo.cruz@northstar.example",
+        "manager_id": "E6010",
+        "active": true
+      },
+      {
+        "record_id": "E6012",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "employee_id": "E6012",
+        "name": "Zara Khan",
+        "team_id": "platform-reliability",
+        "title": "Platform SRE",
+        "email": "zara.khan@northstar.example",
+        "manager_id": "E6010",
+        "active": true
+      },
+      {
+        "record_id": "E0990",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-06-30T17:00:00Z",
+        "employee_id": "E0990",
+        "name": "Adrian Brooks",
+        "team_id": "payments-platform-reliability",
+        "title": "Former MerchantConnect Service Owner",
+        "email": "adrian.brooks@northstar.example",
+        "manager_id": "E1044",
+        "active": false
+      }
+    ],
+    "teams": [
+      {
+        "record_id": "payments-platform-reliability",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "team_id": "payments-platform-reliability",
+        "name": "Payments Platform Reliability",
+        "manager_employee_id": "E1044"
+      },
+      {
+        "record_id": "checkout-engineering",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "team_id": "checkout-engineering",
+        "name": "Checkout Engineering",
+        "manager_employee_id": "E2051"
+      },
+      {
+        "record_id": "settlement-platform",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "team_id": "settlement-platform",
+        "name": "Settlement Platform",
+        "manager_employee_id": "E2031"
+      },
+      {
+        "record_id": "messaging-platform",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "team_id": "messaging-platform",
+        "name": "Messaging Platform",
+        "manager_employee_id": "E3010"
+      },
+      {
+        "record_id": "fraud-platform",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "team_id": "fraud-platform",
+        "name": "Fraud Platform",
+        "manager_employee_id": "E3042"
+      },
+      {
+        "record_id": "identity-platform",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "team_id": "identity-platform",
+        "name": "Identity Platform",
+        "manager_employee_id": "E4010"
+      },
+      {
+        "record_id": "customer-communications",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "team_id": "customer-communications",
+        "name": "Customer Communications",
+        "manager_employee_id": "E5010"
+      },
+      {
+        "record_id": "platform-reliability",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "team_id": "platform-reliability",
+        "name": "Platform Reliability",
+        "manager_employee_id": "E6010"
+      }
+    ],
+    "services": [
+      {
+        "record_id": "merchantconnect",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "service_id": "merchantconnect",
+        "name": "MerchantConnect",
+        "domain": "payments",
+        "owner_team_id": "payments-platform-reliability",
+        "tier": 1,
+        "dependencies": [
+          "psp-gateway"
+        ],
+        "oncall_rotation_id": "merchantconnect-primary",
+        "responsibilities": [
+          {
+            "responsibility_id": "capacity-change-approval-contact",
+            "employee_id": "E1044",
+            "description": "Contact for the material capacity-change approval process; this record grants no approval.",
+            "basis_document_ids": [
+              "DOC-POL-007-v2",
+              "DOC-RB-010"
+            ]
+          }
+        ]
+      },
+      {
+        "record_id": "payflow",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "service_id": "payflow",
+        "name": "PayFlow",
+        "domain": "payments",
+        "owner_team_id": "checkout-engineering",
+        "tier": 1,
+        "dependencies": [
+          "merchantconnect"
+        ],
+        "oncall_rotation_id": "payflow-primary",
+        "responsibilities": []
+      },
+      {
+        "record_id": "settlementhub",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "service_id": "settlementhub",
+        "name": "SettlementHub",
+        "domain": "payments",
+        "owner_team_id": "settlement-platform",
+        "tier": 1,
+        "dependencies": [
+          "eventmesh"
+        ],
+        "oncall_rotation_id": "settlementhub-primary",
+        "responsibilities": []
+      },
+      {
+        "record_id": "eventmesh",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "service_id": "eventmesh",
+        "name": "EventMesh",
+        "domain": "platform",
+        "owner_team_id": "messaging-platform",
+        "tier": 1,
+        "dependencies": [
+          "datagateway"
+        ],
+        "oncall_rotation_id": "eventmesh-primary",
+        "responsibilities": []
+      },
+      {
+        "record_id": "fraudshield",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "service_id": "fraudshield",
+        "name": "FraudShield",
+        "domain": "risk",
+        "owner_team_id": "fraud-platform",
+        "tier": 1,
+        "dependencies": [
+          "payflow"
+        ],
+        "oncall_rotation_id": "fraudshield-primary",
+        "responsibilities": []
+      },
+      {
+        "record_id": "authhub",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "service_id": "authhub",
+        "name": "AuthHub",
+        "domain": "identity",
+        "owner_team_id": "identity-platform",
+        "tier": 1,
+        "dependencies": [
+          "datagateway"
+        ],
+        "oncall_rotation_id": "authhub-primary",
+        "responsibilities": [
+          {
+            "responsibility_id": "privileged-access-review-control-owner",
+            "employee_id": "E4010",
+            "description": "Current owner of the privileged-access review control; closure evidence remains in the audit documents.",
+            "basis_document_ids": [
+              "DOC-POL-013-v2",
+              "DOC-RISK-009"
+            ]
+          }
+        ]
+      },
+      {
+        "record_id": "notifyhub",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "service_id": "notifyhub",
+        "name": "NotifyHub",
+        "domain": "platform",
+        "owner_team_id": "customer-communications",
+        "tier": 2,
+        "dependencies": [
+          "eventmesh"
+        ],
+        "oncall_rotation_id": "notifyhub-primary",
+        "responsibilities": []
+      },
+      {
+        "record_id": "ledgercore",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "service_id": "ledgercore",
+        "name": "LedgerCore",
+        "domain": "finance",
+        "owner_team_id": "settlement-platform",
+        "tier": 1,
+        "dependencies": [
+          "settlementhub"
+        ],
+        "oncall_rotation_id": "ledgercore-primary",
+        "responsibilities": []
+      },
+      {
+        "record_id": "psp-gateway",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "service_id": "psp-gateway",
+        "name": "PSP Gateway",
+        "domain": "payments",
+        "owner_team_id": "payments-platform-reliability",
+        "tier": 1,
+        "dependencies": [
+          "datagateway"
+        ],
+        "oncall_rotation_id": "psp-gateway-primary",
+        "responsibilities": []
+      },
+      {
+        "record_id": "datagateway",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "service_id": "datagateway",
+        "name": "DataGateway",
+        "domain": "platform",
+        "owner_team_id": "platform-reliability",
+        "tier": 2,
+        "dependencies": [
+          "authhub"
+        ],
+        "oncall_rotation_id": "datagateway-primary",
+        "responsibilities": []
+      }
+    ],
+    "oncall_shifts": [
+      {
+        "record_id": "SHIFT-merchantconnect-1",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-merchantconnect-1",
+        "service_id": "merchantconnect",
+        "rotation_id": "merchantconnect-primary",
+        "employee_id": "E1043",
+        "level": "primary",
+        "starts_at": "2026-09-15T08:00:00Z",
+        "ends_at": "2026-09-15T20:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-merchantconnect-2",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-merchantconnect-2",
+        "service_id": "merchantconnect",
+        "rotation_id": "merchantconnect-primary",
+        "employee_id": "E1051",
+        "level": "primary",
+        "starts_at": "2026-09-15T20:00:00Z",
+        "ends_at": "2026-09-16T08:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-payflow-1",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-payflow-1",
+        "service_id": "payflow",
+        "rotation_id": "payflow-primary",
+        "employee_id": "E2050",
+        "level": "primary",
+        "starts_at": "2026-09-15T08:00:00Z",
+        "ends_at": "2026-09-15T20:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-payflow-2",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-payflow-2",
+        "service_id": "payflow",
+        "rotation_id": "payflow-primary",
+        "employee_id": "E2052",
+        "level": "primary",
+        "starts_at": "2026-09-15T20:00:00Z",
+        "ends_at": "2026-09-16T08:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-settlementhub-1",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-settlementhub-1",
+        "service_id": "settlementhub",
+        "rotation_id": "settlementhub-primary",
+        "employee_id": "E2032",
+        "level": "primary",
+        "starts_at": "2026-09-15T08:00:00Z",
+        "ends_at": "2026-09-15T20:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-settlementhub-2",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-settlementhub-2",
+        "service_id": "settlementhub",
+        "rotation_id": "settlementhub-primary",
+        "employee_id": "E2033",
+        "level": "primary",
+        "starts_at": "2026-09-15T20:00:00Z",
+        "ends_at": "2026-09-16T08:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-eventmesh-1",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-eventmesh-1",
+        "service_id": "eventmesh",
+        "rotation_id": "eventmesh-primary",
+        "employee_id": "E3011",
+        "level": "primary",
+        "starts_at": "2026-09-15T08:00:00Z",
+        "ends_at": "2026-09-15T20:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-eventmesh-2",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-eventmesh-2",
+        "service_id": "eventmesh",
+        "rotation_id": "eventmesh-primary",
+        "employee_id": "E3010",
+        "level": "primary",
+        "starts_at": "2026-09-15T20:00:00Z",
+        "ends_at": "2026-09-16T08:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-fraudshield-1",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-fraudshield-1",
+        "service_id": "fraudshield",
+        "rotation_id": "fraudshield-primary",
+        "employee_id": "E3043",
+        "level": "primary",
+        "starts_at": "2026-09-15T08:00:00Z",
+        "ends_at": "2026-09-15T20:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-fraudshield-2",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-fraudshield-2",
+        "service_id": "fraudshield",
+        "rotation_id": "fraudshield-primary",
+        "employee_id": "E3042",
+        "level": "primary",
+        "starts_at": "2026-09-15T20:00:00Z",
+        "ends_at": "2026-09-16T08:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-authhub-1",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-authhub-1",
+        "service_id": "authhub",
+        "rotation_id": "authhub-primary",
+        "employee_id": "E4011",
+        "level": "primary",
+        "starts_at": "2026-09-15T08:00:00Z",
+        "ends_at": "2026-09-15T20:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-authhub-2",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-authhub-2",
+        "service_id": "authhub",
+        "rotation_id": "authhub-primary",
+        "employee_id": "E4010",
+        "level": "primary",
+        "starts_at": "2026-09-15T20:00:00Z",
+        "ends_at": "2026-09-16T08:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-notifyhub-1",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-notifyhub-1",
+        "service_id": "notifyhub",
+        "rotation_id": "notifyhub-primary",
+        "employee_id": "E5011",
+        "level": "primary",
+        "starts_at": "2026-09-15T08:00:00Z",
+        "ends_at": "2026-09-15T20:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-notifyhub-2",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-notifyhub-2",
+        "service_id": "notifyhub",
+        "rotation_id": "notifyhub-primary",
+        "employee_id": "E5010",
+        "level": "primary",
+        "starts_at": "2026-09-15T20:00:00Z",
+        "ends_at": "2026-09-16T08:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-ledgercore-1",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-ledgercore-1",
+        "service_id": "ledgercore",
+        "rotation_id": "ledgercore-primary",
+        "employee_id": "E2033",
+        "level": "primary",
+        "starts_at": "2026-09-15T08:00:00Z",
+        "ends_at": "2026-09-15T20:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-ledgercore-2",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-ledgercore-2",
+        "service_id": "ledgercore",
+        "rotation_id": "ledgercore-primary",
+        "employee_id": "E2032",
+        "level": "primary",
+        "starts_at": "2026-09-15T20:00:00Z",
+        "ends_at": "2026-09-16T08:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-psp-gateway-1",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-psp-gateway-1",
+        "service_id": "psp-gateway",
+        "rotation_id": "psp-gateway-primary",
+        "employee_id": "E1051",
+        "level": "primary",
+        "starts_at": "2026-09-15T08:00:00Z",
+        "ends_at": "2026-09-15T20:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-psp-gateway-2",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-psp-gateway-2",
+        "service_id": "psp-gateway",
+        "rotation_id": "psp-gateway-primary",
+        "employee_id": "E1043",
+        "level": "primary",
+        "starts_at": "2026-09-15T20:00:00Z",
+        "ends_at": "2026-09-16T08:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-datagateway-1",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-datagateway-1",
+        "service_id": "datagateway",
+        "rotation_id": "datagateway-primary",
+        "employee_id": "E6011",
+        "level": "primary",
+        "starts_at": "2026-09-15T08:00:00Z",
+        "ends_at": "2026-09-15T20:00:00Z"
+      },
+      {
+        "record_id": "SHIFT-datagateway-2",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T08:00:00Z",
+        "shift_id": "SHIFT-datagateway-2",
+        "service_id": "datagateway",
+        "rotation_id": "datagateway-primary",
+        "employee_id": "E6012",
+        "level": "primary",
+        "starts_at": "2026-09-15T20:00:00Z",
+        "ends_at": "2026-09-16T08:00:00Z"
+      }
+    ],
+    "open_incidents": [
+      {
+        "record_id": "INC-LIVE-1042",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T09:55:00Z",
+        "incident_id": "INC-LIVE-1042",
+        "service_id": "merchantconnect",
+        "severity": "SEV-1",
+        "status": "investigating",
+        "symptoms": [
+          "payment timeouts",
+          "outbound connection utilization 96%"
+        ],
+        "commander_employee_id": "E1043",
+        "started_at": "2026-09-15T09:30:00Z",
+        "confirmed_root_cause": null
+      },
+      {
+        "record_id": "INC-LIVE-1051",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T09:50:00Z",
+        "incident_id": "INC-LIVE-1051",
+        "service_id": "payflow",
+        "severity": "SEV-2",
+        "status": "mitigating",
+        "symptoms": [
+          "checkout latency",
+          "retry queue growing"
+        ],
+        "commander_employee_id": "E2050",
+        "started_at": "2026-09-15T09:20:00Z",
+        "confirmed_root_cause": null
+      },
+      {
+        "record_id": "INC-LIVE-1054",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-09-15T09:45:00Z",
+        "incident_id": "INC-LIVE-1054",
+        "service_id": "settlementhub",
+        "severity": "SEV-2",
+        "status": "monitoring",
+        "symptoms": [
+          "corporate report delivery delay"
+        ],
+        "commander_employee_id": "E2031",
+        "started_at": "2026-09-15T08:45:00Z",
+        "confirmed_root_cause": null
+      }
+    ],
+    "deployments": [
+      {
+        "record_id": "DEP-merchantconnect",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-08-07T09:00:00Z",
+        "deployment_id": "DEP-merchantconnect",
+        "service_id": "merchantconnect",
+        "version": "4.7.2",
+        "deployed_at": "2026-08-07T09:00:00Z",
+        "change_id": "CHG-153",
+        "environment": "production",
+        "model_release_id": null,
+        "configuration_version": null
+      },
+      {
+        "record_id": "DEP-payflow",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-08-26T09:00:00Z",
+        "deployment_id": "DEP-payflow",
+        "service_id": "payflow",
+        "version": "3.9.0",
+        "deployed_at": "2026-08-26T09:00:00Z",
+        "change_id": "CHG-178",
+        "environment": "production",
+        "model_release_id": null,
+        "configuration_version": null
+      },
+      {
+        "record_id": "DEP-settlementhub",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-08-15T09:00:00Z",
+        "deployment_id": "DEP-settlementhub",
+        "service_id": "settlementhub",
+        "version": "2.8.1",
+        "deployed_at": "2026-08-15T09:00:00Z",
+        "change_id": "CHG-301",
+        "environment": "production",
+        "model_release_id": null,
+        "configuration_version": null
+      },
+      {
+        "record_id": "DEP-eventmesh",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-06-01T09:00:00Z",
+        "deployment_id": "DEP-eventmesh",
+        "service_id": "eventmesh",
+        "version": "1.8.0",
+        "deployed_at": "2026-06-01T09:00:00Z",
+        "change_id": "CHG-127",
+        "environment": "production",
+        "model_release_id": null,
+        "configuration_version": null
+      },
+      {
+        "record_id": "DEP-fraudshield",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-05-10T09:00:00Z",
+        "deployment_id": "DEP-fraudshield",
+        "service_id": "fraudshield",
+        "version": "5.2.1",
+        "deployed_at": "2026-05-10T09:00:00Z",
+        "change_id": "CHG-109",
+        "environment": "production",
+        "model_release_id": "MODEL-2026-04",
+        "configuration_version": "threshold-bounded-2026-05-10"
+      },
+      {
+        "record_id": "DEP-authhub",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-08-12T09:00:00Z",
+        "deployment_id": "DEP-authhub",
+        "service_id": "authhub",
+        "version": "2.4.0",
+        "deployed_at": "2026-08-12T09:00:00Z",
+        "change_id": "CHG-302",
+        "environment": "production",
+        "model_release_id": null,
+        "configuration_version": null
+      },
+      {
+        "record_id": "DEP-notifyhub",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-08-11T09:00:00Z",
+        "deployment_id": "DEP-notifyhub",
+        "service_id": "notifyhub",
+        "version": "1.6.2",
+        "deployed_at": "2026-08-11T09:00:00Z",
+        "change_id": "CHG-303",
+        "environment": "production",
+        "model_release_id": null,
+        "configuration_version": null
+      },
+      {
+        "record_id": "DEP-ledgercore",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-08-14T09:00:00Z",
+        "deployment_id": "DEP-ledgercore",
+        "service_id": "ledgercore",
+        "version": "3.1.0",
+        "deployed_at": "2026-08-14T09:00:00Z",
+        "change_id": "CHG-304",
+        "environment": "production",
+        "model_release_id": null,
+        "configuration_version": null
+      },
+      {
+        "record_id": "DEP-psp-gateway",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-08-17T09:00:00Z",
+        "deployment_id": "DEP-psp-gateway",
+        "service_id": "psp-gateway",
+        "version": "2.2.3",
+        "deployed_at": "2026-08-17T09:00:00Z",
+        "change_id": "CHG-305",
+        "environment": "production",
+        "model_release_id": null,
+        "configuration_version": null
+      },
+      {
+        "record_id": "DEP-datagateway",
+        "snapshot_id": "DEMO-2026-09-15-A",
+        "updated_at": "2026-08-18T09:00:00Z",
+        "deployment_id": "DEP-datagateway",
+        "service_id": "datagateway",
+        "version": "1.9.1",
+        "deployed_at": "2026-08-18T09:00:00Z",
+        "change_id": "CHG-306",
+        "environment": "production",
+        "model_release_id": null,
+        "configuration_version": null
+      }
+    ]
+  },
+  "assumptions": [
+    "Unspecified names, current versions, shift partners and incident start times are synthetic fixed choices.",
+    "The inactive former owner retains their last directory team; this is not the 2025 design-team record.",
+    "Root team managers have null manager_id; this dataset does not model executives.",
+    "Daniel Wong is the designated capacity-approval contact, not an automatic approval decision.",
+    "Sara Iqbal owns the privileged-review control associated with AuthHub; historical closure stays documentary.",
+    "Deployments CHG-301 through CHG-306 are additional canonical change entities without new document slots.",
+    "FraudShield application version, model identity and threshold configuration are distinct fields.",
+    "Known next shifts do not advance the frozen as_of clock. No regional health telemetry is provided."
+  ]
+}

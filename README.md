@@ -1,10 +1,21 @@
 # Comtech assistant infrastructure
 
+The [enterprise agent workflow](docs/agents.md) adds a Supervisor, bounded
+Knowledge Worker, Reviewer, and Final Answer Generator over the document source
+store and Northstar MCP. Enable it with `compose.agents.yaml`; default mode is
+still the mock graph. Authorization and collection analytics remain deferred.
+
+The [Northstar synthetic document corpus](synthetic_bank/README.md) contains 132
+banking documents with versioned metadata, section citations, and offline
+validation. Browse the [document catalog](synthetic_bank/CATALOG.md).
+The [ingestion CLI and source-store handoff](docs/ingestion.md) implement the
+[hosted Pinecone ingestion plan](docs/plans/pinecone-ingestion.md).
+
 An executable foundation for the AI Lead assessment: FastAPI, Streamlit, an async
 one-node LangGraph, durable PostgreSQL checkpoints, AG-UI events over SSE, and
-LangSmith integration. The graph returns deterministic mock text; it makes no
-OpenAI or Pinecone calls. Retrieval and the assessment's security controls are
-later milestones. This scaffold is for local development, not public use yet.
+LangSmith integration. The default graph returns deterministic mock text; enterprise
+mode calls OpenAI and hosted Pinecone. The assessment's authorization controls remain
+a later milestone. This scaffold is for local development, not public use yet.
 
 ## Start on this Windows PC (Podman)
 
@@ -94,11 +105,17 @@ new run/trace and can re-execute the node. The graph has only one node, so there
 no checkpoint between its individual progress updates. `/fail` will fail again
 when resumed because its checkpoint contains the same input.
 
-Execution is request-bound: disconnect cancels it. Interrupted runs retain saved
+In the default stream mode, execution is request-bound: disconnect cancels it. Interrupted runs retain saved
 events/checkpoints; they do not continue automatically in the background. After a
 crash, startup marks unfinished run records interrupted. An interrupted event log
 can lack a terminal event; consult the run status. Checkpoint writes and event
 writes are separate transactions, not an exactly-once execution guarantee.
+
+The opt-in enterprise background mode persists jobs independently of the browser, with
+idempotent submission, reconnect, cancel and conservative restart recovery. Research adds
+shared document search/reading, recursive tasks and restricted Python through a private broker
+and runner. Both features default off. See [R6 operation and setup](docs/agents.md#opt-in-application-integration-r6)
+and the [acceptance checkpoint](docs/plans/recursive-research-implementation.md).
 
 One API worker/replica is supported. A database advisory lock rejects overlapping
 API processes, preventing unsafe startup reconciliation. Stop the old process
@@ -201,5 +218,6 @@ Keep `.env` out of Git. The UI receives only `API_BASE_URL`, not provider keys.
 Hosted checks need your keys; no key is included in this repository.
 
 See [deployment preparation](docs/deployment.md), the
+standalone [Northstar MCP service](docs/mcp.md), the
 [infrastructure plan](docs/plans/development-infrastructure.md), and
 [validation results](docs/validation.md).

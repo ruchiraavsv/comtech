@@ -1,0 +1,44 @@
+# Isolated R4 acceptance only; does not enable the application Research feature.
+services:
+  control-init:
+    profiles: [initialize]
+    image: docker.io/library/python:3.12.14-slim-bookworm
+    network_mode: none
+    read_only: true
+    user: "0:0"
+    cap_drop: [ALL]
+    cap_add: [CHOWN, FOWNER]
+    security_opt: [no-new-privileges:true]
+    volumes: [research-control:/control]
+    command: [python, -I, -c, "import os; os.chown('/control',10000,10000); os.chmod('/control',0o700)"]
+  python-runner:
+    build:
+      context: .
+      target: python-runner
+    network_mode: none
+    user: "10000:10000"
+    read_only: true
+    cap_drop: [ALL]
+    cap_add: [SETUID, SETGID, KILL]
+    security_opt: [no-new-privileges:true]
+    cpus: 2
+    mem_limit: 2g
+    pids_limit: 64
+    tmpfs: ["/tmp:rw,nosuid,nodev,noexec,size=64m,mode=1777"]
+    volumes: [research-control:/run/research-control]
+    stop_grace_period: 5s
+  tests:
+    environment:
+      RUN_RUNNER_TESTS: "1"
+      RESEARCH_RUNNER_SOCKET: /run/research-control/runner.sock
+      PYTHONPATH: /app/src
+    volumes:
+      - research-control:/run/research-control
+      - ./src:/app/src:ro
+      - ./tests:/app/tests:ro
+      - ./ui:/app/ui:ro
+    depends_on:
+      python-runner:
+        condition: service_started
+volumes:
+  research-control:

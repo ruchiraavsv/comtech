@@ -1,0 +1,172 @@
+[
+  {
+    "record_id": "merchantconnect",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "service_id": "merchantconnect",
+    "name": "MerchantConnect",
+    "domain": "payments",
+    "owner_team_id": "payments-platform-reliability",
+    "tier": 1,
+    "dependencies": [
+      "psp-gateway"
+    ],
+    "oncall_rotation_id": "merchantconnect-primary",
+    "responsibilities": [
+      {
+        "responsibility_id": "capacity-change-approval-contact",
+        "employee_id": "E1044",
+        "description": "Contact for the material capacity-change approval process; this record grants no approval.",
+        "basis_document_ids": [
+          "DOC-POL-007-v2",
+          "DOC-RB-010"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "payflow",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "service_id": "payflow",
+    "name": "PayFlow",
+    "domain": "payments",
+    "owner_team_id": "checkout-engineering",
+    "tier": 1,
+    "dependencies": [
+      "merchantconnect"
+    ],
+    "oncall_rotation_id": "payflow-primary",
+    "responsibilities": []
+  },
+  {
+    "record_id": "settlementhub",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "service_id": "settlementhub",
+    "name": "SettlementHub",
+    "domain": "payments",
+    "owner_team_id": "settlement-platform",
+    "tier": 1,
+    "dependencies": [
+      "eventmesh"
+    ],
+    "oncall_rotation_id": "settlementhub-primary",
+    "responsibilities": []
+  },
+  {
+    "record_id": "eventmesh",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "service_id": "eventmesh",
+    "name": "EventMesh",
+    "domain": "platform",
+    "owner_team_id": "messaging-platform",
+    "tier": 1,
+    "dependencies": [
+      "datagateway"
+    ],
+    "oncall_rotation_id": "eventmesh-primary",
+    "responsibilities": []
+  },
+  {
+    "record_id": "fraudshield",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "service_id": "fraudshield",
+    "name": "FraudShield",
+    "domain": "risk",
+    "owner_team_id": "fraud-platform",
+    "tier": 1,
+    "dependencies": [
+      "payflow"
+    ],
+    "oncall_rotation_id": "fraudshield-primary",
+    "responsibilities": []
+  },
+  {
+    "record_id": "authhub",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "service_id": "authhub",
+    "name": "AuthHub",
+    "domain": "identity",
+    "owner_team_id": "identity-platform",
+    "tier": 1,
+    "dependencies": [
+      "datagateway"
+    ],
+    "oncall_rotation_id": "authhub-primary",
+    "responsibilities": [
+      {
+        "responsibility_id": "privileged-access-review-control-owner",
+        "employee_id": "E4010",
+        "description": "Current owner of the privileged-access review control; closure evidence remains in the audit documents.",
+        "basis_document_ids": [
+          "DOC-POL-013-v2",
+          "DOC-RISK-009"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "notifyhub",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "service_id": "notifyhub",
+    "name": "NotifyHub",
+    "domain": "platform",
+    "owner_team_id": "customer-communications",
+    "tier": 2,
+    "dependencies": [
+      "eventmesh"
+    ],
+    "oncall_rotation_id": "notifyhub-primary",
+    "responsibilities": []
+  },
+  {
+    "record_id": "ledgercore",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "service_id": "ledgercore",
+    "name": "LedgerCore",
+    "domain": "finance",
+    "owner_team_id": "settlement-platform",
+    "tier": 1,
+    "dependencies": [
+      "settlementhub"
+    ],
+    "oncall_rotation_id": "ledgercore-primary",
+    "responsibilities": []
+  },
+  {
+    "record_id": "psp-gateway",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "service_id": "psp-gateway",
+    "name": "PSP Gateway",
+    "domain": "payments",
+    "owner_team_id": "payments-platform-reliability",
+    "tier": 1,
+    "dependencies": [
+      "datagateway"
+    ],
+    "oncall_rotation_id": "psp-gateway-primary",
+    "responsibilities": []
+  },
+  {
+    "record_id": "datagateway",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "service_id": "datagateway",
+    "name": "DataGateway",
+    "domain": "platform",
+    "owner_team_id": "platform-reliability",
+    "tier": 2,
+    "dependencies": [
+      "authhub"
+    ],
+    "oncall_rotation_id": "datagateway-primary",
+    "responsibilities": []
+  }
+]

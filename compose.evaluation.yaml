@@ -1,0 +1,10 @@
+# Isolated hosted evaluation: use project comtech-complex-eval and a dedicated env file.
+# Layer after compose.yaml, compose.agents.yaml and compose.research.yaml.
+services:
+  api:
+    ports: ["127.0.0.1:18000:8000"]
+    environment:
+      OBSERVABILITY_MODE: "off"
+      LANGSMITH_TRACING: "false"
+  ui:
+    ports: ["127.0.0.1:18501:8501"]

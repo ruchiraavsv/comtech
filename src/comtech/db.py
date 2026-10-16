@@ -6,6 +6,13 @@ from psycopg.rows import dict_row
 from psycopg.types.json import Jsonb
 from psycopg_pool import AsyncConnectionPool
 
+from comtech.research.broker_schema import MIGRATION as BROKER_MIGRATION
+from comtech.research.budgets import MIGRATION as BUDGET_MIGRATION
+from comtech.research.delivery import MIGRATION as DELIVERY_MIGRATION
+from comtech.research.operations import MIGRATION as OPERATIONS_MIGRATION
+from comtech.research.queue_schema import MIGRATION as QUEUE_MIGRATION
+from comtech.research.schema import MIGRATION as RESEARCH_MIGRATION
+
 # Application tables are separate from the LangGraph-owned schema.
 MIGRATIONS = [
     (
@@ -34,6 +41,12 @@ CREATE TABLE IF NOT EXISTS app_run_events (
 """,
     ),
     (2, "ALTER TABLE app_runs ADD COLUMN IF NOT EXISTS otel_trace_id text;"),
+    (3, RESEARCH_MIGRATION),
+    (4, BUDGET_MIGRATION),
+    (5, QUEUE_MIGRATION),
+    (6, DELIVERY_MIGRATION),
+    (7, BROKER_MIGRATION),
+    (8, OPERATIONS_MIGRATION),
 ]
 
 
@@ -72,14 +85,32 @@ class Store:
         self.pool = pool
 
     async def create_run(
-        self, run_id, thread_id, request_id, trace_id, parent=None, checkpoint=None
+        self,
+        run_id,
+        thread_id,
+        request_id,
+        trace_id,
+        parent=None,
+        checkpoint=None,
+        graph_run_id=None,
+        graph_version=None,
     ):
         async with self.pool.connection() as conn:
             await conn.execute(
                 """INSERT INTO app_runs
-                (id,thread_id,request_id,trace_id,parent_run_id,checkpoint_id,status)
-                VALUES (%s,%s,%s,%s,%s,%s,'running')""",
-                (run_id, thread_id, request_id, trace_id, parent, checkpoint),
+                (id,thread_id,request_id,trace_id,parent_run_id,checkpoint_id,status,
+                 graph_run_id,graph_version)
+                VALUES (%s,%s,%s,%s,%s,%s,'running',%s,%s)""",
+                (
+                    run_id,
+                    thread_id,
+                    request_id,
+                    trace_id,
+                    parent,
+                    checkpoint,
+                    graph_run_id,
+                    graph_version,
+                ),
             )
 
     async def set_otel_trace(self, run_id, trace_id):
@@ -114,7 +145,7 @@ class Store:
         # Caller holds a process-lifetime advisory lock: no other runner is active.
         async with self.pool.connection() as conn:
             await conn.execute("""UPDATE app_runs SET status='interrupted',finished_at=now()
-                WHERE status='running'""")
+                WHERE status='running' AND execution_mode='stream'""")
 
     async def get_run(self, run_id):
         async with self.pool.connection() as conn:

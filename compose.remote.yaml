@@ -1,4 +1,6 @@
 services:
+  northstar-mcp:
+    restart: unless-stopped
   postgres:
     restart: unless-stopped
   api:

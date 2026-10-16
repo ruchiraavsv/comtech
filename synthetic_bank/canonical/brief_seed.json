@@ -1,0 +1,886 @@
+{
+  "source_filename": "Synthetic Bank Complete Generation Brief (1).docx",
+  "source_sha256": "5eb897bd343a3cf75d88e4d49dc816ed6bcbac2309e471db0a830e4ad09ddec9",
+  "reference_clock": "2026-09-15T10:00:00Z",
+  "seed": 20260915,
+  "roster": [
+    {
+      "entity_id": "ARCH-001",
+      "stories": "S10",
+      "zone": "G",
+      "obligation": "MerchantConnect original design. Digital Payments Engineering owns 2025 design"
+    },
+    {
+      "entity_id": "ARCHREV-004",
+      "stories": "S1",
+      "zone": "O",
+      "obligation": "MerchantConnect retry amplification review. Unbounded retries starve outbound pool"
+    },
+    {
+      "entity_id": "ADR-021",
+      "stories": "S1",
+      "zone": "O",
+      "obligation": "Bounded concurrency and back pressure decision. Reject pool doubling alone; approve four controls"
+    },
+    {
+      "entity_id": "ARCHREV-006",
+      "stories": "S2",
+      "zone": "O",
+      "obligation": "Duplicate debit boundary review. Missing merchant scoped idempotency key"
+    },
+    {
+      "entity_id": "ADR-024",
+      "stories": "S2",
+      "zone": "O",
+      "obligation": "Replay safe payments decision. Keys and replay safe settlement required"
+    },
+    {
+      "entity_id": "ARCHREV-008",
+      "stories": "S3",
+      "zone": "O",
+      "obligation": "EventMesh settlement dependency review. Lag reaches reconciliation and reports"
+    },
+    {
+      "entity_id": "ARCHREV-012",
+      "stories": "S8",
+      "zone": "O",
+      "obligation": "DR dependency gap review. NotifyHub absent from DR inventory"
+    },
+    {
+      "entity_id": "ARCH-002",
+      "stories": "S3",
+      "zone": "G",
+      "obligation": "Digital payment dependency map. PayFlow EventMesh SettlementHub relationships"
+    },
+    {
+      "entity_id": "ARCH-003",
+      "stories": "S4",
+      "zone": "G",
+      "obligation": "Corporate limit enforcement design. Verified segment limit checks"
+    },
+    {
+      "entity_id": "ARCH-004",
+      "stories": "S5",
+      "zone": "F",
+      "obligation": "Fraud model feature architecture. Restricted features through risk scope"
+    },
+    {
+      "entity_id": "ARCH-005",
+      "stories": "S7",
+      "zone": "R",
+      "obligation": "Privileged access control architecture. Sensitive review implementation"
+    },
+    {
+      "entity_id": "ARCH-006",
+      "stories": "S9",
+      "zone": "O",
+      "obligation": "Payment error taxonomy. Timeout queue and PSP codes differ"
+    },
+    {
+      "entity_id": "ADR-025",
+      "stories": "S3",
+      "zone": "O",
+      "obligation": "Event consumer backpressure decision. Bounded consumer lag mitigation"
+    },
+    {
+      "entity_id": "ADR-026",
+      "stories": "S8",
+      "zone": "O",
+      "obligation": "DR dependency inventory decision. Explicit notification validation"
+    },
+    {
+      "entity_id": "ARCHREV-013",
+      "stories": "S1",
+      "zone": "O",
+      "obligation": "Post rollout capacity load review. Residual minor recurrence and exposure"
+    },
+    {
+      "entity_id": "ARCHREV-014",
+      "stories": "S2",
+      "zone": "O",
+      "obligation": "Idempotency follow up review. Fix deployed with open monitoring"
+    },
+    {
+      "entity_id": "ADR-027",
+      "stories": "S10",
+      "zone": "G",
+      "obligation": "Service ownership operating model. Transfer design and operations duties"
+    },
+    {
+      "entity_id": "ARCH-007",
+      "stories": "S6",
+      "zone": "O",
+      "obligation": "MerchantConnect capacity configuration. Pool 200 before proposed change"
+    },
+    {
+      "entity_id": "POL-002-v1",
+      "stories": "S4",
+      "zone": "G",
+      "obligation": "Corporate daily limit prior policy. 250000 through March 2026"
+    },
+    {
+      "entity_id": "POL-002-v2",
+      "stories": "S4",
+      "zone": "G",
+      "obligation": "Corporate daily limit effective policy. 500000 verified; 250000 unverified from April"
+    },
+    {
+      "entity_id": "POL-007-v1",
+      "stories": "S1",
+      "zone": "O",
+      "obligation": "Capacity change prior standard. Superseded threshold process"
+    },
+    {
+      "entity_id": "POL-007-v2",
+      "stories": "S1 S6",
+      "zone": "O",
+      "obligation": "Material capacity change standard. Above 25 percent approval and SEV 1 path"
+    },
+    {
+      "entity_id": "POL-010-v1",
+      "stories": "S5",
+      "zone": "F",
+      "obligation": "Fraud model governance prior policy. Earlier threshold approval rule"
+    },
+    {
+      "entity_id": "POL-010-v2",
+      "stories": "S5",
+      "zone": "F",
+      "obligation": "Fraud model governance current policy. Approval and monitoring required"
+    },
+    {
+      "entity_id": "POL-011",
+      "stories": "S6",
+      "zone": "O",
+      "obligation": "Emergency change review standard. Retrospective approval within 24 hours"
+    },
+    {
+      "entity_id": "POL-012",
+      "stories": "S3",
+      "zone": "O",
+      "obligation": "Settlement reconciliation standard. Timing and discrepancy handling"
+    },
+    {
+      "entity_id": "POL-013-v1",
+      "stories": "S7",
+      "zone": "F",
+      "obligation": "Privileged review prior policy. Gap before remediation"
+    },
+    {
+      "entity_id": "POL-013-v2",
+      "stories": "S7",
+      "zone": "F",
+      "obligation": "Privileged review revised policy. Monthly review requirement"
+    },
+    {
+      "entity_id": "POL-014",
+      "stories": "S8",
+      "zone": "O",
+      "obligation": "DR dependency testing standard. Notification dependency validation"
+    },
+    {
+      "entity_id": "POL-015",
+      "stories": "S10",
+      "zone": "G",
+      "obligation": "Service ownership transfer policy. Transfer effective July 2026"
+    },
+    {
+      "entity_id": "POL-016",
+      "stories": "S2",
+      "zone": "G",
+      "obligation": "Payment API idempotency standard. Key scope and retention"
+    },
+    {
+      "entity_id": "POL-017",
+      "stories": "S5",
+      "zone": "G",
+      "obligation": "Customer decline message policy. Sanitized external wording"
+    },
+    {
+      "entity_id": "POL-018",
+      "stories": "S7",
+      "zone": "R",
+      "obligation": "Privileged access security standard. Restricted implementation controls"
+    },
+    {
+      "entity_id": "POL-019",
+      "stories": "S4",
+      "zone": "G",
+      "obligation": "Corporate limit review cadence. Periodic risk review"
+    },
+    {
+      "entity_id": "RB-003-v1",
+      "stories": "S1",
+      "zone": "O",
+      "obligation": "MerchantConnect old saturation response. Failover and worker availability"
+    },
+    {
+      "entity_id": "RB-003-v2",
+      "stories": "S1",
+      "zone": "O",
+      "obligation": "MerchantConnect revised saturation response. Bounded concurrency and escalation"
+    },
+    {
+      "entity_id": "RB-004",
+      "stories": "S2",
+      "zone": "O",
+      "obligation": "Duplicate payment triage. Locate replay and suppress duplicate settlement"
+    },
+    {
+      "entity_id": "RB-005",
+      "stories": "S3",
+      "zone": "O",
+      "obligation": "Settlement lag response. Check consumer offsets and reporting lag"
+    },
+    {
+      "entity_id": "RB-006",
+      "stories": "S4",
+      "zone": "G",
+      "obligation": "Corporate limit support procedure. Explain verified versus unverified limits"
+    },
+    {
+      "entity_id": "RB-007",
+      "stories": "S5",
+      "zone": "F",
+      "obligation": "Fraud threshold rollback. Risk approved rollback steps"
+    },
+    {
+      "entity_id": "RB-008-v1",
+      "stories": "S3",
+      "zone": "O",
+      "obligation": "EventMesh old backlog response. Prior scaling procedure"
+    },
+    {
+      "entity_id": "RB-008-v2",
+      "stories": "S3",
+      "zone": "O",
+      "obligation": "EventMesh revised backlog response. Bounded backlog mitigation"
+    },
+    {
+      "entity_id": "RB-009",
+      "stories": "S9",
+      "zone": "O",
+      "obligation": "Payment live triage. Current incident then service escalation"
+    },
+    {
+      "entity_id": "RB-010",
+      "stories": "S6",
+      "zone": "O",
+      "obligation": "Emergency capacity change procedure. Expedited approvals and review"
+    },
+    {
+      "entity_id": "RB-011",
+      "stories": "S7",
+      "zone": "F",
+      "obligation": "Privileged review evidence procedure. Retain two cycle verification"
+    },
+    {
+      "entity_id": "RB-012-v1",
+      "stories": "S8",
+      "zone": "O",
+      "obligation": "DR failover prior procedure. Missing NotifyHub validation"
+    },
+    {
+      "entity_id": "RB-012-v2",
+      "stories": "S8",
+      "zone": "O",
+      "obligation": "DR failover revised procedure. Notification test and dependency check"
+    },
+    {
+      "entity_id": "RB-013",
+      "stories": "S10",
+      "zone": "G",
+      "obligation": "Service ownership escalation guide. Current catalog source"
+    },
+    {
+      "entity_id": "PROD-001",
+      "stories": "S9",
+      "zone": "G",
+      "obligation": "PayFlow checkout journey. Payment status customer wording"
+    },
+    {
+      "entity_id": "PROD-002",
+      "stories": "S1",
+      "zone": "G",
+      "obligation": "MerchantConnect merchant API. Timeout and retry contract"
+    },
+    {
+      "entity_id": "PROD-003-v1",
+      "stories": "S4",
+      "zone": "G",
+      "obligation": "Corporate payment limits prior spec. Old standard limit"
+    },
+    {
+      "entity_id": "PROD-003-v2",
+      "stories": "S4",
+      "zone": "G",
+      "obligation": "Corporate payment limits current spec. Verified segment and 500000 limit"
+    },
+    {
+      "entity_id": "PROD-004",
+      "stories": "S4",
+      "zone": "G",
+      "obligation": "InstantPay rollout criteria. Pilot conditions and risk sign off"
+    },
+    {
+      "entity_id": "PROD-005",
+      "stories": "S3",
+      "zone": "G",
+      "obligation": "Settlement report delivery contract. Report freshness caveat"
+    },
+    {
+      "entity_id": "PROD-006-v1",
+      "stories": "S2",
+      "zone": "G",
+      "obligation": "Merchant retry API prior spec. No mandatory key in old contract"
+    },
+    {
+      "entity_id": "PROD-006-v2",
+      "stories": "S2",
+      "zone": "G",
+      "obligation": "Merchant retry API current spec. Mandatory idempotency key"
+    },
+    {
+      "entity_id": "PROD-007",
+      "stories": "S2",
+      "zone": "G",
+      "obligation": "Merchant retry guidance. Backoff and duplicate prevention"
+    },
+    {
+      "entity_id": "PROD-008",
+      "stories": "S5",
+      "zone": "G",
+      "obligation": "Fraud review customer flow. Manual review experience"
+    },
+    {
+      "entity_id": "PROD-009",
+      "stories": "S3",
+      "zone": "G",
+      "obligation": "Corporate reconciliation report spec. Late EventMesh events affect report"
+    },
+    {
+      "entity_id": "PROD-010",
+      "stories": "S8",
+      "zone": "G",
+      "obligation": "DR customer notification behavior. Partial service messaging"
+    },
+    {
+      "entity_id": "PROD-011",
+      "stories": "S5",
+      "zone": "G",
+      "obligation": "Sanitized decline messaging. No fraud rule details"
+    },
+    {
+      "entity_id": "PROD-012",
+      "stories": "S4",
+      "zone": "G",
+      "obligation": "Corporate channel limit matrix. Verified and unverified segments"
+    },
+    {
+      "entity_id": "RISK-001",
+      "stories": "S5",
+      "zone": "F",
+      "obligation": "Fraud false positive analysis. Model release and complaint trend"
+    },
+    {
+      "entity_id": "RISK-002",
+      "stories": "S5",
+      "zone": "F",
+      "obligation": "Fraud feature investigation. Detailed risk rules"
+    },
+    {
+      "entity_id": "RISK-003",
+      "stories": "S4",
+      "zone": "F",
+      "obligation": "Corporate limit regulatory review. Risk conditions for increase"
+    },
+    {
+      "entity_id": "RISK-005",
+      "stories": "S3",
+      "zone": "F",
+      "obligation": "Settlement delay impact review. Reconciliation exposure"
+    },
+    {
+      "entity_id": "RISK-006",
+      "stories": "S3",
+      "zone": "F",
+      "obligation": "Ledger posting race control finding. Manual adjustment and breach"
+    },
+    {
+      "entity_id": "RISK-007",
+      "stories": "S6",
+      "zone": "F",
+      "obligation": "Emergency change control finding. Late retrospective approval"
+    },
+    {
+      "entity_id": "RISK-008",
+      "stories": "S7",
+      "zone": "F",
+      "obligation": "Privileged access audit finding. Unclosed original gap"
+    },
+    {
+      "entity_id": "RISK-009",
+      "stories": "S7",
+      "zone": "F",
+      "obligation": "Independent closure verification. Two review cycles verified"
+    },
+    {
+      "entity_id": "SEC-001",
+      "stories": "S5",
+      "zone": "R",
+      "obligation": "Fraud rule security review. Sensitive model controls"
+    },
+    {
+      "entity_id": "SEC-002",
+      "stories": "S7",
+      "zone": "R",
+      "obligation": "Privileged access implementation. Restricted control design"
+    },
+    {
+      "entity_id": "MTG-017",
+      "stories": "S1",
+      "zone": "O",
+      "obligation": "MerchantConnect capacity meeting. Pool 200 to 400 proposal"
+    },
+    {
+      "entity_id": "MTG-003",
+      "stories": "S4",
+      "zone": "F",
+      "obligation": "Corporate limit risk committee. Conditional decision and tradeoff"
+    },
+    {
+      "entity_id": "MTG-005",
+      "stories": "S5",
+      "zone": "F",
+      "obligation": "Fraud model committee. Bounded threshold adjustment"
+    },
+    {
+      "entity_id": "MTG-008",
+      "stories": "S10",
+      "zone": "G",
+      "obligation": "Ownership transition minutes. July effective transfer"
+    },
+    {
+      "entity_id": "MTG-009",
+      "stories": "S2",
+      "zone": "O",
+      "obligation": "Duplicate payments review. Release and remediation owners"
+    },
+    {
+      "entity_id": "MTG-010",
+      "stories": "S3",
+      "zone": "O",
+      "obligation": "Settlement reporting review. Cross team actions"
+    },
+    {
+      "entity_id": "MTG-011",
+      "stories": "S6",
+      "zone": "O",
+      "obligation": "Emergency change review. Control versus operational result"
+    },
+    {
+      "entity_id": "MTG-012",
+      "stories": "S7",
+      "zone": "F",
+      "obligation": "Audit closure committee. Verification accepted"
+    },
+    {
+      "entity_id": "CHG-144",
+      "stories": "S1",
+      "zone": "O",
+      "obligation": "Back pressure rollout. Deployed 15 July 2026"
+    },
+    {
+      "entity_id": "CHG-118",
+      "stories": "S2",
+      "zone": "O",
+      "obligation": "Retry redesign release. Deployed 19 July 2026"
+    },
+    {
+      "entity_id": "CHG-153",
+      "stories": "S2",
+      "zone": "O",
+      "obligation": "Idempotency fix release. Deployed August 2026"
+    },
+    {
+      "entity_id": "CHG-160",
+      "stories": "S6",
+      "zone": "O",
+      "obligation": "Emergency pool mitigation. Service restored; approval late"
+    },
+    {
+      "entity_id": "CHG-167",
+      "stories": "S7",
+      "zone": "F",
+      "obligation": "Privileged review workflow release. Implemented remediation"
+    },
+    {
+      "entity_id": "CHG-101",
+      "stories": "S4",
+      "zone": "O",
+      "obligation": "Corporate limit configuration. April policy rollout"
+    },
+    {
+      "entity_id": "CHG-109",
+      "stories": "S5",
+      "zone": "F",
+      "obligation": "Fraud model threshold release. Bounded adjustment"
+    },
+    {
+      "entity_id": "CHG-127",
+      "stories": "S3",
+      "zone": "O",
+      "obligation": "EventMesh consumer change. Backlog mitigation"
+    },
+    {
+      "entity_id": "CHG-132",
+      "stories": "S8",
+      "zone": "O",
+      "obligation": "DR dependency update. NotifyHub validation added"
+    },
+    {
+      "entity_id": "CHG-139",
+      "stories": "S1",
+      "zone": "O",
+      "obligation": "MerchantConnect pool tuning. Temporary measure before redesign"
+    },
+    {
+      "entity_id": "CHG-172",
+      "stories": "S10",
+      "zone": "O",
+      "obligation": "Ownership catalog migration. Team transfer reflected in systems"
+    },
+    {
+      "entity_id": "CHG-178",
+      "stories": "S9",
+      "zone": "O",
+      "obligation": "PayFlow recent deployment. Distractor for current status"
+    },
+    {
+      "entity_id": "LONG-001",
+      "stories": "S1 S2 S3",
+      "zone": "O",
+      "obligation": "Payments Architecture and Operations Handbook. 40 to 60 sections; no aggregate ranking"
+    },
+    {
+      "entity_id": "LONG-002",
+      "stories": "S4 S6 S7",
+      "zone": "F",
+      "obligation": "Operational Risk and Control Manual. 40 to 60 sections; versioned controls"
+    },
+    {
+      "entity_id": "LONG-003",
+      "stories": "S1 S2 S3 S9",
+      "zone": "O",
+      "obligation": "2025 to 2026 Incident Review Compendium. References incidents without computed answer"
+    },
+    {
+      "entity_id": "LONG-004",
+      "stories": "S8 S10",
+      "zone": "O",
+      "obligation": "Digital Banking Platform Technical Reference. Dependencies and ownership history"
+    }
+  ],
+  "payment_incidents": [
+    {
+      "incident_id": "INC-2025-006",
+      "date": "2025-08-19",
+      "service": "MC",
+      "family": "C",
+      "minutes": "26",
+      "failed": "6,500",
+      "change_related": "No",
+      "story": "S1"
+    },
+    {
+      "incident_id": "INC-2025-014",
+      "date": "2025-11-03",
+      "service": "MC",
+      "family": "C",
+      "minutes": "32",
+      "failed": "8,000",
+      "change_related": "Yes",
+      "story": "S1"
+    },
+    {
+      "incident_id": "INC-2026-011",
+      "date": "2026-01-21",
+      "service": "MC",
+      "family": "C",
+      "minutes": "37",
+      "failed": "9,100",
+      "change_related": "Yes",
+      "story": "S1"
+    },
+    {
+      "incident_id": "INC-2026-017",
+      "date": "2026-02-19",
+      "service": "MC",
+      "family": "C",
+      "minutes": "29",
+      "failed": "7,500",
+      "change_related": "No",
+      "story": "S1"
+    },
+    {
+      "incident_id": "INC-2026-024",
+      "date": "2026-03-26",
+      "service": "MC",
+      "family": "C",
+      "minutes": "35",
+      "failed": "11,500",
+      "change_related": "No",
+      "story": "S1"
+    },
+    {
+      "incident_id": "INC-2026-038",
+      "date": "2026-06-18",
+      "service": "MC",
+      "family": "C",
+      "minutes": "51",
+      "failed": "19,300",
+      "change_related": "No",
+      "story": "S1"
+    },
+    {
+      "incident_id": "INC-2026-046",
+      "date": "2026-07-23",
+      "service": "MC",
+      "family": "C",
+      "minutes": "14",
+      "failed": "3,500",
+      "change_related": "No",
+      "story": "S1"
+    },
+    {
+      "incident_id": "INC-2026-049",
+      "date": "2026-08-01",
+      "service": "PF",
+      "family": "C",
+      "minutes": "25",
+      "failed": "7,000",
+      "change_related": "No",
+      "story": "S9"
+    },
+    {
+      "incident_id": "INC-2025-009",
+      "date": "2025-09-05",
+      "service": "PF",
+      "family": "R",
+      "minutes": "16",
+      "failed": "12,800",
+      "change_related": "No",
+      "story": "S2"
+    },
+    {
+      "incident_id": "INC-2025-021",
+      "date": "2025-12-02",
+      "service": "MC",
+      "family": "R",
+      "minutes": "19",
+      "failed": "17,100",
+      "change_related": "Yes",
+      "story": "S2"
+    },
+    {
+      "incident_id": "INC-2026-013",
+      "date": "2026-02-02",
+      "service": "PF",
+      "family": "R",
+      "minutes": "20",
+      "failed": "23,900",
+      "change_related": "Yes",
+      "story": "S2"
+    },
+    {
+      "incident_id": "INC-2026-043",
+      "date": "2026-07-21",
+      "service": "MC",
+      "family": "R",
+      "minutes": "23",
+      "failed": "44,700",
+      "change_related": "Yes",
+      "story": "S2"
+    },
+    {
+      "incident_id": "INC-2026-051",
+      "date": "2026-08-03",
+      "service": "PF",
+      "family": "R",
+      "minutes": "18",
+      "failed": "28,000",
+      "change_related": "Yes",
+      "story": "S2"
+    },
+    {
+      "incident_id": "INC-2026-054",
+      "date": "2026-08-27",
+      "service": "MC",
+      "family": "R",
+      "minutes": "15",
+      "failed": "17,200",
+      "change_related": "Yes",
+      "story": "S2"
+    },
+    {
+      "incident_id": "INC-2025-008",
+      "date": "2025-09-01",
+      "service": "PG",
+      "family": "P",
+      "minutes": "42",
+      "failed": "9,000",
+      "change_related": "No",
+      "story": "S9"
+    },
+    {
+      "incident_id": "INC-2025-026",
+      "date": "2025-12-16",
+      "service": "MC",
+      "family": "P",
+      "minutes": "75",
+      "failed": "12,500",
+      "change_related": "No",
+      "story": "S1"
+    },
+    {
+      "incident_id": "INC-2026-016",
+      "date": "2026-02-12",
+      "service": "PG",
+      "family": "P",
+      "minutes": "81",
+      "failed": "14,700",
+      "change_related": "No",
+      "story": "S9"
+    },
+    {
+      "incident_id": "INC-2026-032",
+      "date": "2026-05-29",
+      "service": "MC",
+      "family": "P",
+      "minutes": "56",
+      "failed": "10,900",
+      "change_related": "No",
+      "story": "S9"
+    },
+    {
+      "incident_id": "INC-2026-052",
+      "date": "2026-08-04",
+      "service": "PG",
+      "family": "P",
+      "minutes": "64",
+      "failed": "14,200",
+      "change_related": "No",
+      "story": "S9"
+    },
+    {
+      "incident_id": "INC-2025-012",
+      "date": "2025-10-02",
+      "service": "SH",
+      "family": "E",
+      "minutes": "22",
+      "failed": "6,400",
+      "change_related": "No",
+      "story": "S3"
+    },
+    {
+      "incident_id": "INC-2026-019",
+      "date": "2026-03-02",
+      "service": "SH",
+      "family": "E",
+      "minutes": "27",
+      "failed": "8,100",
+      "change_related": "No",
+      "story": "S3"
+    },
+    {
+      "incident_id": "INC-2026-029",
+      "date": "2026-05-18",
+      "service": "SH",
+      "family": "E",
+      "minutes": "49",
+      "failed": "15,300",
+      "change_related": "Yes",
+      "story": "S3"
+    },
+    {
+      "incident_id": "INC-2026-047",
+      "date": "2026-07-30",
+      "service": "SH",
+      "family": "E",
+      "minutes": "39",
+      "failed": "12,300",
+      "change_related": "No",
+      "story": "S3"
+    },
+    {
+      "incident_id": "INC-2025-011",
+      "date": "2025-09-25",
+      "service": "PF",
+      "family": "D",
+      "minutes": "24",
+      "failed": "7,200",
+      "change_related": "No",
+      "story": "S9"
+    },
+    {
+      "incident_id": "INC-2026-022",
+      "date": "2026-03-19",
+      "service": "SH",
+      "family": "D",
+      "minutes": "38",
+      "failed": "11,800",
+      "change_related": "Yes",
+      "story": "S3"
+    },
+    {
+      "incident_id": "INC-2026-041",
+      "date": "2026-06-30",
+      "service": "PF",
+      "family": "D",
+      "minutes": "33",
+      "failed": "9,900",
+      "change_related": "No",
+      "story": "S9"
+    },
+    {
+      "incident_id": "INC-2025-018",
+      "date": "2025-11-17",
+      "service": "MC",
+      "family": "N",
+      "minutes": "26",
+      "failed": "5,100",
+      "change_related": "No",
+      "story": "S9"
+    },
+    {
+      "incident_id": "INC-2026-033",
+      "date": "2026-05-31",
+      "service": "PG",
+      "family": "N",
+      "minutes": "36",
+      "failed": "7,300",
+      "change_related": "Yes",
+      "story": "S9"
+    },
+    {
+      "incident_id": "INC-2025-031",
+      "date": "2025-12-29",
+      "service": "MC",
+      "family": "K",
+      "minutes": "20",
+      "failed": "4,200",
+      "change_related": "No",
+      "story": "S9"
+    },
+    {
+      "incident_id": "INC-2026-035",
+      "date": "2026-06-08",
+      "service": "PF",
+      "family": "K",
+      "minutes": "26",
+      "failed": "5,400",
+      "change_related": "Yes",
+      "story": "S9"
+    }
+  ]
+}

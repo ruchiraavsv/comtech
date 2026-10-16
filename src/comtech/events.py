@@ -31,9 +31,32 @@ async def graph_events(graph, inputs, config, run_id, thread_id):
             elif not data.get("error"):
                 yield StepFinishedEvent(step_name=data["name"])
         elif kind == "custom":
-            yield CustomEvent(name="mock.progress", value=data)
-        elif kind == "updates" and "mock_node" in data:
-            message = data["mock_node"]["messages"][-1]
+            if data.get("event") == "agent.activity":
+                allowed = {
+                    key: data[key]
+                    for key in (
+                        "stage",
+                        "model",
+                        "tool",
+                        "cycle",
+                        "context_tokens",
+                        "outcome",
+                        "status",
+                        "termination_reason",
+                        "input_tokens",
+                        "output_tokens",
+                    )
+                    if key in data
+                }
+                yield CustomEvent(name="agent.activity", value=allowed)
+            else:
+                yield CustomEvent(name="mock.progress", value=data)
+        elif kind == "updates" and ("mock_node" in data or "final_answer" in data):
+            node = "final_answer" if "final_answer" in data else "mock_node"
+            messages = (data[node] or {}).get("messages", [])
+            if not messages:
+                continue  # A bounded wording correction publishes no draft message.
+            message = messages[-1]
             yield TextMessageStartEvent(message_id=message_id, role="assistant")
             yield TextMessageContentEvent(message_id=message_id, delta=message.content)
             yield TextMessageEndEvent(message_id=message_id)

@@ -1,0 +1,28 @@
+{
+  "scope_operator": "all",
+  "administrator_scope_bypass": true,
+  "viewer": {
+    "classifications": [
+      "general"
+    ],
+    "mcp": false,
+    "python_analysis": false
+  },
+  "analyst": {
+    "classifications": [
+      "general",
+      "operations",
+      "confidential_risk"
+    ],
+    "requires_all_document_entitlements": true
+  },
+  "administrator": {
+    "classifications": [
+      "general",
+      "operations",
+      "confidential_risk",
+      "restricted"
+    ]
+  },
+  "note": "Metadata contract only. Application authorization and retrieval enforcement are deferred."
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "record_id": "payments-platform-reliability",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "team_id": "payments-platform-reliability",
+    "name": "Payments Platform Reliability",
+    "manager_employee_id": "E1044"
+  },
+  {
+    "record_id": "checkout-engineering",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "team_id": "checkout-engineering",
+    "name": "Checkout Engineering",
+    "manager_employee_id": "E2051"
+  },
+  {
+    "record_id": "settlement-platform",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "team_id": "settlement-platform",
+    "name": "Settlement Platform",
+    "manager_employee_id": "E2031"
+  },
+  {
+    "record_id": "messaging-platform",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "team_id": "messaging-platform",
+    "name": "Messaging Platform",
+    "manager_employee_id": "E3010"
+  },
+  {
+    "record_id": "fraud-platform",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "team_id": "fraud-platform",
+    "name": "Fraud Platform",
+    "manager_employee_id": "E3042"
+  },
+  {
+    "record_id": "identity-platform",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "team_id": "identity-platform",
+    "name": "Identity Platform",
+    "manager_employee_id": "E4010"
+  },
+  {
+    "record_id": "customer-communications",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "team_id": "customer-communications",
+    "name": "Customer Communications",
+    "manager_employee_id": "E5010"
+  },
+  {
+    "record_id": "platform-reliability",
+    "snapshot_id": "DEMO-2026-09-15-A",
+    "updated_at": "2026-09-15T08:00:00Z",
+    "team_id": "platform-reliability",
+    "name": "Platform Reliability",
+    "manager_employee_id": "E6010"
+  }
+]

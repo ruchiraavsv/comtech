@@ -1,0 +1,3580 @@
+[
+  {
+    "subject": "DOC-ADR-021",
+    "predicate": "references",
+    "object": "DOC-MTG-017",
+    "basis": "F-ADR-021-06",
+    "effective_from": "2026-07-02T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ADR-021",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-004",
+    "basis": "F-ADR-021-06",
+    "effective_from": "2026-07-02T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ADR-021",
+    "predicate": "references",
+    "object": "DOC-POL-007-v2",
+    "basis": "F-ADR-021-06",
+    "effective_from": "2026-07-02T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ADR-024",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-006",
+    "basis": "F-ADR-024-07",
+    "effective_from": "2026-07-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ADR-024",
+    "predicate": "references",
+    "object": "DOC-MTG-009",
+    "basis": "F-ADR-024-07",
+    "effective_from": "2026-07-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ADR-025",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-008",
+    "basis": "F-ADR-025-07",
+    "effective_from": "2026-05-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ADR-025",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-ADR-025-07",
+    "effective_from": "2026-05-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ADR-025",
+    "predicate": "references",
+    "object": "DOC-POL-012",
+    "basis": "F-ADR-025-07",
+    "effective_from": "2026-05-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ADR-026",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-012",
+    "basis": "F-ADR-026-07",
+    "effective_from": "2026-04-15T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ADR-026",
+    "predicate": "references",
+    "object": "DOC-RB-012-v1",
+    "basis": "F-ADR-026-07",
+    "effective_from": "2026-04-15T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ADR-026",
+    "predicate": "references",
+    "object": "DOC-PROD-010",
+    "basis": "F-ADR-026-07",
+    "effective_from": "2026-04-15T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ADR-027",
+    "predicate": "references",
+    "object": "DOC-ARCH-001",
+    "basis": "F-ADR-027-07",
+    "effective_from": "2026-06-15T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCH-002",
+    "predicate": "references",
+    "object": "DOC-POL-012",
+    "basis": "F-ARCH-002-07",
+    "effective_from": "2025-07-15T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCH-003",
+    "predicate": "references",
+    "object": "DOC-POL-002-v1",
+    "basis": "F-ARCH-003-06",
+    "effective_from": "2026-03-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCH-003",
+    "predicate": "references",
+    "object": "DOC-PROD-003-v1",
+    "basis": "F-ARCH-003-06",
+    "effective_from": "2026-03-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCH-003",
+    "predicate": "references",
+    "object": "DOC-RISK-003",
+    "basis": "F-ARCH-003-06",
+    "effective_from": "2026-03-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCH-004",
+    "predicate": "references",
+    "object": "DOC-POL-010-v1",
+    "basis": "F-ARCH-004-06",
+    "effective_from": "2026-04-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCH-004",
+    "predicate": "references",
+    "object": "DOC-POL-017",
+    "basis": "F-ARCH-004-06",
+    "effective_from": "2026-04-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCH-004",
+    "predicate": "references",
+    "object": "DOC-PROD-008",
+    "basis": "F-ARCH-004-06",
+    "effective_from": "2026-04-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCH-005",
+    "predicate": "references",
+    "object": "DOC-POL-013-v1",
+    "basis": "F-ARCH-005-07",
+    "effective_from": "2026-05-15T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCH-005",
+    "predicate": "references",
+    "object": "DOC-RISK-008",
+    "basis": "F-ARCH-005-07",
+    "effective_from": "2026-05-15T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCH-006",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-ARCH-006-07",
+    "effective_from": "2025-07-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCH-007",
+    "predicate": "references",
+    "object": "DOC-POL-007-v2",
+    "basis": "F-ARCH-007-06",
+    "effective_from": "2026-06-19T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCH-007",
+    "predicate": "references",
+    "object": "DOC-POL-011",
+    "basis": "F-ARCH-007-06",
+    "effective_from": "2026-06-19T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCH-007",
+    "predicate": "references",
+    "object": "DOC-RB-010",
+    "basis": "F-ARCH-007-06",
+    "effective_from": "2026-06-19T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-004",
+    "predicate": "references",
+    "object": "DOC-INC-2026-038",
+    "basis": "F-ARCHREV-004-06",
+    "effective_from": "2026-06-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-004",
+    "predicate": "references",
+    "object": "DOC-MTG-017",
+    "basis": "F-ARCHREV-004-06",
+    "effective_from": "2026-06-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-004",
+    "predicate": "references",
+    "object": "DOC-ARCH-007",
+    "basis": "F-ARCHREV-004-06",
+    "effective_from": "2026-06-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-006",
+    "predicate": "references",
+    "object": "DOC-INC-2026-043",
+    "basis": "F-ARCHREV-006-06",
+    "effective_from": "2026-07-24T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-006",
+    "predicate": "references",
+    "object": "DOC-CHG-118",
+    "basis": "F-ARCHREV-006-06",
+    "effective_from": "2026-07-24T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-006",
+    "predicate": "references",
+    "object": "DOC-PROD-006-v1",
+    "basis": "F-ARCHREV-006-06",
+    "effective_from": "2026-07-24T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-008",
+    "predicate": "references",
+    "object": "DOC-INC-2026-029",
+    "basis": "F-ARCHREV-008-06",
+    "effective_from": "2026-05-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-008",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-ARCHREV-008-06",
+    "effective_from": "2026-05-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-008",
+    "predicate": "references",
+    "object": "DOC-RB-005",
+    "basis": "F-ARCHREV-008-06",
+    "effective_from": "2026-05-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-012",
+    "predicate": "references",
+    "object": "DOC-INC-2026-025",
+    "basis": "F-ARCHREV-012-07",
+    "effective_from": "2026-04-10T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-012",
+    "predicate": "references",
+    "object": "DOC-RB-012-v1",
+    "basis": "F-ARCHREV-012-07",
+    "effective_from": "2026-04-10T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-013",
+    "predicate": "references",
+    "object": "DOC-CHG-144",
+    "basis": "F-ARCHREV-013-06",
+    "effective_from": "2026-08-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-013",
+    "predicate": "references",
+    "object": "DOC-INC-2026-046",
+    "basis": "F-ARCHREV-013-06",
+    "effective_from": "2026-08-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-013",
+    "predicate": "references",
+    "object": "DOC-ADR-021",
+    "basis": "F-ARCHREV-013-06",
+    "effective_from": "2026-08-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-014",
+    "predicate": "references",
+    "object": "DOC-CHG-153",
+    "basis": "F-ARCHREV-014-07",
+    "effective_from": "2026-08-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-014",
+    "predicate": "references",
+    "object": "DOC-INC-2026-054",
+    "basis": "F-ARCHREV-014-07",
+    "effective_from": "2026-08-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-ARCHREV-014",
+    "predicate": "references",
+    "object": "DOC-ADR-024",
+    "basis": "F-ARCHREV-014-07",
+    "effective_from": "2026-08-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-101",
+    "predicate": "references",
+    "object": "DOC-ARCH-003",
+    "basis": "F-CHG-101-06",
+    "effective_from": "2026-04-01T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-101",
+    "predicate": "references",
+    "object": "DOC-POL-002-v1",
+    "basis": "F-CHG-101-06",
+    "effective_from": "2026-04-01T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-101",
+    "predicate": "references",
+    "object": "DOC-POL-002-v2",
+    "basis": "F-CHG-101-06",
+    "effective_from": "2026-04-01T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-109",
+    "predicate": "references",
+    "object": "DOC-MTG-005",
+    "basis": "F-CHG-109-07",
+    "effective_from": "2026-05-10T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-109",
+    "predicate": "references",
+    "object": "DOC-POL-010-v2",
+    "basis": "F-CHG-109-07",
+    "effective_from": "2026-05-10T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-118",
+    "predicate": "references",
+    "object": "DOC-PROD-006-v1",
+    "basis": "F-CHG-118-07",
+    "effective_from": "2026-07-19T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-127",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-008",
+    "basis": "F-CHG-127-07",
+    "effective_from": "2026-06-01T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-127",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-CHG-127-07",
+    "effective_from": "2026-06-01T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-127",
+    "predicate": "references",
+    "object": "DOC-ADR-025",
+    "basis": "F-CHG-127-07",
+    "effective_from": "2026-06-01T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-132",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-012",
+    "basis": "F-CHG-132-07",
+    "effective_from": "2026-04-21T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-132",
+    "predicate": "references",
+    "object": "DOC-ADR-026",
+    "basis": "F-CHG-132-07",
+    "effective_from": "2026-04-21T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-132",
+    "predicate": "references",
+    "object": "DOC-POL-014",
+    "basis": "F-CHG-132-07",
+    "effective_from": "2026-04-21T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-139",
+    "predicate": "references",
+    "object": "DOC-POL-007-v1",
+    "basis": "F-CHG-139-07",
+    "effective_from": "2026-03-28T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-139",
+    "predicate": "references",
+    "object": "DOC-RB-003-v1",
+    "basis": "F-CHG-139-07",
+    "effective_from": "2026-03-28T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-139",
+    "predicate": "references",
+    "object": "DOC-PROD-002",
+    "basis": "F-CHG-139-07",
+    "effective_from": "2026-03-28T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-144",
+    "predicate": "references",
+    "object": "DOC-ADR-021",
+    "basis": "F-CHG-144-07",
+    "effective_from": "2026-07-15T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-144",
+    "predicate": "references",
+    "object": "DOC-POL-007-v2",
+    "basis": "F-CHG-144-07",
+    "effective_from": "2026-07-15T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-153",
+    "predicate": "references",
+    "object": "DOC-ADR-024",
+    "basis": "F-CHG-153-07",
+    "effective_from": "2026-08-07T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-153",
+    "predicate": "references",
+    "object": "DOC-PROD-006-v2",
+    "basis": "F-CHG-153-07",
+    "effective_from": "2026-08-07T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-153",
+    "predicate": "references",
+    "object": "DOC-POL-016",
+    "basis": "F-CHG-153-07",
+    "effective_from": "2026-08-07T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-160",
+    "predicate": "references",
+    "object": "DOC-ARCH-007",
+    "basis": "F-CHG-160-06",
+    "effective_from": "2026-08-10T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-160",
+    "predicate": "references",
+    "object": "DOC-POL-007-v2",
+    "basis": "F-CHG-160-06",
+    "effective_from": "2026-08-10T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-160",
+    "predicate": "references",
+    "object": "DOC-POL-011",
+    "basis": "F-CHG-160-06",
+    "effective_from": "2026-08-10T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-167",
+    "predicate": "references",
+    "object": "DOC-RISK-008",
+    "basis": "F-CHG-167-07",
+    "effective_from": "2026-05-25T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-167",
+    "predicate": "references",
+    "object": "DOC-POL-013-v2",
+    "basis": "F-CHG-167-07",
+    "effective_from": "2026-05-25T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-167",
+    "predicate": "references",
+    "object": "DOC-RB-011",
+    "basis": "F-CHG-167-07",
+    "effective_from": "2026-05-25T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-172",
+    "predicate": "references",
+    "object": "DOC-POL-015",
+    "basis": "F-CHG-172-07",
+    "effective_from": "2026-07-01T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-172",
+    "predicate": "references",
+    "object": "DOC-MTG-008",
+    "basis": "F-CHG-172-07",
+    "effective_from": "2026-07-01T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-178",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-CHG-178-07",
+    "effective_from": "2026-08-26T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-178",
+    "predicate": "references",
+    "object": "DOC-RB-009",
+    "basis": "F-CHG-178-07",
+    "effective_from": "2026-08-26T18:00:00Z"
+  },
+  {
+    "subject": "DOC-CHG-178",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-CHG-178-07",
+    "effective_from": "2026-08-26T18:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-006",
+    "predicate": "references",
+    "object": "DOC-POL-007-v1",
+    "basis": "F-INC-2025-006-08",
+    "effective_from": "2025-08-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-006",
+    "predicate": "references",
+    "object": "DOC-RB-003-v1",
+    "basis": "F-INC-2025-006-08",
+    "effective_from": "2025-08-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-006",
+    "predicate": "references",
+    "object": "DOC-PROD-002",
+    "basis": "F-INC-2025-006-08",
+    "effective_from": "2025-08-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-008",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-INC-2025-008-08",
+    "effective_from": "2025-09-02T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-008",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-INC-2025-008-08",
+    "effective_from": "2025-09-02T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-009",
+    "predicate": "references",
+    "object": "DOC-PROD-006-v1",
+    "basis": "F-INC-2025-009-08",
+    "effective_from": "2025-09-06T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-011",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-INC-2025-011-08",
+    "effective_from": "2025-09-26T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-011",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-INC-2025-011-08",
+    "effective_from": "2025-09-26T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-012",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-INC-2025-012-08",
+    "effective_from": "2025-10-03T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-012",
+    "predicate": "references",
+    "object": "DOC-POL-012",
+    "basis": "F-INC-2025-012-08",
+    "effective_from": "2025-10-03T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-012",
+    "predicate": "references",
+    "object": "DOC-RB-005",
+    "basis": "F-INC-2025-012-08",
+    "effective_from": "2025-10-03T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-014",
+    "predicate": "references",
+    "object": "DOC-POL-007-v1",
+    "basis": "F-INC-2025-014-08",
+    "effective_from": "2025-11-04T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-014",
+    "predicate": "references",
+    "object": "DOC-RB-003-v1",
+    "basis": "F-INC-2025-014-08",
+    "effective_from": "2025-11-04T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-014",
+    "predicate": "references",
+    "object": "DOC-PROD-002",
+    "basis": "F-INC-2025-014-08",
+    "effective_from": "2025-11-04T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-018",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-INC-2025-018-08",
+    "effective_from": "2025-11-18T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-018",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-INC-2025-018-08",
+    "effective_from": "2025-11-18T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-021",
+    "predicate": "references",
+    "object": "DOC-PROD-006-v1",
+    "basis": "F-INC-2025-021-08",
+    "effective_from": "2025-12-03T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-026",
+    "predicate": "references",
+    "object": "DOC-POL-007-v1",
+    "basis": "F-INC-2025-026-08",
+    "effective_from": "2025-12-17T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-026",
+    "predicate": "references",
+    "object": "DOC-RB-003-v1",
+    "basis": "F-INC-2025-026-08",
+    "effective_from": "2025-12-17T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-026",
+    "predicate": "references",
+    "object": "DOC-PROD-002",
+    "basis": "F-INC-2025-026-08",
+    "effective_from": "2025-12-17T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-031",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-INC-2025-031-08",
+    "effective_from": "2025-12-30T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-031",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-INC-2025-031-08",
+    "effective_from": "2025-12-30T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-034",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-INC-2025-034-08",
+    "effective_from": "2026-01-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2025-034",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-INC-2025-034-08",
+    "effective_from": "2026-01-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-006",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-INC-2026-006-08",
+    "effective_from": "2026-01-15T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-006",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-INC-2026-006-08",
+    "effective_from": "2026-01-15T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-011",
+    "predicate": "references",
+    "object": "DOC-POL-007-v1",
+    "basis": "F-INC-2026-011-08",
+    "effective_from": "2026-01-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-011",
+    "predicate": "references",
+    "object": "DOC-RB-003-v1",
+    "basis": "F-INC-2026-011-08",
+    "effective_from": "2026-01-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-011",
+    "predicate": "references",
+    "object": "DOC-PROD-002",
+    "basis": "F-INC-2026-011-08",
+    "effective_from": "2026-01-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-013",
+    "predicate": "references",
+    "object": "DOC-PROD-006-v1",
+    "basis": "F-INC-2026-013-08",
+    "effective_from": "2026-02-03T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-016",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-INC-2026-016-08",
+    "effective_from": "2026-02-13T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-016",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-INC-2026-016-08",
+    "effective_from": "2026-02-13T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-017",
+    "predicate": "references",
+    "object": "DOC-POL-007-v1",
+    "basis": "F-INC-2026-017-08",
+    "effective_from": "2026-02-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-017",
+    "predicate": "references",
+    "object": "DOC-RB-003-v1",
+    "basis": "F-INC-2026-017-08",
+    "effective_from": "2026-02-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-017",
+    "predicate": "references",
+    "object": "DOC-PROD-002",
+    "basis": "F-INC-2026-017-08",
+    "effective_from": "2026-02-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-019",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-INC-2026-019-08",
+    "effective_from": "2026-03-03T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-019",
+    "predicate": "references",
+    "object": "DOC-POL-012",
+    "basis": "F-INC-2026-019-08",
+    "effective_from": "2026-03-03T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-019",
+    "predicate": "references",
+    "object": "DOC-RB-005",
+    "basis": "F-INC-2026-019-08",
+    "effective_from": "2026-03-03T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-022",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-INC-2026-022-08",
+    "effective_from": "2026-03-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-022",
+    "predicate": "references",
+    "object": "DOC-POL-012",
+    "basis": "F-INC-2026-022-08",
+    "effective_from": "2026-03-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-022",
+    "predicate": "references",
+    "object": "DOC-RB-005",
+    "basis": "F-INC-2026-022-08",
+    "effective_from": "2026-03-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-024",
+    "predicate": "references",
+    "object": "DOC-POL-007-v1",
+    "basis": "F-INC-2026-024-08",
+    "effective_from": "2026-03-27T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-024",
+    "predicate": "references",
+    "object": "DOC-RB-003-v1",
+    "basis": "F-INC-2026-024-08",
+    "effective_from": "2026-03-27T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-024",
+    "predicate": "references",
+    "object": "DOC-PROD-002",
+    "basis": "F-INC-2026-024-08",
+    "effective_from": "2026-03-27T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-025",
+    "predicate": "references",
+    "object": "DOC-RB-012-v1",
+    "basis": "F-INC-2026-025-08",
+    "effective_from": "2026-04-06T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-025",
+    "predicate": "references",
+    "object": "DOC-PROD-010",
+    "basis": "F-INC-2026-025-08",
+    "effective_from": "2026-04-06T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-029",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-INC-2026-029-08",
+    "effective_from": "2026-05-19T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-029",
+    "predicate": "references",
+    "object": "DOC-POL-012",
+    "basis": "F-INC-2026-029-08",
+    "effective_from": "2026-05-19T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-029",
+    "predicate": "references",
+    "object": "DOC-RB-005",
+    "basis": "F-INC-2026-029-08",
+    "effective_from": "2026-05-19T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-030",
+    "predicate": "references",
+    "object": "DOC-ARCH-004",
+    "basis": "F-INC-2026-030-08",
+    "effective_from": "2026-05-21T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-030",
+    "predicate": "references",
+    "object": "DOC-POL-010-v1",
+    "basis": "F-INC-2026-030-08",
+    "effective_from": "2026-05-21T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-030",
+    "predicate": "references",
+    "object": "DOC-POL-010-v2",
+    "basis": "F-INC-2026-030-08",
+    "effective_from": "2026-05-21T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-032",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-INC-2026-032-08",
+    "effective_from": "2026-05-30T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-032",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-INC-2026-032-08",
+    "effective_from": "2026-05-30T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-033",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-INC-2026-033-08",
+    "effective_from": "2026-06-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-033",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-INC-2026-033-08",
+    "effective_from": "2026-06-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-035",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-INC-2026-035-08",
+    "effective_from": "2026-06-09T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-035",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-INC-2026-035-08",
+    "effective_from": "2026-06-09T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-038",
+    "predicate": "references",
+    "object": "DOC-POL-007-v1",
+    "basis": "F-INC-2026-038-08",
+    "effective_from": "2026-06-19T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-038",
+    "predicate": "references",
+    "object": "DOC-POL-007-v2",
+    "basis": "F-INC-2026-038-08",
+    "effective_from": "2026-06-19T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-038",
+    "predicate": "references",
+    "object": "DOC-RB-003-v1",
+    "basis": "F-INC-2026-038-08",
+    "effective_from": "2026-06-19T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-040",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-008",
+    "basis": "F-INC-2026-040-08",
+    "effective_from": "2026-06-26T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-040",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-INC-2026-040-08",
+    "effective_from": "2026-06-26T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-040",
+    "predicate": "references",
+    "object": "DOC-ADR-025",
+    "basis": "F-INC-2026-040-08",
+    "effective_from": "2026-06-26T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-041",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-INC-2026-041-08",
+    "effective_from": "2026-07-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-041",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-INC-2026-041-08",
+    "effective_from": "2026-07-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-043",
+    "predicate": "references",
+    "object": "DOC-PROD-006-v1",
+    "basis": "F-INC-2026-043-08",
+    "effective_from": "2026-07-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-043",
+    "predicate": "references",
+    "object": "DOC-CHG-118",
+    "basis": "F-INC-2026-043-08",
+    "effective_from": "2026-07-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-046",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-004",
+    "basis": "F-INC-2026-046-08",
+    "effective_from": "2026-07-24T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-046",
+    "predicate": "references",
+    "object": "DOC-ADR-021",
+    "basis": "F-INC-2026-046-08",
+    "effective_from": "2026-07-24T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-046",
+    "predicate": "references",
+    "object": "DOC-POL-007-v1",
+    "basis": "F-INC-2026-046-08",
+    "effective_from": "2026-07-24T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-047",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-008",
+    "basis": "F-INC-2026-047-08",
+    "effective_from": "2026-07-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-047",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-INC-2026-047-08",
+    "effective_from": "2026-07-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-047",
+    "predicate": "references",
+    "object": "DOC-ADR-025",
+    "basis": "F-INC-2026-047-08",
+    "effective_from": "2026-07-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-049",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-INC-2026-049-08",
+    "effective_from": "2026-08-02T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-049",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-INC-2026-049-08",
+    "effective_from": "2026-08-02T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-050",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-INC-2026-050-08",
+    "effective_from": "2026-08-03T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-050",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-INC-2026-050-08",
+    "effective_from": "2026-08-03T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-051",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-006",
+    "basis": "F-INC-2026-051-08",
+    "effective_from": "2026-08-04T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-051",
+    "predicate": "references",
+    "object": "DOC-ADR-024",
+    "basis": "F-INC-2026-051-08",
+    "effective_from": "2026-08-04T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-051",
+    "predicate": "references",
+    "object": "DOC-POL-016",
+    "basis": "F-INC-2026-051-08",
+    "effective_from": "2026-08-04T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-052",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-INC-2026-052-08",
+    "effective_from": "2026-08-05T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-052",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-INC-2026-052-08",
+    "effective_from": "2026-08-05T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-054",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-006",
+    "basis": "F-INC-2026-054-08",
+    "effective_from": "2026-08-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-054",
+    "predicate": "references",
+    "object": "DOC-ADR-024",
+    "basis": "F-INC-2026-054-08",
+    "effective_from": "2026-08-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-INC-2026-054",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-014",
+    "basis": "F-INC-2026-054-08",
+    "effective_from": "2026-08-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-LONG-001-01",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ARCH-007",
+    "basis": "F-LONG-001-02",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-004",
+    "basis": "F-LONG-001-03",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ADR-021",
+    "basis": "F-LONG-001-04",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-RB-003-v2",
+    "basis": "F-LONG-001-05",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ADR-021",
+    "basis": "F-LONG-001-06",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-PROD-007",
+    "basis": "F-LONG-001-07",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-CHG-139",
+    "basis": "F-LONG-001-08",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-POL-007-v2",
+    "basis": "F-LONG-001-09",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-RB-010",
+    "basis": "F-LONG-001-10",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-PROD-006-v2",
+    "basis": "F-LONG-001-11",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ADR-024",
+    "basis": "F-LONG-001-12",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ADR-024",
+    "basis": "F-LONG-001-13",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-RB-004",
+    "basis": "F-LONG-001-14",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-006",
+    "basis": "F-LONG-001-15",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-PROD-006-v1",
+    "basis": "F-LONG-001-16",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-CHG-118",
+    "basis": "F-LONG-001-17",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-014",
+    "basis": "F-LONG-001-18",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-LONG-001-19",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-RB-008-v2",
+    "basis": "F-LONG-001-20",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-RB-005",
+    "basis": "F-LONG-001-21",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ADR-025",
+    "basis": "F-LONG-001-22",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-POL-012",
+    "basis": "F-LONG-001-23",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-PROD-009",
+    "basis": "F-LONG-001-24",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-008",
+    "basis": "F-LONG-001-25",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-LONG-001-26",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-LONG-001-27",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-LONG-001-28",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-LONG-001-29",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-LONG-001-30",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-LONG-001-31",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-POL-012",
+    "basis": "F-LONG-001-32",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-PROD-005",
+    "basis": "F-LONG-001-33",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-PROD-009",
+    "basis": "F-LONG-001-34",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-013",
+    "basis": "F-LONG-001-35",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-POL-007-v2",
+    "basis": "F-LONG-001-36",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-RB-009",
+    "basis": "F-LONG-001-37",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-RB-013",
+    "basis": "F-LONG-001-38",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-LONG-001-39",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-001",
+    "predicate": "references",
+    "object": "DOC-RB-003-v2",
+    "basis": "F-LONG-001-40",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-POL-019",
+    "basis": "F-LONG-002-01",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RISK-003",
+    "basis": "F-LONG-002-02",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-ARCH-003",
+    "basis": "F-LONG-002-03",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-MTG-003",
+    "basis": "F-LONG-002-04",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-POL-002-v2",
+    "basis": "F-LONG-002-05",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RB-006",
+    "basis": "F-LONG-002-06",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-PROD-012",
+    "basis": "F-LONG-002-07",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-POL-019",
+    "basis": "F-LONG-002-08",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RISK-001",
+    "basis": "F-LONG-002-09",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RISK-002",
+    "basis": "F-LONG-002-10",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RISK-001",
+    "basis": "F-LONG-002-11",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-MTG-005",
+    "basis": "F-LONG-002-12",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-POL-010-v2",
+    "basis": "F-LONG-002-13",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-MTG-005",
+    "basis": "F-LONG-002-14",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-CHG-109",
+    "basis": "F-LONG-002-15",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RB-007",
+    "basis": "F-LONG-002-16",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-PROD-011",
+    "basis": "F-LONG-002-17",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RISK-005",
+    "basis": "F-LONG-002-18",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-POL-007-v2",
+    "basis": "F-LONG-002-19",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RB-010",
+    "basis": "F-LONG-002-20",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-POL-007-v2",
+    "basis": "F-LONG-002-21",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-POL-011",
+    "basis": "F-LONG-002-22",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-CHG-160",
+    "basis": "F-LONG-002-23",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RISK-007",
+    "basis": "F-LONG-002-24",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-MTG-011",
+    "basis": "F-LONG-002-25",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RISK-008",
+    "basis": "F-LONG-002-26",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RB-011",
+    "basis": "F-LONG-002-27",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-POL-013-v2",
+    "basis": "F-LONG-002-28",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-CHG-167",
+    "basis": "F-LONG-002-29",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RB-011",
+    "basis": "F-LONG-002-30",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RISK-009",
+    "basis": "F-LONG-002-31",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-MTG-012",
+    "basis": "F-LONG-002-32",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-POL-013-v2",
+    "basis": "F-LONG-002-33",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-POL-012",
+    "basis": "F-LONG-002-34",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RISK-006",
+    "basis": "F-LONG-002-35",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RISK-005",
+    "basis": "F-LONG-002-36",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-POL-014",
+    "basis": "F-LONG-002-37",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RB-012-v2",
+    "basis": "F-LONG-002-38",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-POL-015",
+    "basis": "F-LONG-002-39",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-002",
+    "predicate": "references",
+    "object": "DOC-RISK-009",
+    "basis": "F-LONG-002-40",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2025-006",
+    "basis": "F-LONG-003-05",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2025-008",
+    "basis": "F-LONG-003-06",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2025-009",
+    "basis": "F-LONG-003-07",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2025-011",
+    "basis": "F-LONG-003-08",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2025-012",
+    "basis": "F-LONG-003-09",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2025-014",
+    "basis": "F-LONG-003-10",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2025-018",
+    "basis": "F-LONG-003-11",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2025-021",
+    "basis": "F-LONG-003-12",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2025-026",
+    "basis": "F-LONG-003-13",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2025-031",
+    "basis": "F-LONG-003-14",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2025-034",
+    "basis": "F-LONG-003-15",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-006",
+    "basis": "F-LONG-003-16",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-011",
+    "basis": "F-LONG-003-17",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-013",
+    "basis": "F-LONG-003-18",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-016",
+    "basis": "F-LONG-003-19",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-017",
+    "basis": "F-LONG-003-20",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-019",
+    "basis": "F-LONG-003-21",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-022",
+    "basis": "F-LONG-003-22",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-024",
+    "basis": "F-LONG-003-23",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-025",
+    "basis": "F-LONG-003-24",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-029",
+    "basis": "F-LONG-003-25",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-030",
+    "basis": "F-LONG-003-26",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-032",
+    "basis": "F-LONG-003-27",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-033",
+    "basis": "F-LONG-003-28",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-035",
+    "basis": "F-LONG-003-29",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-038",
+    "basis": "F-LONG-003-30",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-040",
+    "basis": "F-LONG-003-31",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-041",
+    "basis": "F-LONG-003-32",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-043",
+    "basis": "F-LONG-003-33",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-046",
+    "basis": "F-LONG-003-34",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-047",
+    "basis": "F-LONG-003-35",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-049",
+    "basis": "F-LONG-003-36",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-050",
+    "basis": "F-LONG-003-37",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-051",
+    "basis": "F-LONG-003-38",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-052",
+    "basis": "F-LONG-003-39",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-003",
+    "predicate": "references",
+    "object": "DOC-INC-2026-054",
+    "basis": "F-LONG-003-40",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-LONG-004-01",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-ARCH-001",
+    "basis": "F-LONG-004-02",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-ADR-027",
+    "basis": "F-LONG-004-03",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-POL-015",
+    "basis": "F-LONG-004-04",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-CHG-172",
+    "basis": "F-LONG-004-05",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-RB-013",
+    "basis": "F-LONG-004-06",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-RB-009",
+    "basis": "F-LONG-004-07",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-RB-009",
+    "basis": "F-LONG-004-08",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-ADR-026",
+    "basis": "F-LONG-004-09",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-RB-012-v1",
+    "basis": "F-LONG-004-10",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-012",
+    "basis": "F-LONG-004-11",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-RB-012-v2",
+    "basis": "F-LONG-004-12",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-PROD-010",
+    "basis": "F-LONG-004-13",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-CHG-132",
+    "basis": "F-LONG-004-14",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-POL-014",
+    "basis": "F-LONG-004-15",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-PROD-002",
+    "basis": "F-LONG-004-16",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-ADR-024",
+    "basis": "F-LONG-004-17",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-PROD-006-v1",
+    "basis": "F-LONG-004-18",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-PROD-006-v2",
+    "basis": "F-LONG-004-19",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-ARCH-007",
+    "basis": "F-LONG-004-20",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-004",
+    "basis": "F-LONG-004-21",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-ADR-021",
+    "basis": "F-LONG-004-22",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-LONG-004-23",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-ARCH-007",
+    "basis": "F-LONG-004-24",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-RB-003-v2",
+    "basis": "F-LONG-004-25",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-RB-005",
+    "basis": "F-LONG-004-26",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-RB-008-v2",
+    "basis": "F-LONG-004-27",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-POL-012",
+    "basis": "F-LONG-004-28",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-PROD-005",
+    "basis": "F-LONG-004-29",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-CHG-139",
+    "basis": "F-LONG-004-30",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-CHG-144",
+    "basis": "F-LONG-004-31",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-CHG-153",
+    "basis": "F-LONG-004-32",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-CHG-178",
+    "basis": "F-LONG-004-33",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-RB-009",
+    "basis": "F-LONG-004-34",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-POL-007-v1",
+    "basis": "F-LONG-004-35",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-MTG-017",
+    "basis": "F-LONG-004-36",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-013",
+    "basis": "F-LONG-004-37",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-LONG-004-38",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-ADR-027",
+    "basis": "F-LONG-004-39",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-LONG-004",
+    "predicate": "references",
+    "object": "DOC-RB-013",
+    "basis": "F-LONG-004-40",
+    "effective_from": "2026-08-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-003",
+    "predicate": "references",
+    "object": "DOC-RISK-003",
+    "basis": "F-MTG-003-07",
+    "effective_from": "2026-03-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-003",
+    "predicate": "references",
+    "object": "DOC-POL-002-v1",
+    "basis": "F-MTG-003-07",
+    "effective_from": "2026-03-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-005",
+    "predicate": "references",
+    "object": "DOC-RISK-001",
+    "basis": "F-MTG-005-07",
+    "effective_from": "2026-05-04T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-005",
+    "predicate": "references",
+    "object": "DOC-POL-010-v2",
+    "basis": "F-MTG-005-07",
+    "effective_from": "2026-05-04T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-008",
+    "predicate": "references",
+    "object": "DOC-ARCH-001",
+    "basis": "F-MTG-008-07",
+    "effective_from": "2026-06-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-008",
+    "predicate": "references",
+    "object": "DOC-ADR-027",
+    "basis": "F-MTG-008-07",
+    "effective_from": "2026-06-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-009",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-006",
+    "basis": "F-MTG-009-06",
+    "effective_from": "2026-07-27T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-009",
+    "predicate": "references",
+    "object": "DOC-PROD-006-v1",
+    "basis": "F-MTG-009-06",
+    "effective_from": "2026-07-27T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-009",
+    "predicate": "references",
+    "object": "DOC-CHG-118",
+    "basis": "F-MTG-009-06",
+    "effective_from": "2026-07-27T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-010",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-008",
+    "basis": "F-MTG-010-07",
+    "effective_from": "2026-05-27T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-010",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-MTG-010-07",
+    "effective_from": "2026-05-27T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-010",
+    "predicate": "references",
+    "object": "DOC-POL-012",
+    "basis": "F-MTG-010-07",
+    "effective_from": "2026-05-27T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-011",
+    "predicate": "references",
+    "object": "DOC-RISK-007",
+    "basis": "F-MTG-011-07",
+    "effective_from": "2026-08-13T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-011",
+    "predicate": "references",
+    "object": "DOC-CHG-160",
+    "basis": "F-MTG-011-07",
+    "effective_from": "2026-08-13T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-011",
+    "predicate": "references",
+    "object": "DOC-POL-011",
+    "basis": "F-MTG-011-07",
+    "effective_from": "2026-08-13T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-012",
+    "predicate": "references",
+    "object": "DOC-RISK-009",
+    "basis": "F-MTG-012-07",
+    "effective_from": "2026-08-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-012",
+    "predicate": "references",
+    "object": "DOC-RISK-008",
+    "basis": "F-MTG-012-07",
+    "effective_from": "2026-08-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-017",
+    "predicate": "references",
+    "object": "DOC-POL-007-v1",
+    "basis": "F-MTG-017-06",
+    "effective_from": "2026-06-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-017",
+    "predicate": "references",
+    "object": "DOC-POL-007-v2",
+    "basis": "F-MTG-017-06",
+    "effective_from": "2026-06-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-MTG-017",
+    "predicate": "references",
+    "object": "DOC-RB-003-v1",
+    "basis": "F-MTG-017-06",
+    "effective_from": "2026-06-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-002-v2",
+    "predicate": "references",
+    "object": "DOC-POL-002-v1",
+    "basis": "F-POL-002-v2-07",
+    "effective_from": "2026-03-26T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-002-v2",
+    "predicate": "references",
+    "object": "DOC-MTG-003",
+    "basis": "F-POL-002-v2-07",
+    "effective_from": "2026-03-26T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-002-v2",
+    "predicate": "supersedes",
+    "object": "DOC-POL-002-v1",
+    "basis": "F-POL-002-v2-01",
+    "effective_from": "2026-04-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-007-v2",
+    "predicate": "references",
+    "object": "DOC-POL-007-v1",
+    "basis": "F-POL-007-v2-06",
+    "effective_from": "2026-06-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-007-v2",
+    "predicate": "references",
+    "object": "DOC-RB-003-v1",
+    "basis": "F-POL-007-v2-06",
+    "effective_from": "2026-06-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-007-v2",
+    "predicate": "references",
+    "object": "DOC-PROD-002",
+    "basis": "F-POL-007-v2-06",
+    "effective_from": "2026-06-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-007-v2",
+    "predicate": "supersedes",
+    "object": "DOC-POL-007-v1",
+    "basis": "F-POL-007-v2-01",
+    "effective_from": "2026-06-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-010-v1",
+    "predicate": "references",
+    "object": "DOC-POL-017",
+    "basis": "F-POL-010-v1-07",
+    "effective_from": "2025-07-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-010-v2",
+    "predicate": "references",
+    "object": "DOC-ARCH-004",
+    "basis": "F-POL-010-v2-06",
+    "effective_from": "2026-05-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-010-v2",
+    "predicate": "references",
+    "object": "DOC-POL-010-v1",
+    "basis": "F-POL-010-v2-06",
+    "effective_from": "2026-05-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-010-v2",
+    "predicate": "references",
+    "object": "DOC-POL-017",
+    "basis": "F-POL-010-v2-06",
+    "effective_from": "2026-05-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-010-v2",
+    "predicate": "supersedes",
+    "object": "DOC-POL-010-v1",
+    "basis": "F-POL-010-v2-01",
+    "effective_from": "2026-05-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-011",
+    "predicate": "references",
+    "object": "DOC-POL-007-v2",
+    "basis": "F-POL-011-07",
+    "effective_from": "2026-06-02T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-013-v2",
+    "predicate": "references",
+    "object": "DOC-ARCH-005",
+    "basis": "F-POL-013-v2-07",
+    "effective_from": "2026-05-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-013-v2",
+    "predicate": "references",
+    "object": "DOC-POL-013-v1",
+    "basis": "F-POL-013-v2-07",
+    "effective_from": "2026-05-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-013-v2",
+    "predicate": "references",
+    "object": "DOC-POL-018",
+    "basis": "F-POL-013-v2-07",
+    "effective_from": "2026-05-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-013-v2",
+    "predicate": "supersedes",
+    "object": "DOC-POL-013-v1",
+    "basis": "F-POL-013-v2-01",
+    "effective_from": "2026-05-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-014",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-012",
+    "basis": "F-POL-014-07",
+    "effective_from": "2026-04-16T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-014",
+    "predicate": "references",
+    "object": "DOC-ADR-026",
+    "basis": "F-POL-014-07",
+    "effective_from": "2026-04-16T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-014",
+    "predicate": "references",
+    "object": "DOC-RB-012-v1",
+    "basis": "F-POL-014-07",
+    "effective_from": "2026-04-16T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-015",
+    "predicate": "references",
+    "object": "DOC-MTG-008",
+    "basis": "F-POL-015-07",
+    "effective_from": "2026-06-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-015",
+    "predicate": "references",
+    "object": "DOC-ADR-027",
+    "basis": "F-POL-015-07",
+    "effective_from": "2026-06-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-016",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-006",
+    "basis": "F-POL-016-06",
+    "effective_from": "2026-07-29T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-016",
+    "predicate": "references",
+    "object": "DOC-ADR-024",
+    "basis": "F-POL-016-06",
+    "effective_from": "2026-07-29T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-016",
+    "predicate": "references",
+    "object": "DOC-PROD-006-v1",
+    "basis": "F-POL-016-06",
+    "effective_from": "2026-07-29T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-017",
+    "predicate": "references",
+    "object": "DOC-POL-010-v1",
+    "basis": "F-POL-017-07",
+    "effective_from": "2025-07-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-018",
+    "predicate": "references",
+    "object": "DOC-ARCH-005",
+    "basis": "F-POL-018-07",
+    "effective_from": "2026-05-16T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-018",
+    "predicate": "references",
+    "object": "DOC-POL-013-v1",
+    "basis": "F-POL-018-07",
+    "effective_from": "2026-05-16T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-018",
+    "predicate": "references",
+    "object": "DOC-RISK-008",
+    "basis": "F-POL-018-07",
+    "effective_from": "2026-05-16T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-019",
+    "predicate": "references",
+    "object": "DOC-ARCH-003",
+    "basis": "F-POL-019-06",
+    "effective_from": "2026-03-27T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-019",
+    "predicate": "references",
+    "object": "DOC-POL-002-v1",
+    "basis": "F-POL-019-06",
+    "effective_from": "2026-03-27T00:00:00Z"
+  },
+  {
+    "subject": "DOC-POL-019",
+    "predicate": "references",
+    "object": "DOC-POL-002-v2",
+    "basis": "F-POL-019-06",
+    "effective_from": "2026-03-27T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-002",
+    "predicate": "references",
+    "object": "DOC-POL-007-v1",
+    "basis": "F-PROD-002-07",
+    "effective_from": "2025-07-18T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-003-v1",
+    "predicate": "references",
+    "object": "DOC-POL-002-v1",
+    "basis": "F-PROD-003-v1-07",
+    "effective_from": "2025-07-18T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-003-v2",
+    "predicate": "references",
+    "object": "DOC-POL-002-v2",
+    "basis": "F-PROD-003-v2-07",
+    "effective_from": "2026-03-30T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-003-v2",
+    "predicate": "references",
+    "object": "DOC-PROD-003-v1",
+    "basis": "F-PROD-003-v2-07",
+    "effective_from": "2026-03-30T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-003-v2",
+    "predicate": "supersedes",
+    "object": "DOC-PROD-003-v1",
+    "basis": "F-PROD-003-v2-01",
+    "effective_from": "2026-04-01T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-004",
+    "predicate": "references",
+    "object": "DOC-ARCH-003",
+    "basis": "F-PROD-004-06",
+    "effective_from": "2026-08-05T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-004",
+    "predicate": "references",
+    "object": "DOC-POL-002-v1",
+    "basis": "F-PROD-004-06",
+    "effective_from": "2026-08-05T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-004",
+    "predicate": "references",
+    "object": "DOC-POL-002-v2",
+    "basis": "F-PROD-004-06",
+    "effective_from": "2026-08-05T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-005",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-PROD-005-07",
+    "effective_from": "2025-07-18T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-005",
+    "predicate": "references",
+    "object": "DOC-POL-012",
+    "basis": "F-PROD-005-07",
+    "effective_from": "2025-07-18T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-006-v2",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-006",
+    "basis": "F-PROD-006-v2-06",
+    "effective_from": "2026-07-30T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-006-v2",
+    "predicate": "references",
+    "object": "DOC-ADR-024",
+    "basis": "F-PROD-006-v2-06",
+    "effective_from": "2026-07-30T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-006-v2",
+    "predicate": "references",
+    "object": "DOC-POL-016",
+    "basis": "F-PROD-006-v2-06",
+    "effective_from": "2026-07-30T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-006-v2",
+    "predicate": "supersedes",
+    "object": "DOC-PROD-006-v1",
+    "basis": "F-PROD-006-v2-01",
+    "effective_from": "2026-08-07T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-007",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-006",
+    "basis": "F-PROD-007-06",
+    "effective_from": "2026-07-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-007",
+    "predicate": "references",
+    "object": "DOC-ADR-024",
+    "basis": "F-PROD-007-06",
+    "effective_from": "2026-07-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-007",
+    "predicate": "references",
+    "object": "DOC-POL-016",
+    "basis": "F-PROD-007-06",
+    "effective_from": "2026-07-31T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-008",
+    "predicate": "references",
+    "object": "DOC-POL-010-v1",
+    "basis": "F-PROD-008-07",
+    "effective_from": "2025-07-18T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-008",
+    "predicate": "references",
+    "object": "DOC-POL-017",
+    "basis": "F-PROD-008-07",
+    "effective_from": "2025-07-18T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-009",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-008",
+    "basis": "F-PROD-009-07",
+    "effective_from": "2026-05-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-009",
+    "predicate": "references",
+    "object": "DOC-PROD-005",
+    "basis": "F-PROD-009-07",
+    "effective_from": "2026-05-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-011",
+    "predicate": "references",
+    "object": "DOC-ARCH-004",
+    "basis": "F-PROD-011-06",
+    "effective_from": "2026-05-12T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-011",
+    "predicate": "references",
+    "object": "DOC-POL-010-v1",
+    "basis": "F-PROD-011-06",
+    "effective_from": "2026-05-12T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-011",
+    "predicate": "references",
+    "object": "DOC-POL-010-v2",
+    "basis": "F-PROD-011-06",
+    "effective_from": "2026-05-12T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-012",
+    "predicate": "references",
+    "object": "DOC-POL-002-v2",
+    "basis": "F-PROD-012-07",
+    "effective_from": "2026-03-30T00:00:00Z"
+  },
+  {
+    "subject": "DOC-PROD-012",
+    "predicate": "references",
+    "object": "DOC-PROD-003-v2",
+    "basis": "F-PROD-012-07",
+    "effective_from": "2026-03-30T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-003-v1",
+    "predicate": "references",
+    "object": "DOC-POL-007-v1",
+    "basis": "F-RB-003-v1-07",
+    "effective_from": "2025-07-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-003-v1",
+    "predicate": "references",
+    "object": "DOC-PROD-002",
+    "basis": "F-RB-003-v1-07",
+    "effective_from": "2025-07-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-003-v2",
+    "predicate": "references",
+    "object": "DOC-CHG-144",
+    "basis": "F-RB-003-v2-06",
+    "effective_from": "2026-07-16T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-003-v2",
+    "predicate": "references",
+    "object": "DOC-ADR-021",
+    "basis": "F-RB-003-v2-06",
+    "effective_from": "2026-07-16T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-003-v2",
+    "predicate": "references",
+    "object": "DOC-RB-003-v1",
+    "basis": "F-RB-003-v2-06",
+    "effective_from": "2026-07-16T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-003-v2",
+    "predicate": "supersedes",
+    "object": "DOC-RB-003-v1",
+    "basis": "F-RB-003-v2-01",
+    "effective_from": "2026-07-16T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-004",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-006",
+    "basis": "F-RB-004-07",
+    "effective_from": "2026-07-30T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-004",
+    "predicate": "references",
+    "object": "DOC-ADR-024",
+    "basis": "F-RB-004-07",
+    "effective_from": "2026-07-30T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-004",
+    "predicate": "references",
+    "object": "DOC-POL-016",
+    "basis": "F-RB-004-07",
+    "effective_from": "2026-07-30T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-005",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-RB-005-07",
+    "effective_from": "2025-07-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-005",
+    "predicate": "references",
+    "object": "DOC-POL-012",
+    "basis": "F-RB-005-07",
+    "effective_from": "2025-07-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-005",
+    "predicate": "references",
+    "object": "DOC-RB-008-v1",
+    "basis": "F-RB-005-07",
+    "effective_from": "2025-07-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-006",
+    "predicate": "references",
+    "object": "DOC-ARCH-003",
+    "basis": "F-RB-006-06",
+    "effective_from": "2026-03-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-006",
+    "predicate": "references",
+    "object": "DOC-POL-002-v1",
+    "basis": "F-RB-006-06",
+    "effective_from": "2026-03-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-006",
+    "predicate": "references",
+    "object": "DOC-POL-002-v2",
+    "basis": "F-RB-006-06",
+    "effective_from": "2026-03-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-007",
+    "predicate": "references",
+    "object": "DOC-ARCH-004",
+    "basis": "F-RB-007-06",
+    "effective_from": "2026-05-06T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-007",
+    "predicate": "references",
+    "object": "DOC-POL-010-v1",
+    "basis": "F-RB-007-06",
+    "effective_from": "2026-05-06T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-007",
+    "predicate": "references",
+    "object": "DOC-POL-010-v2",
+    "basis": "F-RB-007-06",
+    "effective_from": "2026-05-06T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-008-v1",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-RB-008-v1-07",
+    "effective_from": "2025-07-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-008-v1",
+    "predicate": "references",
+    "object": "DOC-POL-012",
+    "basis": "F-RB-008-v1-07",
+    "effective_from": "2025-07-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-008-v1",
+    "predicate": "references",
+    "object": "DOC-RB-005",
+    "basis": "F-RB-008-v1-07",
+    "effective_from": "2025-07-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-008-v2",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-008",
+    "basis": "F-RB-008-v2-06",
+    "effective_from": "2026-06-02T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-008-v2",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-RB-008-v2-06",
+    "effective_from": "2026-06-02T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-008-v2",
+    "predicate": "references",
+    "object": "DOC-ADR-025",
+    "basis": "F-RB-008-v2-06",
+    "effective_from": "2026-06-02T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-008-v2",
+    "predicate": "supersedes",
+    "object": "DOC-RB-008-v1",
+    "basis": "F-RB-008-v2-01",
+    "effective_from": "2026-06-02T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-009",
+    "predicate": "references",
+    "object": "DOC-ARCH-006",
+    "basis": "F-RB-009-07",
+    "effective_from": "2026-08-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-009",
+    "predicate": "references",
+    "object": "DOC-PROD-001",
+    "basis": "F-RB-009-07",
+    "effective_from": "2026-08-20T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-010",
+    "predicate": "references",
+    "object": "DOC-POL-007-v2",
+    "basis": "F-RB-010-07",
+    "effective_from": "2026-06-03T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-010",
+    "predicate": "references",
+    "object": "DOC-POL-011",
+    "basis": "F-RB-010-07",
+    "effective_from": "2026-06-03T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-011",
+    "predicate": "references",
+    "object": "DOC-ARCH-005",
+    "basis": "F-RB-011-07",
+    "effective_from": "2026-05-21T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-011",
+    "predicate": "references",
+    "object": "DOC-POL-013-v1",
+    "basis": "F-RB-011-07",
+    "effective_from": "2026-05-21T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-011",
+    "predicate": "references",
+    "object": "DOC-POL-013-v2",
+    "basis": "F-RB-011-07",
+    "effective_from": "2026-05-21T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-012-v1",
+    "predicate": "references",
+    "object": "DOC-PROD-010",
+    "basis": "F-RB-012-v1-07",
+    "effective_from": "2025-07-25T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-012-v2",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-012",
+    "basis": "F-RB-012-v2-07",
+    "effective_from": "2026-04-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-012-v2",
+    "predicate": "references",
+    "object": "DOC-ADR-026",
+    "basis": "F-RB-012-v2-07",
+    "effective_from": "2026-04-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-012-v2",
+    "predicate": "references",
+    "object": "DOC-CHG-132",
+    "basis": "F-RB-012-v2-07",
+    "effective_from": "2026-04-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-012-v2",
+    "predicate": "supersedes",
+    "object": "DOC-RB-012-v1",
+    "basis": "F-RB-012-v2-01",
+    "effective_from": "2026-04-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-013",
+    "predicate": "references",
+    "object": "DOC-ARCH-001",
+    "basis": "F-RB-013-07",
+    "effective_from": "2026-07-02T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-013",
+    "predicate": "references",
+    "object": "DOC-ADR-027",
+    "basis": "F-RB-013-07",
+    "effective_from": "2026-07-02T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RB-013",
+    "predicate": "references",
+    "object": "DOC-POL-015",
+    "basis": "F-RB-013-07",
+    "effective_from": "2026-07-02T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-001",
+    "predicate": "references",
+    "object": "DOC-ARCH-004",
+    "basis": "F-RISK-001-06",
+    "effective_from": "2026-04-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-001",
+    "predicate": "references",
+    "object": "DOC-POL-010-v1",
+    "basis": "F-RISK-001-06",
+    "effective_from": "2026-04-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-001",
+    "predicate": "references",
+    "object": "DOC-POL-017",
+    "basis": "F-RISK-001-06",
+    "effective_from": "2026-04-28T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-002",
+    "predicate": "references",
+    "object": "DOC-ARCH-004",
+    "basis": "F-RISK-002-06",
+    "effective_from": "2026-04-29T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-002",
+    "predicate": "references",
+    "object": "DOC-POL-010-v1",
+    "basis": "F-RISK-002-06",
+    "effective_from": "2026-04-29T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-002",
+    "predicate": "references",
+    "object": "DOC-POL-017",
+    "basis": "F-RISK-002-06",
+    "effective_from": "2026-04-29T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-003",
+    "predicate": "references",
+    "object": "DOC-POL-002-v1",
+    "basis": "F-RISK-003-07",
+    "effective_from": "2026-03-10T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-003",
+    "predicate": "references",
+    "object": "DOC-PROD-003-v1",
+    "basis": "F-RISK-003-07",
+    "effective_from": "2026-03-10T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-005",
+    "predicate": "references",
+    "object": "DOC-ARCHREV-008",
+    "basis": "F-RISK-005-06",
+    "effective_from": "2026-05-26T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-005",
+    "predicate": "references",
+    "object": "DOC-ARCH-002",
+    "basis": "F-RISK-005-06",
+    "effective_from": "2026-05-26T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-005",
+    "predicate": "references",
+    "object": "DOC-POL-012",
+    "basis": "F-RISK-005-06",
+    "effective_from": "2026-05-26T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-006",
+    "predicate": "references",
+    "object": "DOC-INC-2026-040",
+    "basis": "F-RISK-006-07",
+    "effective_from": "2026-06-29T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-006",
+    "predicate": "references",
+    "object": "DOC-POL-012",
+    "basis": "F-RISK-006-07",
+    "effective_from": "2026-06-29T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-007",
+    "predicate": "references",
+    "object": "DOC-CHG-160",
+    "basis": "F-RISK-007-06",
+    "effective_from": "2026-08-12T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-007",
+    "predicate": "references",
+    "object": "DOC-POL-011",
+    "basis": "F-RISK-007-06",
+    "effective_from": "2026-08-12T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-007",
+    "predicate": "references",
+    "object": "DOC-POL-007-v2",
+    "basis": "F-RISK-007-06",
+    "effective_from": "2026-08-12T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-008",
+    "predicate": "references",
+    "object": "DOC-POL-013-v1",
+    "basis": "F-RISK-008-07",
+    "effective_from": "2026-05-05T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-009",
+    "predicate": "references",
+    "object": "DOC-RISK-008",
+    "basis": "F-RISK-009-06",
+    "effective_from": "2026-08-18T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-009",
+    "predicate": "references",
+    "object": "DOC-POL-013-v2",
+    "basis": "F-RISK-009-06",
+    "effective_from": "2026-08-18T00:00:00Z"
+  },
+  {
+    "subject": "DOC-RISK-009",
+    "predicate": "references",
+    "object": "DOC-CHG-167",
+    "basis": "F-RISK-009-06",
+    "effective_from": "2026-08-18T00:00:00Z"
+  },
+  {
+    "subject": "DOC-SEC-001",
+    "predicate": "references",
+    "object": "DOC-ARCH-004",
+    "basis": "F-SEC-001-06",
+    "effective_from": "2026-05-08T00:00:00Z"
+  },
+  {
+    "subject": "DOC-SEC-001",
+    "predicate": "references",
+    "object": "DOC-POL-010-v1",
+    "basis": "F-SEC-001-06",
+    "effective_from": "2026-05-08T00:00:00Z"
+  },
+  {
+    "subject": "DOC-SEC-001",
+    "predicate": "references",
+    "object": "DOC-POL-010-v2",
+    "basis": "F-SEC-001-06",
+    "effective_from": "2026-05-08T00:00:00Z"
+  },
+  {
+    "subject": "DOC-SEC-002",
+    "predicate": "references",
+    "object": "DOC-ARCH-005",
+    "basis": "F-SEC-002-06",
+    "effective_from": "2026-05-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-SEC-002",
+    "predicate": "references",
+    "object": "DOC-POL-013-v1",
+    "basis": "F-SEC-002-06",
+    "effective_from": "2026-05-22T00:00:00Z"
+  },
+  {
+    "subject": "DOC-SEC-002",
+    "predicate": "references",
+    "object": "DOC-POL-013-v2",
+    "basis": "F-SEC-002-06",
+    "effective_from": "2026-05-22T00:00:00Z"
+  },
+  {
+    "subject": "INC-2025-006",
+    "predicate": "affects_service",
+    "object": "merchantconnect",
+    "basis": "DOC-INC-2025-006",
+    "effective_from": "2025-08-19T09:00:00Z",
+    "effective_to": "2025-08-19T09:26:00Z"
+  },
+  {
+    "subject": "INC-2025-014",
+    "predicate": "affects_service",
+    "object": "merchantconnect",
+    "basis": "DOC-INC-2025-014",
+    "effective_from": "2025-11-03T09:00:00Z",
+    "effective_to": "2025-11-03T09:32:00Z"
+  },
+  {
+    "subject": "INC-2025-014",
+    "predicate": "followed_change",
+    "object": "CHG-201",
+    "basis": "DOC-INC-2025-014",
+    "effective_from": "2025-11-03T09:00:00Z"
+  },
+  {
+    "subject": "INC-2026-011",
+    "predicate": "affects_service",
+    "object": "merchantconnect",
+    "basis": "DOC-INC-2026-011",
+    "effective_from": "2026-01-21T09:00:00Z",
+    "effective_to": "2026-01-21T09:37:00Z"
+  },
+  {
+    "subject": "INC-2026-011",
+    "predicate": "followed_change",
+    "object": "CHG-202",
+    "basis": "DOC-INC-2026-011",
+    "effective_from": "2026-01-21T09:00:00Z"
+  },
+  {
+    "subject": "INC-2026-017",
+    "predicate": "affects_service",
+    "object": "merchantconnect",
+    "basis": "DOC-INC-2026-017",
+    "effective_from": "2026-02-19T09:00:00Z",
+    "effective_to": "2026-02-19T09:29:00Z"
+  },
+  {
+    "subject": "INC-2026-024",
+    "predicate": "affects_service",
+    "object": "merchantconnect",
+    "basis": "DOC-INC-2026-024",
+    "effective_from": "2026-03-26T09:00:00Z",
+    "effective_to": "2026-03-26T09:35:00Z"
+  },
+  {
+    "subject": "INC-2026-038",
+    "predicate": "affects_service",
+    "object": "merchantconnect",
+    "basis": "DOC-INC-2026-038",
+    "effective_from": "2026-06-18T09:00:00Z",
+    "effective_to": "2026-06-18T09:51:00Z"
+  },
+  {
+    "subject": "INC-2026-046",
+    "predicate": "affects_service",
+    "object": "merchantconnect",
+    "basis": "DOC-INC-2026-046",
+    "effective_from": "2026-07-23T09:00:00Z",
+    "effective_to": "2026-07-23T09:14:00Z"
+  },
+  {
+    "subject": "INC-2026-049",
+    "predicate": "affects_service",
+    "object": "payflow",
+    "basis": "DOC-INC-2026-049",
+    "effective_from": "2026-08-01T09:00:00Z",
+    "effective_to": "2026-08-01T09:25:00Z"
+  },
+  {
+    "subject": "INC-2025-009",
+    "predicate": "affects_service",
+    "object": "payflow",
+    "basis": "DOC-INC-2025-009",
+    "effective_from": "2025-09-05T09:00:00Z",
+    "effective_to": "2025-09-05T09:16:00Z"
+  },
+  {
+    "subject": "INC-2025-021",
+    "predicate": "affects_service",
+    "object": "merchantconnect",
+    "basis": "DOC-INC-2025-021",
+    "effective_from": "2025-12-02T09:00:00Z",
+    "effective_to": "2025-12-02T09:19:00Z"
+  },
+  {
+    "subject": "INC-2025-021",
+    "predicate": "followed_change",
+    "object": "CHG-203",
+    "basis": "DOC-INC-2025-021",
+    "effective_from": "2025-12-02T09:00:00Z"
+  },
+  {
+    "subject": "INC-2026-013",
+    "predicate": "affects_service",
+    "object": "payflow",
+    "basis": "DOC-INC-2026-013",
+    "effective_from": "2026-02-02T09:00:00Z",
+    "effective_to": "2026-02-02T09:20:00Z"
+  },
+  {
+    "subject": "INC-2026-013",
+    "predicate": "followed_change",
+    "object": "CHG-204",
+    "basis": "DOC-INC-2026-013",
+    "effective_from": "2026-02-02T09:00:00Z"
+  },
+  {
+    "subject": "INC-2026-043",
+    "predicate": "affects_service",
+    "object": "merchantconnect",
+    "basis": "DOC-INC-2026-043",
+    "effective_from": "2026-07-21T09:00:00Z",
+    "effective_to": "2026-07-21T09:23:00Z"
+  },
+  {
+    "subject": "INC-2026-043",
+    "predicate": "followed_change",
+    "object": "CHG-118",
+    "basis": "DOC-INC-2026-043",
+    "effective_from": "2026-07-21T09:00:00Z"
+  },
+  {
+    "subject": "INC-2026-051",
+    "predicate": "affects_service",
+    "object": "payflow",
+    "basis": "DOC-INC-2026-051",
+    "effective_from": "2026-08-03T09:00:00Z",
+    "effective_to": "2026-08-03T09:18:00Z"
+  },
+  {
+    "subject": "INC-2026-051",
+    "predicate": "followed_change",
+    "object": "CHG-206",
+    "basis": "DOC-INC-2026-051",
+    "effective_from": "2026-08-03T09:00:00Z"
+  },
+  {
+    "subject": "INC-2026-054",
+    "predicate": "affects_service",
+    "object": "merchantconnect",
+    "basis": "DOC-INC-2026-054",
+    "effective_from": "2026-08-27T09:00:00Z",
+    "effective_to": "2026-08-27T09:15:00Z"
+  },
+  {
+    "subject": "INC-2026-054",
+    "predicate": "followed_change",
+    "object": "CHG-207",
+    "basis": "DOC-INC-2026-054",
+    "effective_from": "2026-08-27T09:00:00Z"
+  },
+  {
+    "subject": "INC-2025-008",
+    "predicate": "affects_service",
+    "object": "psp-gateway",
+    "basis": "DOC-INC-2025-008",
+    "effective_from": "2025-09-01T09:00:00Z",
+    "effective_to": "2025-09-01T09:42:00Z"
+  },
+  {
+    "subject": "INC-2025-026",
+    "predicate": "affects_service",
+    "object": "merchantconnect",
+    "basis": "DOC-INC-2025-026",
+    "effective_from": "2025-12-16T09:00:00Z",
+    "effective_to": "2025-12-16T10:15:00Z"
+  },
+  {
+    "subject": "INC-2026-016",
+    "predicate": "affects_service",
+    "object": "psp-gateway",
+    "basis": "DOC-INC-2026-016",
+    "effective_from": "2026-02-12T09:00:00Z",
+    "effective_to": "2026-02-12T10:21:00Z"
+  },
+  {
+    "subject": "INC-2026-032",
+    "predicate": "affects_service",
+    "object": "merchantconnect",
+    "basis": "DOC-INC-2026-032",
+    "effective_from": "2026-05-29T09:00:00Z",
+    "effective_to": "2026-05-29T09:56:00Z"
+  },
+  {
+    "subject": "INC-2026-052",
+    "predicate": "affects_service",
+    "object": "psp-gateway",
+    "basis": "DOC-INC-2026-052",
+    "effective_from": "2026-08-04T09:00:00Z",
+    "effective_to": "2026-08-04T10:04:00Z"
+  },
+  {
+    "subject": "INC-2025-012",
+    "predicate": "affects_service",
+    "object": "settlementhub",
+    "basis": "DOC-INC-2025-012",
+    "effective_from": "2025-10-02T09:00:00Z",
+    "effective_to": "2025-10-02T09:22:00Z"
+  },
+  {
+    "subject": "INC-2026-019",
+    "predicate": "affects_service",
+    "object": "settlementhub",
+    "basis": "DOC-INC-2026-019",
+    "effective_from": "2026-03-02T09:00:00Z",
+    "effective_to": "2026-03-02T09:27:00Z"
+  },
+  {
+    "subject": "INC-2026-029",
+    "predicate": "affects_service",
+    "object": "settlementhub",
+    "basis": "DOC-INC-2026-029",
+    "effective_from": "2026-05-18T09:00:00Z",
+    "effective_to": "2026-05-18T09:49:00Z"
+  },
+  {
+    "subject": "INC-2026-029",
+    "predicate": "followed_change",
+    "object": "CHG-208",
+    "basis": "DOC-INC-2026-029",
+    "effective_from": "2026-05-18T09:00:00Z"
+  },
+  {
+    "subject": "INC-2026-047",
+    "predicate": "affects_service",
+    "object": "settlementhub",
+    "basis": "DOC-INC-2026-047",
+    "effective_from": "2026-07-30T09:00:00Z",
+    "effective_to": "2026-07-30T09:39:00Z"
+  },
+  {
+    "subject": "INC-2025-011",
+    "predicate": "affects_service",
+    "object": "payflow",
+    "basis": "DOC-INC-2025-011",
+    "effective_from": "2025-09-25T09:00:00Z",
+    "effective_to": "2025-09-25T09:24:00Z"
+  },
+  {
+    "subject": "INC-2026-022",
+    "predicate": "affects_service",
+    "object": "settlementhub",
+    "basis": "DOC-INC-2026-022",
+    "effective_from": "2026-03-19T09:00:00Z",
+    "effective_to": "2026-03-19T09:38:00Z"
+  },
+  {
+    "subject": "INC-2026-022",
+    "predicate": "followed_change",
+    "object": "CHG-209",
+    "basis": "DOC-INC-2026-022",
+    "effective_from": "2026-03-19T09:00:00Z"
+  },
+  {
+    "subject": "INC-2026-041",
+    "predicate": "affects_service",
+    "object": "payflow",
+    "basis": "DOC-INC-2026-041",
+    "effective_from": "2026-06-30T09:00:00Z",
+    "effective_to": "2026-06-30T09:33:00Z"
+  },
+  {
+    "subject": "INC-2025-018",
+    "predicate": "affects_service",
+    "object": "merchantconnect",
+    "basis": "DOC-INC-2025-018",
+    "effective_from": "2025-11-17T09:00:00Z",
+    "effective_to": "2025-11-17T09:26:00Z"
+  },
+  {
+    "subject": "INC-2026-033",
+    "predicate": "affects_service",
+    "object": "psp-gateway",
+    "basis": "DOC-INC-2026-033",
+    "effective_from": "2026-05-31T09:00:00Z",
+    "effective_to": "2026-05-31T09:36:00Z"
+  },
+  {
+    "subject": "INC-2026-033",
+    "predicate": "followed_change",
+    "object": "CHG-210",
+    "basis": "DOC-INC-2026-033",
+    "effective_from": "2026-05-31T09:00:00Z"
+  },
+  {
+    "subject": "INC-2025-031",
+    "predicate": "affects_service",
+    "object": "merchantconnect",
+    "basis": "DOC-INC-2025-031",
+    "effective_from": "2025-12-29T09:00:00Z",
+    "effective_to": "2025-12-29T09:20:00Z"
+  },
+  {
+    "subject": "INC-2026-035",
+    "predicate": "affects_service",
+    "object": "payflow",
+    "basis": "DOC-INC-2026-035",
+    "effective_from": "2026-06-08T09:00:00Z",
+    "effective_to": "2026-06-08T09:26:00Z"
+  },
+  {
+    "subject": "INC-2026-035",
+    "predicate": "followed_change",
+    "object": "CHG-211",
+    "basis": "DOC-INC-2026-035",
+    "effective_from": "2026-06-08T09:00:00Z"
+  },
+  {
+    "subject": "INC-2025-034",
+    "predicate": "affects_service",
+    "object": "authhub",
+    "basis": "DOC-INC-2025-034",
+    "effective_from": "2025-12-31T09:00:00Z",
+    "effective_to": "2025-12-31T09:22:00Z"
+  },
+  {
+    "subject": "INC-2026-006",
+    "predicate": "affects_service",
+    "object": "authhub",
+    "basis": "DOC-INC-2026-006",
+    "effective_from": "2026-01-14T09:00:00Z",
+    "effective_to": "2026-01-14T09:18:00Z"
+  },
+  {
+    "subject": "INC-2026-025",
+    "predicate": "affects_service",
+    "object": "notifyhub",
+    "basis": "DOC-INC-2026-025",
+    "effective_from": "2026-04-05T09:00:00Z",
+    "effective_to": "2026-04-05T09:31:00Z"
+  },
+  {
+    "subject": "INC-2026-030",
+    "predicate": "affects_service",
+    "object": "fraudshield",
+    "basis": "DOC-INC-2026-030",
+    "effective_from": "2026-05-20T09:00:00Z",
+    "effective_to": "2026-05-20T09:27:00Z"
+  },
+  {
+    "subject": "INC-2026-040",
+    "predicate": "affects_service",
+    "object": "ledgercore",
+    "basis": "DOC-INC-2026-040",
+    "effective_from": "2026-06-25T09:00:00Z",
+    "effective_to": "2026-06-25T09:34:00Z"
+  },
+  {
+    "subject": "INC-2026-050",
+    "predicate": "affects_service",
+    "object": "datagateway",
+    "basis": "DOC-INC-2026-050",
+    "effective_from": "2026-08-02T09:00:00Z",
+    "effective_to": "2026-08-02T09:16:00Z"
+  }
+]

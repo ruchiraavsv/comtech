@@ -1,0 +1,48 @@
+{
+  "dataset_version": "northstar-docs-1.0.0",
+  "scope": "documents_only",
+  "seed": 20260915,
+  "reference_clock": "2026-09-15T10:00:00Z",
+  "source_sha256": "5eb897bd343a3cf75d88e4d49dc816ed6bcbac2309e471db0a830e4ad09ddec9",
+  "document_count": 132,
+  "chunk_count": 1054,
+  "by_corpus": {
+    "architecture": 18,
+    "changes": 12,
+    "incidents": 36,
+    "manuals": 4,
+    "meetings": 8,
+    "policies": 16,
+    "products": 14,
+    "runbooks": 14,
+    "risk_audit": 10
+  },
+  "by_classification": {
+    "operations": 80,
+    "general": 27,
+    "confidential_risk": 21,
+    "restricted": 4
+  },
+  "index_allowlist": [
+    "corpus/documents/*.md",
+    "corpus/chunks.jsonl"
+  ],
+  "index_metadata": "corpus/manifest.jsonl",
+  "never_index": [
+    "canonical/**",
+    "mcp/**",
+    "security/**",
+    "scripts/**",
+    "validation_report.json",
+    "generation_manifest.json",
+    "GENERATION_NOTES.md",
+    "README.md",
+    "CATALOG.md"
+  ],
+  "deferred": [
+    "MCP application client integration",
+    "60 golden evaluation cases",
+    "embeddings and indexing",
+    "application retrieval, authorization, routing, memory and tool integration"
+  ]
+}

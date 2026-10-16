@@ -1,0 +1,82 @@
+# Opt-in only: compose.yaml + compose.agents.yaml + this overlay.
+# Initialize the two private volumes once before starting the stack (see docs/agents.md).
+services:
+  research-init:
+    profiles: [initialize]
+    image: docker.io/library/python:3.12.14-slim-bookworm
+    network_mode: none
+    read_only: true
+    user: "0:0"
+    cap_drop: [ALL]
+    cap_add: [CHOWN, FOWNER]
+    security_opt: [no-new-privileges:true]
+    volumes: [research-control:/control, research-artifacts:/artifacts]
+    command: [python, -I, -c, "import os; [(os.chown(p,10000,10000),os.chmod(p,0o700)) for p in ['/control','/artifacts']]"]
+  python-runner:
+    build:
+      context: .
+      target: python-runner
+    network_mode: none
+    user: "10000:10000"
+    read_only: true
+    cap_drop: [ALL]
+    cap_add: [SETUID, SETGID, KILL]
+    security_opt: [no-new-privileges:true]
+    cpus: 2
+    mem_limit: 2g
+    pids_limit: 64
+    tmpfs: ["/tmp:rw,nosuid,nodev,noexec,size=64m,mode=1777"]
+    volumes: [research-control:/run/research-control]
+    stop_grace_period: 5s
+  research-broker:
+    build:
+      context: .
+      target: research-broker
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    tmpfs: ["/tmp:rw,nosuid,nodev,noexec,size=64m,mode=1777"]
+    environment:
+      DATABASE_URL: ${DATABASE_URL:?Set DATABASE_URL for the shared application database}
+      PINECONE_API_KEY: ${PINECONE_API_KEY:?Set the read-only Pinecone credential}
+      AGENT_BUILD_ID: ${AGENT_BUILD_ID:-2fddb22824bee702}
+      INGESTION_ARTIFACT_ROOT: /app/var/ingestion
+      AGENT_TOKEN_ENCODING: ${AGENT_TOKEN_ENCODING:-o200k_base}
+      MAX_SECTIONS_PER_READ: ${MAX_SECTIONS_PER_READ:-3}
+      MAX_TOKENS_PER_SECTION: ${MAX_TOKENS_PER_SECTION:-1000}
+      MAX_TOKENS_PER_READ: ${MAX_TOKENS_PER_READ:-3000}
+      RESEARCH_API_URL: http://api:8000
+      RESEARCH_SERVICE_TOKEN: ${RESEARCH_SERVICE_TOKEN:?Set a random private token of at least 32 characters}
+      RESEARCH_RUNNER_SOCKET: /run/research-control/runner.sock
+      RESEARCH_ARTIFACT_ROOT: /var/research/artifacts
+      OBSERVABILITY_MODE: "off"
+    volumes:
+      - ./var/ingestion:/app/var/ingestion:ro
+      - research-control:/run/research-control
+      - research-artifacts:/var/research/artifacts
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      python-runner:
+        condition: service_started
+    healthcheck:
+      test: [CMD, python, -c, "import os,urllib.request; r=urllib.request.Request('http://localhost:8002/health/ready',headers={'Authorization':'Bearer '+os.environ['RESEARCH_SERVICE_TOKEN']}); urllib.request.urlopen(r,timeout=3)"]
+      interval: 5s
+      timeout: 4s
+      retries: 12
+      start_period: 30s
+    stop_grace_period: 20s
+  api:
+    environment:
+      BACKGROUND_ENABLED: "true"
+      RESEARCH_ENABLED: "true"
+      RESEARCH_SERVICE_TOKEN: ${RESEARCH_SERVICE_TOKEN:?Set RESEARCH_SERVICE_TOKEN}
+      RESEARCH_BROKER_URL: http://research-broker:8002
+      TRACE_HIDE_INPUTS: "true"
+      TRACE_HIDE_OUTPUTS: "true"
+    depends_on:
+      research-broker:
+        condition: service_healthy
+volumes:
+  research-control:
+  research-artifacts:

@@ -1,5 +1,18 @@
 name: comtech
 services:
+  northstar-mcp:
+    build:
+      context: .
+      target: mcp
+    read_only: true
+    tmpfs: [/tmp]
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8001/health/ready', timeout=3)"]
+      interval: 5s
+      timeout: 4s
+      retries: 6
+      start_period: 10s
+    stop_grace_period: 15s
   postgres:
     image: docker.io/library/postgres:16.10-bookworm
     environment:
